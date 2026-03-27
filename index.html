@@ -50,8 +50,6 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .sort-spinner-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.5);margin:0 5px;animation:sb .6s ease-in-out infinite alternate}.sort-spinner-dot:nth-child(2){animation-delay:.15s}.sort-spinner-dot:nth-child(3){animation-delay:.3s}
 @keyframes sb{from{transform:translateY(0);opacity:.4}to{transform:translateY(-10px);opacity:1}}
 .games-grid.sort-fade{opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s}.games-grid.sort-visible{opacity:1;transform:translateY(0);transition:opacity .3s,transform .3s}
-#viewer{display:none;position:fixed;inset:0;z-index:9999;background:var(--bg-base)}#viewer iframe{width:100%;height:100%;border:none}
-#closeGame{position:fixed;top:12px;right:12px;z-index:10000;width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,0.7);border:1px solid rgba(255,255,255,0.15);color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;backdrop-filter:blur(10px)}#closeGame:hover{background:rgba(255,0,0,0.4);border-color:rgba(255,0,0,0.6);transform:scale(1.1)}
 .pop-divider{margin:2rem 0;padding:1rem 0;border-bottom:2px solid rgba(255,255,255,0.2);position:relative}.pop-divider span{position:absolute;left:1rem;top:50%;transform:translateY(-50%);color:rgba(255,255,255,0.6);font-size:.9rem;font-weight:600;text-transform:uppercase;letter-spacing:1px}
 @media(max-width:768px){.container{padding:1rem;margin-bottom:70px}.page-title{font-size:2.5rem}.games-grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem}.game-card{border-radius:16px;height:180px}.game-image{border-radius:16px}.sort-bar{gap:.3rem}.sort-btn{font-size:.72rem;padding:.4rem .8rem}.search-bar{font-size:16px!important}}
 @media(max-width:480px){.page-title{font-size:2rem}.games-grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem}.game-card{height:160px;border-radius:14px}.game-image{border-radius:14px}}
@@ -96,10 +94,6 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 </div>
 <div class="no-results" id="noResults"><h2>No games found</h2><p>Try a different search term.</p></div>
 </div>
-<div id="viewer">
-<iframe id="gameFrame" allow="accelerometer;gamepad;clipboard-write;encrypted-media;gyroscope;picture-in-picture;fullscreen" allowfullscreen></iframe>
-<button id="closeGame">&times;</button>
-</div>
 <script>
 (function(){
 var _a=[97,72,82,48,99,72,77,54,76,121,57,109,97,87,82,110,90,88,81,116,97,71,70,49,98,67,53,51,90,87,73,117,89,88,66,119];
@@ -129,9 +123,9 @@ c.appendChild(img);c.appendChild(info);c.addEventListener('click',function(){ope
 function openGame(game){
 var et=btoa(game.title),lk=game.link,url;
 if(lk.startsWith('/reading/')){var qs='game='+encodeURIComponent(lk)+'&title='+et;var enc=btoa(qs).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');url=_B+'/view.html?'+enc}else{url=_B+'/view.html?game='+encodeURIComponent(lk)+'&title='+et}
-window.open(url,'_blank');
-var rc=[];try{rc=JSON.parse(localStorage.getItem('vs_recent')||'[]')}catch(e){}rc=rc.filter(function(x){return x.title!==game.title});rc.unshift({title:game.title,ts:Date.now()});if(rc.length>10)rc=rc.slice(0,10);try{localStorage.setItem('vs_recent',JSON.stringify(rc))}catch(e){}}
-function closeGame(){document.getElementById('gameFrame').src='about:blank';document.getElementById('viewer').style.display='none';document.body.style.overflow=''}
+var rc=[];try{rc=JSON.parse(localStorage.getItem('vs_recent')||'[]')}catch(e){}rc=rc.filter(function(x){return x.title!==game.title});rc.unshift({title:game.title,ts:Date.now()});if(rc.length>10)rc=rc.slice(0,10);try{localStorage.setItem('vs_recent',JSON.stringify(rc))}catch(e){}
+window.location.href=url}
+function closeGame(){}
 function renderCards(games,container){var frag=document.createDocumentFragment();games.forEach(function(g){frag.appendChild(createCard(g))});container.appendChild(frag);requestAnimationFrame(function(){container.querySelectorAll('.game-card').forEach(function(c,i){if(c.style.opacity==='0')setTimeout(function(){c.style.transition='opacity .3s,transform .3s';c.style.opacity='1';c.style.transform='translateY(0)'},Math.min(i*30,500))})});lazyLoad()}
 function sortGames(games,mode){
 var s=games.slice();
@@ -158,8 +152,6 @@ if(rs)rs.style.display=s?'none':(rs.dataset.hasGames?'block':'none');
 renderGames(filteredGames)}
 function renderRecent(){try{var rc=JSON.parse(localStorage.getItem('vs_recent')||'[]');if(!rc.length)return;rc=rc.filter(function(r){return allGames.some(function(g){return g.title===r.title})});if(!rc.length)return;var sec=document.getElementById('recentlyPlayedSection'),grid=document.getElementById('recentlyPlayedGrid');sec.style.display='block';sec.dataset.hasGames='true';grid.innerHTML='';renderCards(rc.slice(0,6).map(function(r){return allGames.find(function(g){return g.title===r.title})}).filter(Boolean),grid)}catch(e){}}
 function renderPopular(data){if(!data||!data.length)return;var sec=document.getElementById('popularSection'),grid=document.getElementById('popularGrid'),games=[];for(var i=0;i<data.length&&games.length<5;i++){var m=allGames.find(function(g){return g.title===data[i].title});if(m&&games.indexOf(m)===-1)games.push(m)}if(!games.length)return;sec.style.display='block';sec.dataset.hasGames='true';grid.innerHTML='';renderCards(games,grid)}
-document.getElementById('closeGame').addEventListener('click',closeGame);
-document.addEventListener('keydown',function(e){if(e.key==='Escape'&&document.getElementById('viewer').style.display==='block')closeGame()});
 var input=document.getElementById('searchInput'),st;input.addEventListener('input',function(e){clearTimeout(st);st=setTimeout(function(){filterGames(e.target.value)},300)});
 var bar=document.getElementById('sortBar'),sv=localStorage.getItem('vs_sort');
 if(sv){currentSort=sv;bar.querySelectorAll('.sort-btn').forEach(function(b){b.classList.toggle('active',b.dataset.sort===currentSort)})}
@@ -187,15 +179,7 @@ if(src&&src.startsWith('/')&&!src.startsWith('//'))img.src=B+src;
 document.querySelectorAll('nav.void-dynamic-island a').forEach(function(a){
 var href=a.getAttribute('href');
 if(!href||href==='#')return;
-a.addEventListener('click',function(e){
-e.preventDefault();
-var target=href.startsWith('http')?href:B+href;
-var viewer=document.getElementById('viewer');
-var iframe=document.getElementById('gameFrame');
-iframe.src=target;
-viewer.style.display='block';
-document.body.style.overflow='hidden';
-});
+a.href=href.startsWith('http')?href:B+href;
 });
 },100);
 };
