@@ -179,11 +179,15 @@ var B=atob(_a.map(function(c){return String.fromCharCode(c)}).join(''));
 var s=document.createElement('script');
 s.src=B+'/assets/footer/footer.js';
 s.onload=function(){
+setTimeout(function(){
 document.querySelectorAll('nav.void-dynamic-island a[href^="/"]').forEach(function(a){
 a.href=B+a.getAttribute('href');
 });
-var logo=document.querySelector('nav.void-dynamic-island a img');
-if(logo&&logo.parentElement){logo.parentElement.href=B+'/';}
+document.querySelectorAll('nav.void-dynamic-island img').forEach(function(img){
+var src=img.getAttribute('src');
+if(src&&src.startsWith('/')&&!src.startsWith('//'))img.src=B+src;
+});
+},100);
 };
 document.body.appendChild(s);
 })();
