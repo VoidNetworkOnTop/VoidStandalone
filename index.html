@@ -127,9 +127,9 @@ var pc=playCountData[game.title]||0;
 if(pc>0){var badge=document.createElement('div');badge.className='game-play-count';badge.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>'+fmt(pc);c.appendChild(badge)}
 c.appendChild(img);c.appendChild(info);c.addEventListener('click',function(){openGame(game)});return c}
 function openGame(game){
-var v=document.getElementById('viewer'),f=document.getElementById('gameFrame'),et=btoa(game.title),lk=game.link,url;
+var et=btoa(game.title),lk=game.link,url;
 if(lk.startsWith('/reading/')){var qs='game='+encodeURIComponent(lk)+'&title='+et;var enc=btoa(qs).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');url=_B+'/view.html?'+enc}else{url=_B+'/view.html?game='+encodeURIComponent(lk)+'&title='+et}
-f.src=url;v.style.display='block';document.body.style.overflow='hidden';
+window.open(url,'_blank');
 var rc=[];try{rc=JSON.parse(localStorage.getItem('vs_recent')||'[]')}catch(e){}rc=rc.filter(function(x){return x.title!==game.title});rc.unshift({title:game.title,ts:Date.now()});if(rc.length>10)rc=rc.slice(0,10);try{localStorage.setItem('vs_recent',JSON.stringify(rc))}catch(e){}}
 function closeGame(){document.getElementById('gameFrame').src='about:blank';document.getElementById('viewer').style.display='none';document.body.style.overflow=''}
 function renderCards(games,container){var frag=document.createDocumentFragment();games.forEach(function(g){frag.appendChild(createCard(g))});container.appendChild(frag);requestAnimationFrame(function(){container.querySelectorAll('.game-card').forEach(function(c,i){if(c.style.opacity==='0')setTimeout(function(){c.style.transition='opacity .3s,transform .3s';c.style.opacity='1';c.style.transform='translateY(0)'},Math.min(i*30,500))})});lazyLoad()}
