@@ -9,7 +9,7 @@ function makeScramjetLink(url) {
 }
 const gamesData = [
 {
-    title: "Roblox",
+    title: "Robloxx",
 	ipcloak: false,
     imgSrc: "https://lh7-rt.googleusercontent.com/formsz/AN7BsVCv-Adr-2z52bl4rbFKmjqwXfwLEyLFqfe-6lRD7ZP7HmtJKEmIpox6RJmXynlOMBee3c54B3YoeqNC_ilZfO8wOEaszdh9o8yL4TwY3cqm6QlNRX8WfPNcR5CsFGE38Ku4yKxfoniVUzS3952Z3ykY1eSZAyMQb5eMsA?key=yj4V8pHW144VjA9YlEbf1Q",
     link:  makeScramjetLink("https://studyimages.com")
@@ -228,7 +228,7 @@ const gamesData = [
 {
     title: "Drift Hunters",
     imgSrc: "/img/gameimg/drifthunters.png",
-    link: LocalGameEncoder.createEncodedLink("/local games/drift-hunters-main/index.html")
+    link: __uv$config.prefix + __uv$config.encodeUrl(LocalGameEncoder.createEncodedLink("/local games/drift-hunters-main/index.html"))
 },
 {
     title: "Ngon",
@@ -3577,4520 +3577,4641 @@ const gamesData = [
     imgSrc: "https://lh7-rt.googleusercontent.com/formsz/AN7BsVD8k9ezTqWMjKwsfF5txAWY_ozRxLAFp4Hnph6Ut_tSWORtwaFEvOZsEUB5bbw3d2awqAk8j3KksjyoJS_tR7lvIQXBEq5rYkOpvZrnIEcGAlevdUkQZSgmmiMzS3QnILrSA569FaUpKdZmfFFcv1YZf4-yq5LlS76WgA?key=XMoM0FYxMS5kPOJMGtjyBg",
     link: LocalGameEncoder.createEncodedLink("/local games/soccer_game.html")
 },
-{
-    title: "1 On 1 Basketball",
-    imgSrc: "/hdmath/1on1basketball.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/1on1basketball/index.html")
-},
-{
-    title: "2048",
-    imgSrc: "/hdmath/2048game.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/2048game/index.html")
-},
-{
-    title: "3D Santa Run",
-    imgSrc: "/hdmath/3dsantarun.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/3dsantarun/index.html")
-},
-{
-    title: "40xescape",
-    imgSrc: "/hdmath/40xescape.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/40xescape/index.html")
-},
-{
-    title: "60 Secondsburgerrun",
-    imgSrc: "/hdmath/60secondsburgerrun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/60secondsburgerrun/index.html")
-},
-{
-    title: "60 Secondssantarun",
-    imgSrc: "/hdmath/60secondssantarun.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/60secondssantarun/index.html")
-},
-{
-    title: "8 BALL PRO",
-    imgSrc: "/hdmath/8ballpool.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/8ballpool/index.html")
-},
-{
-    title: "Bubble Pop - Addition Game",
-    imgSrc: "/hdmath/additionbubblepop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/additionbubblepop/index.html")
-},
-{
-    title: "Additionjeep",
-    imgSrc: "/hdmath/additionjeep.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/additionjeep/index.html")
-},
-{
-    title: "airballoonrally",
-    imgSrc: "/hdmath/airballoonrally.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/airballoonrally/index.html")
-},
-{
-    title: "Air Hockey",
-    imgSrc: "/hdmath/airhockey.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/airhockey/index.html")
-},
-{
-    title: "amazingescapeatlantis",
-    imgSrc: "/hdmath/amazingescapeatlantis.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapeatlantis/index.html")
-},
-{
-    title: "amazingescapecastle",
-    imgSrc: "/hdmath/amazingescapecastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapecastle/index.html")
-},
-{
-    title: "amazingescapeghosttown",
-    imgSrc: "/hdmath/amazingescapeghosttown.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapeghosttown/index.html")
-},
-{
-    title: "amazingescapeisland",
-    imgSrc: "/hdmath/amazingescapeisland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapeisland/index.html")
-},
-{
-    title: "amazingescapemaze",
-    imgSrc: "/hdmath/amazingescapemaze.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapemaze/index.html")
-},
-{
-    title: "Amazingescapenorthpole",
-    imgSrc: "/hdmath/amazingescapenorthpole.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapenorthpole/index.html")
-},
-{
-    title: "amazingescapepyramid",
-    imgSrc: "/hdmath/amazingescapepyramid.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapepyramid/index.html")
-},
-{
-    title: "amazingescaperuins",
-    imgSrc: "/hdmath/amazingescaperuins.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescaperuins/index.html")
-},
-{
-    title: "amazingescapeschool",
-    imgSrc: "/hdmath/amazingescapeschool.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapeschool/index.html")
-},
-{
-    title: "amazingescapespringgarden",
-    imgSrc: "/hdmath/amazingescapespringgarden.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amazingescapespringgarden/index.html")
-},
-{
-    title: "AMERICAN FOOTBALL CHALLENGE",
-    imgSrc: "/hdmath/americanfootballchallenge.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/americanfootballchallenge/index.html")
-},
-{
-    title: "AMERICAN FOOTBALL KICKS",
-    imgSrc: "/hdmath/americanfootballkicks.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/americanfootballkicks/index.html")
-},
-{
-    title: "A missing shepherd",
-    imgSrc: "/hdmath/amissingshepherd.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amissingshepherd/index.html")
-},
-{
-    title: "amusepark",
-    imgSrc: "/hdmath/amusepark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/amusepark/index.html")
-},
-{
-    title: "Angryanimals",
-    imgSrc: "/hdmath/angryanimals.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/angryanimals/index.html")
-},
-{
-    title: "angryanimals2",
-    imgSrc: "/hdmath/angryanimals2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/angryanimals2/index.html")
-},
-{
-    title: "anikasodyssey",
-    imgSrc: "/hdmath/anikasodyssey.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/anikasodyssey/index.html")
-},
-{
-    title: "animalraceway",
-    imgSrc: "/hdmath/animalraceway.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/animalraceway/index.html")
-},
-{
-    title: "Aqua Thief",
-    imgSrc: "/hdmath/aquathief.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/aquathief/index.html")
-},
-{
-    title: "Aquatic Rescue",
-    imgSrc: "/hdmath/aquaticrescue.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/aquaticrescue/index.html")
-},
-{
-    title: "Are You Human",
-    imgSrc: "/hdmath/areyouhuman.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/areyouhuman/index.html")
-},
-{
-    title: "atomicpuzzle",
-    imgSrc: "/hdmath/atomicpuzzle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/atomicpuzzle/index.html")
-},
-{
-    title: "Backgammon",
-    imgSrc: "/hdmath/backgammon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/backgammon/index.html")
-},
-{
-    title: "Backyardbaseball",
-    imgSrc: "/hdmath/backyardbaseball.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/backyardbaseball/index.html")
-},
-{
-    title: "Badicecream",
-    imgSrc: "/hdmath/badicecream.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/badicecream/index.html")
-},
-{
-    title: "bakingapplepie",
-    imgSrc: "/hdmath/bakingapplepie.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bakingapplepie/index.html")
-},
-{
-    title: "Balloonmath",
-    imgSrc: "/hdmath/balloonmath.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/balloonmath/index.html")
-},
-{
-    title: "BASEBALL PRO",
-    imgSrc: "/hdmath/baseballpro.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/baseballpro/index.html")
-},
-{
-    title: "Basketball Mania",
-    imgSrc: "/hdmath/basketballmania.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/basketballmania/index.html")
-},
-{
-    title: "Basketballs",
-    imgSrc: "/hdmath/basketballs.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/basketballs/index.html")
-},
-{
-    title: "basketballslevelpack",
-    imgSrc: "/hdmath/basketballslevelpack.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/basketballslevelpack/index.html")
-},
-{
-    title: "Basket Goal",
-    imgSrc: "/hdmath/basketgoal.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/basketgoal/index.html")
-},
-{
-    title: "Battleship",
-    imgSrc: "/hdmath/battleship.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/battleship/index.html")
-},
-{
-    title: "Beach Soccer Hoodamath",
-    imgSrc: "/hdmath/beachsoccer.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/beachsoccer/index.html")
-},
-{
-    title: "beachtownescape",
-    imgSrc: "/hdmath/beachtownescape.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/beachtownescape/index.html")
-},
-{
-    title: "BigBlockPuzzle",
-    imgSrc: "/hdmath/bigblockpuzzle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bigblockpuzzle/index.html")
-},
-{
-    title: "Bitcoin Clicker",
-    imgSrc: "/hdmath/bitcoinclicker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bitcoinclicker/index.html")
-},
-{
-    title: "Biz Wiz",
-    imgSrc: "/hdmath/bizwiz.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bizwiz/index.html")
-},
-{
-    title: "BlockPuzzle",
-    imgSrc: "/hdmath/blockblast.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/blockblast/index.html")
-},
-{
-    title: "blockmaster",
-    imgSrc: "/hdmath/blockmaster.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/blockmaster/index.html")
-},
-{
-    title: "bloonstowerdefense",
-    imgSrc: "/hdmath/bloonstowerdefense.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bloonstowerdefense/index.html")
-},
-{
-    title: "bloonstowerdefense2",
-    imgSrc: "/hdmath/bloonstowerdefense2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bloonstowerdefense2/index.html")
-},
-{
-    title: "Bloonstowerdefense 3",
-    imgSrc: "/hdmath/bloonstowerdefense3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bloonstowerdefense3/index.html")
-},
-{
-    title: "Blue and Pink",
-    imgSrc: "/hdmath/blueandpink.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/blueandpink/index.html")
-},
-{
-    title: "Gen X Words Quiz",
-    imgSrc: "/hdmath/boomerswordsquiz.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/boomerswordsquiz/index.html")
-},
-{
-    title: "breakfastcooking",
-    imgSrc: "/hdmath/breakfastcooking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/breakfastcooking/index.html")
-},
-{
-    title: "Bridge Crossing Game",
-    imgSrc: "/hdmath/bridgecrossing.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/bridgecrossing/index.html")
-},
-{
-    title: "briker",
-    imgSrc: "/hdmath/briker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/briker/index.html")
-},
-{
-    title: "briker2",
-    imgSrc: "/hdmath/briker2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/briker2/index.html")
-},
-{
-    title: "Buildthebridge",
-    imgSrc: "/hdmath/buildthebridge.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/buildthebridge/index.html")
-},
-{
-    title: "Burger Time",
-    imgSrc: "/hdmath/burgertime.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/burgertime/index.html")
-},
-{
-    title: "businessfun",
-    imgSrc: "/hdmath/businessfun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/businessfun/index.html")
-},
-{
-    title: "Bus Parking",
-    imgSrc: "/hdmath/busparking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/busparking/index.html")
-},
-{
-    title: "Calculus Game 1.1",
-    imgSrc: "/hdmath/calculusgame11.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/calculusgame11/index.html")
-},
-{
-    title: "candyfun",
-    imgSrc: "/hdmath/candyfun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/candyfun/index.html")
-},
-{
-    title: "cargoshipment",
-    imgSrc: "/hdmath/cargoshipment.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/cargoshipment/index.html")
-},
-{
-    title: "cargoshipmentchicago",
-    imgSrc: "/hdmath/cargoshipmentchicago.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/cargoshipmentchicago/index.html")
-},
-{
-    title: "carnivalfun",
-    imgSrc: "/hdmath/carnivalfun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/carnivalfun/index.html")
-},
-{
-    title: "carparkchallenge",
-    imgSrc: "/hdmath/carparkchallenge.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/carparkchallenge/index.html")
-},
-{
-    title: "carparkchaos",
-    imgSrc: "/hdmath/carparkchaos.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/carparkchaos/index.html")
-},
-{
-    title: "Carrot Crave",
-    imgSrc: "/hdmath/carrotcrave.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/carrotcrave/index.html")
-},
-{
-    title: "Caveman",
-    imgSrc: "/hdmath/caveman.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/caveman/index.html")
-},
-{
-    title: "chatnoir",
-    imgSrc: "/hdmath/chatnoir.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/chatnoir/index.html")
-},
-{
-    title: "Master Checkers",
-    imgSrc: "/hdmath/checkers.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/checkers/index.html")
-},
-{
-    title: "Christmas Memory",
-    imgSrc: "/hdmath/christmasmemory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/christmasmemory/index.html")
-},
-{
-    title: "Christmastreelightup",
-    imgSrc: "/hdmath/christmastreelightup.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/christmastreelightup/index.html")
-},
-{
-    title: "Civiballs",
-    imgSrc: "/hdmath/civiballs.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/civiballs/index.html")
-},
-{
-    title: "Civiballs 2",
-    imgSrc: "/hdmath/civiballs2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/civiballs2/index.html")
-},
-{
-    title: "classiccarparking",
-    imgSrc: "/hdmath/classiccarparking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/classiccarparking/index.html")
-},
-{
-    title: "SNAKE",
-    imgSrc: "/hdmath/classicsnake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/classicsnake/index.html")
-},
-{
-    title: "Cliffdiving",
-    imgSrc: "/hdmath/cliffdiving.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/cliffdiving/index.html")
-},
-{
-    title: "Climbable Arrow",
-    imgSrc: "/hdmath/climbablearrow.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/climbablearrow/index.html")
-},
-{
-    title: "Coffeeshopgame",
-    imgSrc: "/hdmath/coffeeshopgame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/coffeeshopgame/index.html")
-},
-{
-    title: "Unity WebGL Player | Color Block Jam",
-    imgSrc: "/hdmath/colorblockjam.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/colorblockjam/index.html")
-},
-{
-    title: "colorcleaner",
-    imgSrc: "/hdmath/colorcleaner.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/colorcleaner/index.html")
-},
-{
-    title: "Color Flip",
-    imgSrc: "/hdmath/colorflip.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/colorflip/index.html")
-},
-{
-    title: "Combination Lock",
-    imgSrc: "/hdmath/combinationlock.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/combinationlock/index.html")
-},
-{
-    title: "concertparking",
-    imgSrc: "/hdmath/concertparking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/concertparking/index.html")
-},
-{
-    title: "CoreBall - monkey-type.org",
-    imgSrc: "/hdmath/coreball.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/coreball/index.html")
-},
-{
-    title: "Unity WebGL Player | Basketball Blitz",
-    imgSrc: "/hdmath/courtclashbasketball.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/courtclashbasketball/index.html")
-},
-{
-    title: "crossword",
-    imgSrc: "/hdmath/crossword.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/crossword/index.html")
-},
-{
-    title: "Cubeform",
-    imgSrc: "/hdmath/cubeform.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/cubeform/index.html")
-},
-{
-    title: "CubeNet Game",
-    imgSrc: "/hdmath/cubenet.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/cubenet/index.html")
-},
-{
-    title: "customcarshop",
-    imgSrc: "/hdmath/customcarshop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/customcarshop/index.html")
-},
-{
-    title: "CYCLE SPRINT",
-    imgSrc: "/hdmath/cyclesprint.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/cyclesprint/index.html")
-},
-{
-    title: "Dark Room",
-    imgSrc: "/hdmath/darkroom.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/darkroom/index.html")
-},
-{
-    title: "deskmovement",
-    imgSrc: "/hdmath/deskmovement.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/deskmovement/index.html")
-},
-{
-    title: "Relaxing Games",
-    imgSrc: "/hdmath/destressgame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/destressgame/index.html")
-},
-{
-    title: "dicewars",
-    imgSrc: "/hdmath/dicewars.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dicewars/index.html")
-},
-{
-    title: "dinercity",
-    imgSrc: "/hdmath/dinercity.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dinercity/index.html")
-},
-{
-    title: "Unity WebGL Player | Dip 'n Dice",
-    imgSrc: "/hdmath/dipndice.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dipndice/index.html")
-},
-{
-    title: "dobble",
-    imgSrc: "/hdmath/dobble.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dobble/index.html")
-},
-{
-    title: "doctoracorn",
-    imgSrc: "/hdmath/doctoracorn.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/doctoracorn/index.html")
-},
-{
-    title: "doggnation",
-    imgSrc: "/hdmath/doggnation.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/doggnation/index.html")
-},
-{
-    title: "Play Dominoes",
-    imgSrc: "/hdmath/dominoes.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dominoes/index.html")
-},
-{
-    title: "donutempire",
-    imgSrc: "/hdmath/donutempire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/donutempire/index.html")
-},
-{
-    title: "Donut Stand",
-    imgSrc: "/hdmath/donutstand.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/donutstand/index.html")
-},
-{
-    title: "doughnutsrecipe",
-    imgSrc: "/hdmath/doughnutsrecipe.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/doughnutsrecipe/index.html")
-},
-{
-    title: "Draw Surfer",
-    imgSrc: "/hdmath/drawsurfer.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/drawsurfer/index.html")
-},
-{
-    title: "Draw The Rest",
-    imgSrc: "/hdmath/drawtherest.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/drawtherest/index.html")
-},
-{
-    title: "Draw To Smash!",
-    imgSrc: "/hdmath/drawtosmash.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/drawtosmash/index.html")
-},
-{
-    title: "Dressupmath",
-    imgSrc: "/hdmath/dressupmath.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dressupmath/index.html")
-},
-{
-    title: "Park your car",
-    imgSrc: "/hdmath/driverlesscar.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/driverlesscar/index.html")
-},
-{
-    title: "Dublox",
-    imgSrc: "/hdmath/dublox.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dublox/index.html")
-},
-{
-    title: "DUCK DUCK CLICKER",
-    imgSrc: "/hdmath/duckduckclicker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/duckduckclicker/index.html")
-},
-{
-    title: "Duck Duck Clicker 3D",
-    imgSrc: "/hdmath/duckduckclicker3d.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/duckduckclicker3d/index.html")
-},
-{
-    title: "Wix Games | Duck Life",
-    imgSrc: "/hdmath/ducklife.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ducklife/index.html")
-},
-{
-    title: "Wix Games | Duck Life 2",
-    imgSrc: "/hdmath/ducklife2worldchampion.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ducklife2worldchampion/index.html")
-},
-{
-    title: "Wix Games | Duck Life 3",
-    imgSrc: "/hdmath/ducklife3evolution.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ducklife3evolution/index.html")
-},
-{
-    title: "Wix Games | Duck Life 4",
-    imgSrc: "/hdmath/ducklife4.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ducklife4/index.html")
-},
-{
-    title: "Ducklife 5 Treasurehunt",
-    imgSrc: "/hdmath/ducklife5treasurehunt.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ducklife5treasurehunt/index.html")
-},
-{
-    title: "Wix Games | Duck Life: Space",
-    imgSrc: "/hdmath/ducklife6space.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ducklife6space/index.html")
-},
-{
-    title: "duckthinkoutsidetheflock",
-    imgSrc: "/hdmath/duckthinkoutsidetheflock.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/duckthinkoutsidetheflock/index.html")
-},
-{
-    title: "Dunkers",
-    imgSrc: "/hdmath/dunkers.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dunkers/index.html")
-},
-{
-    title: "Easter Clicker",
-    imgSrc: "/hdmath/easterclicker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/easterclicker/index.html")
-},
-{
-    title: "EASTER MEMORY",
-    imgSrc: "/hdmath/eastermemory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/eastermemory/index.html")
-},
-{
-    title: "Eggy Car",
-    imgSrc: "/hdmath/eggycar.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/eggycar/index.html")
-},
-{
-    title: "electricbox",
-    imgSrc: "/hdmath/electricbox.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/electricbox/index.html")
-},
-{
-    title: "electricbox2",
-    imgSrc: "/hdmath/electricbox2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/electricbox2/index.html")
-},
-{
-    title: "Electron Dash",
-    imgSrc: "/hdmath/electrondash.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/electrondash/index.html")
-},
-{
-    title: "Element Merge!",
-    imgSrc: "/hdmath/elementmerge.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/elementmerge/index.html")
-},
-{
-    title: "Escape Beijing",
-    imgSrc: "/hdmath/escapebeijing.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapebeijing/index.html")
-},
-{
-    title: "Escape Berlin",
-    imgSrc: "/hdmath/escapeberlin.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapeberlin/index.html")
-},
-{
-    title: "Escape Cairo",
-    imgSrc: "/hdmath/escapecairo.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapecairo/index.html")
-},
-{
-    title: "Escape Istanbul",
-    imgSrc: "/hdmath/escapeistanbul.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapeistanbul/index.html")
-},
-{
-    title: "Escape London",
-    imgSrc: "/hdmath/escapelondon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapelondon/index.html")
-},
-{
-    title: "Escape Moscow",
-    imgSrc: "/hdmath/escapemoscow.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapemoscow/index.html")
-},
-{
-    title: "escapeplandragoncastle",
-    imgSrc: "/hdmath/escapeplandragoncastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapeplandragoncastle/index.html")
-},
-{
-    title: "escapeplanghosthouse",
-    imgSrc: "/hdmath/escapeplanghosthouse.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapeplanghosthouse/index.html")
-},
-{
-    title: "Escapeplannorthpole",
-    imgSrc: "/hdmath/escapeplannorthpole.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapeplannorthpole/index.html")
-},
-{
-    title: "escapeplanoffice",
-    imgSrc: "/hdmath/escapeplanoffice.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapeplanoffice/index.html")
-},
-{
-    title: "Escape Prague",
-    imgSrc: "/hdmath/escapeprague.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapeprague/index.html")
-},
-{
-    title: "Escape Santiago",
-    imgSrc: "/hdmath/escapesantiago.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapesantiago/index.html")
-},
-{
-    title: "escapethecandyfactory",
-    imgSrc: "/hdmath/escapethecandyfactory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/escapethecandyfactory/index.html")
-},
-{
-    title: "expertparking",
-    imgSrc: "/hdmath/expertparking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/expertparking/index.html")
-},
-{
-    title: "Factor Feeder",
-    imgSrc: "/hdmath/factorfeeder.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/factorfeeder/index.html")
-},
-{
-    title: "factoryballs",
-    imgSrc: "/hdmath/factoryballs.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/factoryballs/index.html")
-},
-{
-    title: "factoryballs2",
-    imgSrc: "/hdmath/factoryballs2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/factoryballs2/index.html")
-},
-{
-    title: "factoryballs3",
-    imgSrc: "/hdmath/factoryballs3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/factoryballs3/index.html")
-},
-{
-    title: "Factory Balls forever",
-    imgSrc: "/hdmath/factoryballsforever.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/factoryballsforever/index.html")
-},
-{
-    title: "Factoryballsthechristmasedition",
-    imgSrc: "/hdmath/factoryballsthechristmasedition.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/factoryballsthechristmasedition/index.html")
-},
-{
-    title: "Fall Beans",
-    imgSrc: "/hdmath/fallbeans.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fallbeans/index.html")
-},
-{
-    title: "FALLING CUBES",
-    imgSrc: "/hdmath/fallingcubes.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fallingcubes/index.html")
-},
-{
-    title: "Fancy Diver",
-    imgSrc: "/hdmath/fancydiver.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fancydiver/index.html")
-},
-{
-    title: "fantasticchefblueberrymuffins",
-    imgSrc: "/hdmath/fantasticchefblueberrymuffins.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fantasticchefblueberrymuffins/index.html")
-},
-{
-    title: "fantasticchefchocolatecake",
-    imgSrc: "/hdmath/fantasticchefchocolatecake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fantasticchefchocolatecake/index.html")
-},
-{
-    title: "fantasticchefpeachcobbler",
-    imgSrc: "/hdmath/fantasticchefpeachcobbler.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fantasticchefpeachcobbler/index.html")
-},
-{
-    title: "fantasticcontraption2",
-    imgSrc: "/hdmath/fantasticcontraption2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fantasticcontraption2/index.html")
-},
-{
-    title: "Farm Harvest Multiplication Game",
-    imgSrc: "/hdmath/farmharvestmultiplicationgame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/farmharvestmultiplicationgame/index.html")
-},
-{
-    title: "Feed the Figures",
-    imgSrc: "/hdmath/feedthefigures.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/feedthefigures/index.html")
-},
-{
-    title: "Feed the Figures 2",
-    imgSrc: "/hdmath/feedthefigures2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/feedthefigures2/index.html")
-},
-{
-    title: "Find HQ Backyard Mobile Game",
-    imgSrc: "/hdmath/findhqbackyard.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqbackyard/index.html")
-},
-{
-    title: "findhqbeachhouse",
-    imgSrc: "/hdmath/findhqbeachhouse.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqbeachhouse/index.html")
-},
-{
-    title: "findhqbowlingalley",
-    imgSrc: "/hdmath/findhqbowlingalley.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqbowlingalley/index.html")
-},
-{
-    title: "findhqcamp",
-    imgSrc: "/hdmath/findhqcamp.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqcamp/index.html")
-},
-{
-    title: "findhqcarnival",
-    imgSrc: "/hdmath/findhqcarnival.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqcarnival/index.html")
-},
-{
-    title: "Find HQ Castle Mobile Game",
-    imgSrc: "/hdmath/findhqcastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqcastle/index.html")
-},
-{
-    title: "Find HQ Cave Mobile Game",
-    imgSrc: "/hdmath/findhqcave.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqcave/index.html")
-},
-{
-    title: "Find HQ Denver",
-    imgSrc: "/hdmath/findhqdenver.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqdenver/index.html")
-},
-{
-    title: "findhqfarm",
-    imgSrc: "/hdmath/findhqfarm.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqfarm/index.html")
-},
-{
-    title: "findhqfirestation",
-    imgSrc: "/hdmath/findhqfirestation.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqfirestation/index.html")
-},
-{
-    title: "Findhqfunhouse",
-    imgSrc: "/hdmath/findhqfunhouse.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqfunhouse/index.html")
-},
-{
-    title: "findhqgamecenter",
-    imgSrc: "/hdmath/findhqgamecenter.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqgamecenter/index.html")
-},
-{
-    title: "Find my HQ Glacier National Park",
-    imgSrc: "/hdmath/findhqglaciernationalpark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqglaciernationalpark/index.html")
-},
-{
-    title: "Find my HQ Great Smoky Mountains",
-    imgSrc: "/hdmath/findhqgreatsmokymountains.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqgreatsmokymountains/index.html")
-},
-{
-    title: "findhqgym",
-    imgSrc: "/hdmath/findhqgym.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqgym/index.html")
-},
-{
-    title: "Find HQ Honolulu",
-    imgSrc: "/hdmath/findhqhonolulu.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqhonolulu/index.html")
-},
-{
-    title: "findhqhospital",
-    imgSrc: "/hdmath/findhqhospital.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqhospital/index.html")
-},
-{
-    title: "Find my HQ Joshua Three",
-    imgSrc: "/hdmath/findhqjoshuatree.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqjoshuatree/index.html")
-},
-{
-    title: "findhqlab",
-    imgSrc: "/hdmath/findhqlab.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqlab/index.html")
-},
-{
-    title: "findhqlibrary",
-    imgSrc: "/hdmath/findhqlibrary.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqlibrary/index.html")
-},
-{
-    title: "findhqlighthouse",
-    imgSrc: "/hdmath/findhqlighthouse.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqlighthouse/index.html")
-},
-{
-    title: "Findhqlosangeles",
-    imgSrc: "/hdmath/findhqlosangeles.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqlosangeles/index.html")
-},
-{
-    title: "Find my HQ Miami",
-    imgSrc: "/hdmath/findhqmiami.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqmiami/index.html")
-},
-{
-    title: "Find HQ Nashville",
-    imgSrc: "/hdmath/findhqnashville.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqnashville/index.html")
-},
-{
-    title: "Find HQ Neighborhood Mobile Game",
-    imgSrc: "/hdmath/findhqneighborhood.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqneighborhood/index.html")
-},
-{
-    title: "Find my HQ New York",
-    imgSrc: "/hdmath/findhqnewyork.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqnewyork/index.html")
-},
-{
-    title: "findhqpirateship",
-    imgSrc: "/hdmath/findhqpirateship.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqpirateship/index.html")
-},
-{
-    title: "Find my HQ San Francisco",
-    imgSrc: "/hdmath/findhqsanfrancisco.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqsanfrancisco/index.html")
-},
-{
-    title: "Find HQ Santa Fe",
-    imgSrc: "/hdmath/findhqsantafe.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqsantafe/index.html")
-},
-{
-    title: "findhqskilodge",
-    imgSrc: "/hdmath/findhqskilodge.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqskilodge/index.html")
-},
-{
-    title: "findhqspacelab",
-    imgSrc: "/hdmath/findhqspacelab.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqspacelab/index.html")
-},
-{
-    title: "findhqtemple",
-    imgSrc: "/hdmath/findhqtemple.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqtemple/index.html")
-},
-{
-    title: "findhqtheforest",
-    imgSrc: "/hdmath/findhqtheforest.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqtheforest/index.html")
-},
-{
-    title: "findhqthehotel",
-    imgSrc: "/hdmath/findhqthehotel.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqthehotel/index.html")
-},
-{
-    title: "findhqthemall",
-    imgSrc: "/hdmath/findhqthemall.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqthemall/index.html")
-},
-{
-    title: "findhqthepyramid",
-    imgSrc: "/hdmath/findhqthepyramid.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqthepyramid/index.html")
-},
-{
-    title: "findhqtheresort",
-    imgSrc: "/hdmath/findhqtheresort.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqtheresort/index.html")
-},
-{
-    title: "findhqtheschool",
-    imgSrc: "/hdmath/findhqtheschool.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqtheschool/index.html")
-},
-{
-    title: "findhqthetheater",
-    imgSrc: "/hdmath/findhqthetheater.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqthetheater/index.html")
-},
-{
-    title: "Find my HQ Washington DC",
-    imgSrc: "/hdmath/findhqwashingtondc.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqwashingtondc/index.html")
-},
-{
-    title: "Find my HQ Yellowstone",
-    imgSrc: "/hdmath/findhqyellowstone.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqyellowstone/index.html")
-},
-{
-    title: "Find my HQ Yosemite",
-    imgSrc: "/hdmath/findhqyosemite.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findhqyosemite/index.html")
-},
-{
-    title: "Find Me",
-    imgSrc: "/hdmath/findme.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findme/index.html")
-},
-{
-    title: "Find my baseball",
-    imgSrc: "/hdmath/findmybaseballbathroom.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findmybaseballbathroom/index.html")
-},
-{
-    title: "Find my beachball",
-    imgSrc: "/hdmath/findmybeachballbeach.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findmybeachballbeach/index.html")
-},
-{
-    title: "Find my dodgeball",
-    imgSrc: "/hdmath/findmydodgeballkitchen.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findmydodgeballkitchen/index.html")
-},
-{
-    title: "Find my football",
-    imgSrc: "/hdmath/findmyfootballhotel.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findmyfootballhotel/index.html")
-},
-{
-    title: "Find my soccer ball",
-    imgSrc: "/hdmath/findmysoccerballalcatraz.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findmysoccerballalcatraz/index.html")
-},
-{
-    title: "Find my softball",
-    imgSrc: "/hdmath/findmysoftballbackyard.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findmysoftballbackyard/index.html")
-},
-{
-    title: "Find my volleyball",
-    imgSrc: "/hdmath/findmyvolleyballnewyork.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/findmyvolleyballnewyork/index.html")
-},
-{
-    title: "Fireboyandwatergirlforesttemple 3",
-    imgSrc: "/hdmath/fireboyandwatergirlforesttemple3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fireboyandwatergirlforesttemple3/index.html")
-},
-{
-    title: "Fireboyandwatergirlinthelighttemple 2",
-    imgSrc: "/hdmath/fireboyandwatergirlinthelighttemple2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fireboyandwatergirlinthelighttemple2/index.html")
-},
-{
-    title: "Flappyfactors",
-    imgSrc: "/hdmath/flappyfactors.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/flappyfactors/index.html")
-},
-{
-    title: "Flappymultiples",
-    imgSrc: "/hdmath/flappymultiples.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/flappymultiples/index.html")
-},
-{
-    title: "Christmas Furious",
-    imgSrc: "/hdmath/flappyreindeer.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/flappyreindeer/index.html")
-},
-{
-    title: "Flip Duck",
-    imgSrc: "/hdmath/flipduck.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/flipduck/index.html")
-},
-{
-    title: "Flush",
-    imgSrc: "/hdmath/flush.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/flush/index.html")
-},
-{
-    title: "foodtruckfun",
-    imgSrc: "/hdmath/foodtruckfun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/foodtruckfun/index.html")
-},
-{
-    title: "Footgolf Evolution",
-    imgSrc: "/hdmath/footgolf.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/footgolf/index.html")
-},
-{
-    title: "Fourcolors",
-    imgSrc: "/hdmath/fourcolors.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fourcolors/index.html")
-},
-{
-    title: "Fraction poker",
-    imgSrc: "/hdmath/fractionpoker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fractionpoker/index.html")
-},
-{
-    title: "Fractions Timed Tests",
-    imgSrc: "/hdmath/fractionstimedtests.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fractionstimedtests/index.html")
-},
-{
-    title: "Freaking Math",
-    imgSrc: "/hdmath/freakingmath.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/freakingmath/index.html")
-},
-{
-    title: "FREE CELL",
-    imgSrc: "/hdmath/freecellsolitaire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/freecellsolitaire/index.html")
-},
-{
-    title: "Freekicktraining",
-    imgSrc: "/hdmath/freekicktraining.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/freekicktraining/index.html")
-},
-{
-    title: "Frog Corral",
-    imgSrc: "/hdmath/frogcorral.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/frogcorral/index.html")
-},
-{
-    title: "Frog Leap at HoodaGames.com",
-    imgSrc: "/hdmath/frogleap.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/frogleap/index.html")
-},
-{
-    title: "fullmoon",
-    imgSrc: "/hdmath/fullmoon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/fullmoon/index.html")
-},
-{
-    title: "Gen Z Words Quiz",
-    imgSrc: "/hdmath/genzwordsquiz.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/genzwordsquiz/index.html")
-},
-{
-    title: "Geometry Rash",
-    imgSrc: "/hdmath/geometryrash.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/geometryrash/index.html")
-},
-{
-    title: "Germies!",
-    imgSrc: "/hdmath/germies.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/germies/index.html")
-},
-{
-    title: "gingerbreadhouseescape",
-    imgSrc: "/hdmath/gingerbreadhouseescape.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/gingerbreadhouseescape/index.html")
-},
-{
-    title: "Gingerbread Maker",
-    imgSrc: "/hdmath/gingerbreadmaker.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/gingerbreadmaker/index.html")
-},
-{
-    title: "Unity WebGL Player | Glitch",
-    imgSrc: "/hdmath/glitch.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/glitch/index.html")
-},
-{
-    title: "Goatcrossing",
-    imgSrc: "/hdmath/goatcrossing.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/goatcrossing/index.html")
-},
-{
-    title: "Goldburgertogo",
-    imgSrc: "/hdmath/goldburgertogo.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/goldburgertogo/index.html")
-},
-{
-    title: "Golf Field 2",
-    imgSrc: "/hdmath/golffield2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/golffield2/index.html")
-},
-{
-    title: "Grammar Fun",
-    imgSrc: "/hdmath/grammarfun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/grammarfun/index.html")
-},
-{
-    title: "grammarninja",
-    imgSrc: "/hdmath/grammarninja.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/grammarninja/index.html")
-},
-{
-    title: "Graveyard Snake",
-    imgSrc: "/hdmath/graveyardsnake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/graveyardsnake/index.html")
-},
-{
-    title: "Grayscaleescapechristmas",
-    imgSrc: "/hdmath/grayscaleescapechristmas.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/grayscaleescapechristmas/index.html")
-},
-{
-    title: "Great Adviser",
-    imgSrc: "/hdmath/greatadviser.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/greatadviser/index.html")
-},
-{
-    title: "Hooda Grow Castle",
-    imgSrc: "/hdmath/growcastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growcastle/index.html")
-},
-{
-    title: "growcube",
-    imgSrc: "/hdmath/growcube.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growcube/index.html")
-},
-{
-    title: "Grow farm",
-    imgSrc: "/hdmath/growfarm.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growfarm/index.html")
-},
-{
-    title: "growisland",
-    imgSrc: "/hdmath/growisland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growisland/index.html")
-},
-{
-    title: "Growmi",
-    imgSrc: "/hdmath/growmi.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growmi/index.html")
-},
-{
-    title: "grownanovol3",
-    imgSrc: "/hdmath/grownanovol3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/grownanovol3/index.html")
-},
-{
-    title: "growpark",
-    imgSrc: "/hdmath/growpark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growpark/index.html")
-},
-{
-    title: "Grow school",
-    imgSrc: "/hdmath/growschool.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growschool/index.html")
-},
-{
-    title: "growtower",
-    imgSrc: "/hdmath/growtower.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growtower/index.html")
-},
-{
-    title: "Growtree",
-    imgSrc: "/hdmath/growtree.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growtree/index.html")
-},
-{
-    title: "growvalley",
-    imgSrc: "/hdmath/growvalley.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growvalley/index.html")
-},
-{
-    title: "Grow Water Park",
-    imgSrc: "/hdmath/growwaterpark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growwaterpark/index.html")
-},
-{
-    title: "Hooda Grow Zoo",
-    imgSrc: "/hdmath/growzoo.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/growzoo/index.html")
-},
-{
-    title: "Guess Word",
-    imgSrc: "/hdmath/guessword.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/guessword/index.html")
-},
-{
-    title: "HALLOWEEN MEMORY",
-    imgSrc: "/hdmath/halloweenmemory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/halloweenmemory/index.html")
-},
-{
-    title: "Happy Filled Glass",
-    imgSrc: "/hdmath/happyfilledglass.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/happyfilledglass/index.html")
-},
-{
-    title: "Happy Filled Glass 2",
-    imgSrc: "/hdmath/happyfilledglass2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/happyfilledglass2/index.html")
-},
-{
-    title: "Happy Filled Glass 3",
-    imgSrc: "/hdmath/happyfilledglass3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/happyfilledglass3/index.html")
-},
-{
-    title: "Happy Filled Glass 4",
-    imgSrc: "/hdmath/happyfilledglass4.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/happyfilledglass4/index.html")
-},
-{
-    title: "happymart",
-    imgSrc: "/hdmath/happymart.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/happymart/index.html")
-},
-{
-    title: "happytower",
-    imgSrc: "/hdmath/happytower.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/happytower/index.html")
-},
-{
-    title: "Head Soccer 2022",
-    imgSrc: "/hdmath/headsoccer.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/headsoccer/index.html")
-},
-{
-    title: "Head Soccer 2026",
-    imgSrc: "/hdmath/headsoccer2026.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/headsoccer2026/index.html")
-},
-{
-    title: "Hex Wars",
-    imgSrc: "/hdmath/hexwars.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hexwars/index.html")
-},
-{
-    title: "Hide Caesar Hooda",
-    imgSrc: "/hdmath/hidecaesar.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hidecaesar/index.html")
-},
-{
-    title: "HOCKEY SHOOTOUT",
-    imgSrc: "/hdmath/hockeyshootout.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hockeyshootout/index.html")
-},
-{
-    title: "homesheephome",
-    imgSrc: "/hdmath/homesheephome.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/homesheephome/index.html")
-},
-{
-    title: "Hooda Bridge - On Any Device",
-    imgSrc: "/hdmath/hoodabridge.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodabridge/index.html")
-},
-{
-    title: "Hooda Dissection",
-    imgSrc: "/hdmath/hoodadissection.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodadissection/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtripaquarium",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtripaquarium.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtripaquarium/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtriparcade",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtriparcade.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtriparcade/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtripbeach",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtripbeach.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtripbeach/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtripchickenfarm",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtripchickenfarm.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtripchickenfarm/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtripcookiefactory",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtripcookiefactory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtripcookiefactory/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtripdinoland",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtripdinoland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtripdinoland/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtripicecreamshop",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtripicecreamshop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtripicecreamshop/index.html")
-},
-{
-    title: "Hoodaescape 3 Rdgradefieldtripsummercamp",
-    imgSrc: "/hdmath/hoodaescape3rdgradefieldtripsummercamp.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape3rdgradefieldtripsummercamp/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtripairfield",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtripairfield.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtripairfield/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtripancientruins",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtripancientruins.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtripancientruins/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtripcastle",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtripcastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtripcastle/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtripmuseum",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtripmuseum.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtripmuseum/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtripnaturepark",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtripnaturepark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtripnaturepark/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtrippyramid",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtrippyramid.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtrippyramid/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtriptrampolinepark",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtriptrampolinepark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtriptrampolinepark/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtripwaterpark",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtripwaterpark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtripwaterpark/index.html")
-},
-{
-    title: "Hoodaescape 6 Thgradefieldtripzoo",
-    imgSrc: "/hdmath/hoodaescape6thgradefieldtripzoo.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescape6thgradefieldtripzoo/index.html")
-},
-{
-    title: "Hoodaescapeadelaide 2024",
-    imgSrc: "/hdmath/hoodaescapeadelaide2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeadelaide2024/index.html")
-},
-{
-    title: "Escape Airfield",
-    imgSrc: "/hdmath/hoodaescapeairfield.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeairfield/index.html")
-},
-{
-    title: "Escape Alabama",
-    imgSrc: "/hdmath/hoodaescapealabama.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapealabama/index.html")
-},
-{
-    title: "Hoodaescapealabama 2022",
-    imgSrc: "/hdmath/hoodaescapealabama2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapealabama2022/index.html")
-},
-{
-    title: "Escape Alaska",
-    imgSrc: "/hdmath/hoodaescapealaska.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapealaska/index.html")
-},
-{
-    title: "Hoodaescapealaska 2022",
-    imgSrc: "/hdmath/hoodaescapealaska2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapealaska2022/index.html")
-},
-{
-    title: "Hoodaescapealbuquerque 2023",
-    imgSrc: "/hdmath/hoodaescapealbuquerque2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapealbuquerque2023/index.html")
-},
-{
-    title: "Hoodaescapeappleorchard 2023",
-    imgSrc: "/hdmath/hoodaescapeappleorchard2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeappleorchard2023/index.html")
-},
-{
-    title: "Hoodaescapeaquarium 2024",
-    imgSrc: "/hdmath/hoodaescapeaquarium2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeaquarium2024/index.html")
-},
-{
-    title: "Escape Arizona",
-    imgSrc: "/hdmath/hoodaescapearizona.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapearizona/index.html")
-},
-{
-    title: "Hoodaescapearizona 2022",
-    imgSrc: "/hdmath/hoodaescapearizona2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapearizona2022/index.html")
-},
-{
-    title: "Escape Arkansas",
-    imgSrc: "/hdmath/hoodaescapearkansas.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapearkansas/index.html")
-},
-{
-    title: "Hoodaescapearkansas 2022",
-    imgSrc: "/hdmath/hoodaescapearkansas2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapearkansas2022/index.html")
-},
-{
-    title: "Hoodaescapeartmuseum 2023",
-    imgSrc: "/hdmath/hoodaescapeartmuseum2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeartmuseum2023/index.html")
-},
-{
-    title: "Hoodaescapeatlanta 2023",
-    imgSrc: "/hdmath/hoodaescapeatlanta2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeatlanta2023/index.html")
-},
-{
-    title: "Escape Augusta",
-    imgSrc: "/hdmath/hoodaescapeaugusta.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeaugusta/index.html")
-},
-{
-    title: "Hoodaescapeaustin 2023",
-    imgSrc: "/hdmath/hoodaescapeaustin2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeaustin2023/index.html")
-},
-{
-    title: "Hoodaescapeaustraliancapitalterritory 2024",
-    imgSrc: "/hdmath/hoodaescapeaustraliancapitalterritory2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeaustraliancapitalterritory2024/index.html")
-},
-{
-    title: "Escape Auto Factory",
-    imgSrc: "/hdmath/hoodaescapeautofactory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeautofactory/index.html")
-},
-{
-    title: "Hoodaescapeautoshop",
-    imgSrc: "/hdmath/hoodaescapeautoshop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeautoshop/index.html")
-},
-{
-    title: "Hoodaescapeballpark 2023",
-    imgSrc: "/hdmath/hoodaescapeballpark2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeballpark2023/index.html")
-},
-{
-    title: "Hoodaescapebaltimore 2023",
-    imgSrc: "/hdmath/hoodaescapebaltimore2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapebaltimore2023/index.html")
-},
-{
-    title: "Hoodaescapebirthdayparty 2024",
-    imgSrc: "/hdmath/hoodaescapebirthdayparty2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapebirthdayparty2024/index.html")
-},
-{
-    title: "Escape Boise",
-    imgSrc: "/hdmath/hoodaescapeboise.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeboise/index.html")
-},
-{
-    title: "Hoodaescapeboston 2023",
-    imgSrc: "/hdmath/hoodaescapeboston2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeboston2023/index.html")
-},
-{
-    title: "Hoodaescapebowling 2024",
-    imgSrc: "/hdmath/hoodaescapebowling2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapebowling2024/index.html")
-},
-{
-    title: "Hoodaescapebrisbane 2024",
-    imgSrc: "/hdmath/hoodaescapebrisbane2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapebrisbane2024/index.html")
-},
-{
-    title: "Escape Bullet Train",
-    imgSrc: "/hdmath/hoodaescapebullettrain.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapebullettrain/index.html")
-},
-{
-    title: "Hoodaescapecabin 2023",
-    imgSrc: "/hdmath/hoodaescapecabin2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecabin2023/index.html")
-},
-{
-    title: "Hoodaescapecalgary 2024",
-    imgSrc: "/hdmath/hoodaescapecalgary2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecalgary2024/index.html")
-},
-{
-    title: "Escape California",
-    imgSrc: "/hdmath/hoodaescapecalifornia.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecalifornia/index.html")
-},
-{
-    title: "Hoodaescapecalifornia 2022",
-    imgSrc: "/hdmath/hoodaescapecalifornia2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecalifornia2022/index.html")
-},
-{
-    title: "Hoodaescapecamp 2023",
-    imgSrc: "/hdmath/hoodaescapecamp2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecamp2023/index.html")
-},
-{
-    title: "Hoodaescapecentralpark 2024",
-    imgSrc: "/hdmath/hoodaescapecentralpark2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecentralpark2024/index.html")
-},
-{
-    title: "Hoodaescapecharlotte 2023",
-    imgSrc: "/hdmath/hoodaescapecharlotte2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecharlotte2023/index.html")
-},
-{
-    title: "Hooda Escape Cheyenne",
-    imgSrc: "/hdmath/hoodaescapecheyenne.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecheyenne/index.html")
-},
-{
-    title: "Hoodaescapechicago 2023",
-    imgSrc: "/hdmath/hoodaescapechicago2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapechicago2023/index.html")
-},
-{
-    title: "Escape Colorado",
-    imgSrc: "/hdmath/hoodaescapecolorado.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecolorado/index.html")
-},
-{
-    title: "Hoodaescapecolorado 2022",
-    imgSrc: "/hdmath/hoodaescapecolorado2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecolorado2022/index.html")
-},
-{
-    title: "Hoodaescapecoloradosprings 2023",
-    imgSrc: "/hdmath/hoodaescapecoloradosprings2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecoloradosprings2023/index.html")
-},
-{
-    title: "Escape Columbia",
-    imgSrc: "/hdmath/hoodaescapecolumbia.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecolumbia/index.html")
-},
-{
-    title: "Hoodaescapecolumbus 2023",
-    imgSrc: "/hdmath/hoodaescapecolumbus2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecolumbus2023/index.html")
-},
-{
-    title: "Hoodaescapeconcertvenue 2023",
-    imgSrc: "/hdmath/hoodaescapeconcertvenue2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeconcertvenue2023/index.html")
-},
-{
-    title: "Escape Connecticut",
-    imgSrc: "/hdmath/hoodaescapeconnecticut.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeconnecticut/index.html")
-},
-{
-    title: "Hoodaescapeconnecticut 2022",
-    imgSrc: "/hdmath/hoodaescapeconnecticut2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeconnecticut2022/index.html")
-},
-{
-    title: "Hoodaescapecornmaze",
-    imgSrc: "/hdmath/hoodaescapecornmaze.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecornmaze/index.html")
-},
-{
-    title: "Hoodaescapecornmaze 2023",
-    imgSrc: "/hdmath/hoodaescapecornmaze2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecornmaze2023/index.html")
-},
-{
-    title: "Hoodaescapecountyfair 2023",
-    imgSrc: "/hdmath/hoodaescapecountyfair2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapecountyfair2023/index.html")
-},
-{
-    title: "Hoodaescapedallas 2023",
-    imgSrc: "/hdmath/hoodaescapedallas2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapedallas2023/index.html")
-},
-{
-    title: "Hoodaescapedarwin 2024",
-    imgSrc: "/hdmath/hoodaescapedarwin2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapedarwin2024/index.html")
-},
-{
-    title: "Escape Delaware",
-    imgSrc: "/hdmath/hoodaescapedelaware.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapedelaware/index.html")
-},
-{
-    title: "Hoodaescapedelaware 2022",
-    imgSrc: "/hdmath/hoodaescapedelaware2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapedelaware2022/index.html")
-},
-{
-    title: "Hoodaescapedenver 2023",
-    imgSrc: "/hdmath/hoodaescapedenver2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapedenver2023/index.html")
-},
-{
-    title: "Hoodaescapedetroit 2023",
-    imgSrc: "/hdmath/hoodaescapedetroit2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapedetroit2023/index.html")
-},
-{
-    title: "Hoodaescapedogpark 2024",
-    imgSrc: "/hdmath/hoodaescapedogpark2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapedogpark2024/index.html")
-},
-{
-    title: "Hoodaescapeeasteregghunt 2024",
-    imgSrc: "/hdmath/hoodaescapeeasteregghunt2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeeasteregghunt2024/index.html")
-},
-{
-    title: "Hoodaescapeedmonton 2024",
-    imgSrc: "/hdmath/hoodaescapeedmonton2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeedmonton2024/index.html")
-},
-{
-    title: "Hoodaescapeelpaso 2023",
-    imgSrc: "/hdmath/hoodaescapeelpaso2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeelpaso2023/index.html")
-},
-{
-    title: "Hoodaescapefamilybbq 2023",
-    imgSrc: "/hdmath/hoodaescapefamilybbq2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefamilybbq2023/index.html")
-},
-{
-    title: "Hoodaescapefarm 2023",
-    imgSrc: "/hdmath/hoodaescapefarm2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefarm2023/index.html")
-},
-{
-    title: "Hoodaescapefbi 2024",
-    imgSrc: "/hdmath/hoodaescapefbi2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefbi2024/index.html")
-},
-{
-    title: "Hoodaescapefirestation 2024",
-    imgSrc: "/hdmath/hoodaescapefirestation2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefirestation2024/index.html")
-},
-{
-    title: "Hooda Escape Fisherman Island Mobile Game",
-    imgSrc: "/hdmath/hoodaescapefishermanisland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefishermanisland/index.html")
-},
-{
-    title: "Escape Florida",
-    imgSrc: "/hdmath/hoodaescapeflorida.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeflorida/index.html")
-},
-{
-    title: "Hoodaescapeflorida 2022",
-    imgSrc: "/hdmath/hoodaescapeflorida2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeflorida2022/index.html")
-},
-{
-    title: "Hoodaescapefootballstadium 2023",
-    imgSrc: "/hdmath/hoodaescapefootballstadium2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefootballstadium2023/index.html")
-},
-{
-    title: "Hoodaescapefortworth 2023",
-    imgSrc: "/hdmath/hoodaescapefortworth2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefortworth2023/index.html")
-},
-{
-    title: "Hoodaescapefresno 2023",
-    imgSrc: "/hdmath/hoodaescapefresno2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefresno2023/index.html")
-},
-{
-    title: "Hooda Escape Fyre Festival",
-    imgSrc: "/hdmath/hoodaescapefyrefestival.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapefyrefestival/index.html")
-},
-{
-    title: "Hoodaescapegardenmaze 2023",
-    imgSrc: "/hdmath/hoodaescapegardenmaze2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapegardenmaze2023/index.html")
-},
-{
-    title: "Escape Georgia",
-    imgSrc: "/hdmath/hoodaescapegeorgia.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapegeorgia/index.html")
-},
-{
-    title: "Hoodaescapegeorgia 2022",
-    imgSrc: "/hdmath/hoodaescapegeorgia2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapegeorgia2022/index.html")
-},
-{
-    title: "Hoodaescapeghosthouse",
-    imgSrc: "/hdmath/hoodaescapeghosthouse.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeghosthouse/index.html")
-},
-{
-    title: "Hooda Escape Grandma's House Mobile Game",
-    imgSrc: "/hdmath/hoodaescapegrandmashouse.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapegrandmashouse/index.html")
-},
-{
-    title: "Hoodaescapehamilton 2024",
-    imgSrc: "/hdmath/hoodaescapehamilton2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehamilton2024/index.html")
-},
-{
-    title: "Hoodaescapehauntedhouse 2023",
-    imgSrc: "/hdmath/hoodaescapehauntedhouse2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehauntedhouse2023/index.html")
-},
-{
-    title: "Escape Hawaii",
-    imgSrc: "/hdmath/hoodaescapehawaii.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehawaii/index.html")
-},
-{
-    title: "Hoodaescapehawaii 2022",
-    imgSrc: "/hdmath/hoodaescapehawaii2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehawaii2022/index.html")
-},
-{
-    title: "Hoodaescapehike 2023",
-    imgSrc: "/hdmath/hoodaescapehike2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehike2023/index.html")
-},
-{
-    title: "Hoodaescapehobart 2024",
-    imgSrc: "/hdmath/hoodaescapehobart2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehobart2024/index.html")
-},
-{
-    title: "Hoodaescapehomecoming 2023",
-    imgSrc: "/hdmath/hoodaescapehomecoming2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehomecoming2023/index.html")
-},
-{
-    title: "Hoodaescapehouston 2023",
-    imgSrc: "/hdmath/hoodaescapehouston2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehouston2023/index.html")
-},
-{
-    title: "Hooda Escape Hunting Lodge Mobile Game",
-    imgSrc: "/hdmath/hoodaescapehuntinglodge.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapehuntinglodge/index.html")
-},
-{
-    title: "Hoodaescapeicecreamshop",
-    imgSrc: "/hdmath/hoodaescapeicecreamshop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeicecreamshop/index.html")
-},
-{
-    title: "Hoodaescapeiceskating 2023",
-    imgSrc: "/hdmath/hoodaescapeiceskating2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeiceskating2023/index.html")
-},
-{
-    title: "Escape Idaho",
-    imgSrc: "/hdmath/hoodaescapeidaho.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeidaho/index.html")
-},
-{
-    title: "Hoodaescapeidaho 2022",
-    imgSrc: "/hdmath/hoodaescapeidaho2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeidaho2022/index.html")
-},
-{
-    title: "Escape Illinois",
-    imgSrc: "/hdmath/hoodaescapeillinois.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeillinois/index.html")
-},
-{
-    title: "Hoodaescapeillinois 2022",
-    imgSrc: "/hdmath/hoodaescapeillinois2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeillinois2022/index.html")
-},
-{
-    title: "Escape Indiana",
-    imgSrc: "/hdmath/hoodaescapeindiana.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeindiana/index.html")
-},
-{
-    title: "Hoodaescapeindiana 2022",
-    imgSrc: "/hdmath/hoodaescapeindiana2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeindiana2022/index.html")
-},
-{
-    title: "Escape Indianapolis",
-    imgSrc: "/hdmath/hoodaescapeindianapolis.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeindianapolis/index.html")
-},
-{
-    title: "Hoodaescapeindianapolis 2023",
-    imgSrc: "/hdmath/hoodaescapeindianapolis2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeindianapolis2023/index.html")
-},
-{
-    title: "Escape Iowa",
-    imgSrc: "/hdmath/hoodaescapeiowa.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeiowa/index.html")
-},
-{
-    title: "Hoodaescapeiowa 2022",
-    imgSrc: "/hdmath/hoodaescapeiowa2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeiowa2022/index.html")
-},
-{
-    title: "Escape Jackson",
-    imgSrc: "/hdmath/hoodaescapejackson.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapejackson/index.html")
-},
-{
-    title: "Hoodaescapejacksonville 2023",
-    imgSrc: "/hdmath/hoodaescapejacksonville2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapejacksonville2023/index.html")
-},
-{
-    title: "Escape Jersey Shore",
-    imgSrc: "/hdmath/hoodaescapejerseyshore.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapejerseyshore/index.html")
-},
-{
-    title: "Escape Juneau",
-    imgSrc: "/hdmath/hoodaescapejuneau.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapejuneau/index.html")
-},
-{
-    title: "Hoodaescapejungle 2024",
-    imgSrc: "/hdmath/hoodaescapejungle2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapejungle2024/index.html")
-},
-{
-    title: "Escape Kansas",
-    imgSrc: "/hdmath/hoodaescapekansas.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapekansas/index.html")
-},
-{
-    title: "Hoodaescapekansas 2022",
-    imgSrc: "/hdmath/hoodaescapekansas2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapekansas2022/index.html")
-},
-{
-    title: "Hoodaescapekansascity 2023",
-    imgSrc: "/hdmath/hoodaescapekansascity2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapekansascity2023/index.html")
-},
-{
-    title: "Escape Kentucky",
-    imgSrc: "/hdmath/hoodaescapekentucky.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapekentucky/index.html")
-},
-{
-    title: "Hoodaescapekentucky 2022",
-    imgSrc: "/hdmath/hoodaescapekentucky2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapekentucky2022/index.html")
-},
-{
-    title: "Escape King's Landing",
-    imgSrc: "/hdmath/hoodaescapekingslanding.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapekingslanding/index.html")
-},
-{
-    title: "Hoodaescapekitchener 2024",
-    imgSrc: "/hdmath/hoodaescapekitchener2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapekitchener2024/index.html")
-},
-{
-    title: "Hoodaescapelasvegas 2023",
-    imgSrc: "/hdmath/hoodaescapelasvegas2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelasvegas2023/index.html")
-},
-{
-    title: "Hoodaescapelazyriver 2023",
-    imgSrc: "/hdmath/hoodaescapelazyriver2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelazyriver2023/index.html")
-},
-{
-    title: "Hoodaescapelibrary 2024",
-    imgSrc: "/hdmath/hoodaescapelibrary2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelibrary2024/index.html")
-},
-{
-    title: "Hoodaescapelondon 2024",
-    imgSrc: "/hdmath/hoodaescapelondon2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelondon2024/index.html")
-},
-{
-    title: "Hoodaescapelosangeles 2023",
-    imgSrc: "/hdmath/hoodaescapelosangeles2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelosangeles2023/index.html")
-},
-{
-    title: "Escape Louisiana",
-    imgSrc: "/hdmath/hoodaescapelouisiana.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelouisiana/index.html")
-},
-{
-    title: "Hoodaescapelouisiana 2022",
-    imgSrc: "/hdmath/hoodaescapelouisiana2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelouisiana2022/index.html")
-},
-{
-    title: "Hoodaescapelouisville 2023",
-    imgSrc: "/hdmath/hoodaescapelouisville2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapelouisville2023/index.html")
-},
-{
-    title: "Hoodaescapemaine 2022",
-    imgSrc: "/hdmath/hoodaescapemaine2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemaine2022/index.html")
-},
-{
-    title: "Hoodaescapemaryland 2022",
-    imgSrc: "/hdmath/hoodaescapemaryland2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemaryland2022/index.html")
-},
-{
-    title: "Escape Massachusetts",
-    imgSrc: "/hdmath/hoodaescapemassachusetts.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemassachusetts/index.html")
-},
-{
-    title: "Hoodaescapemassachusetts 2022",
-    imgSrc: "/hdmath/hoodaescapemassachusetts2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemassachusetts2022/index.html")
-},
-{
-    title: "Hooda Escape Math Mansion Mobile Game",
-    imgSrc: "/hdmath/hoodaescapemathmansion.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemathmansion/index.html")
-},
-{
-    title: "Hoodaescapemelbourne 2024",
-    imgSrc: "/hdmath/hoodaescapemelbourne2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemelbourne2024/index.html")
-},
-{
-    title: "Hoodaescapememphis 2023",
-    imgSrc: "/hdmath/hoodaescapememphis2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapememphis2023/index.html")
-},
-{
-    title: "Hoodaescapemesa 2023",
-    imgSrc: "/hdmath/hoodaescapemesa2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemesa2023/index.html")
-},
-{
-    title: "Escape Michigan",
-    imgSrc: "/hdmath/hoodaescapemichigan.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemichigan/index.html")
-},
-{
-    title: "Hoodaescapemichigan 2022",
-    imgSrc: "/hdmath/hoodaescapemichigan2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemichigan2022/index.html")
-},
-{
-    title: "Hoodaescapemilwaukee 2023",
-    imgSrc: "/hdmath/hoodaescapemilwaukee2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemilwaukee2023/index.html")
-},
-{
-    title: "Escape Minnesota",
-    imgSrc: "/hdmath/hoodaescapeminnesota.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeminnesota/index.html")
-},
-{
-    title: "Hoodaescapeminnesota 2022",
-    imgSrc: "/hdmath/hoodaescapeminnesota2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeminnesota2022/index.html")
-},
-{
-    title: "Escape Mississippi",
-    imgSrc: "/hdmath/hoodaescapemississippi.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemississippi/index.html")
-},
-{
-    title: "Hoodaescapemississippi 2022",
-    imgSrc: "/hdmath/hoodaescapemississippi2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemississippi2022/index.html")
-},
-{
-    title: "Escape Missouri",
-    imgSrc: "/hdmath/hoodaescapemissouri.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemissouri/index.html")
-},
-{
-    title: "Hoodaescapemissouri 2022",
-    imgSrc: "/hdmath/hoodaescapemissouri2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemissouri2022/index.html")
-},
-{
-    title: "Escape Montana",
-    imgSrc: "/hdmath/hoodaescapemontana.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemontana/index.html")
-},
-{
-    title: "Hoodaescapemontana 2022",
-    imgSrc: "/hdmath/hoodaescapemontana2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemontana2022/index.html")
-},
-{
-    title: "Hoodaescapemontreal 2024",
-    imgSrc: "/hdmath/hoodaescapemontreal2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemontreal2024/index.html")
-},
-{
-    title: "Escape Motorhome",
-    imgSrc: "/hdmath/hoodaescapemotorhome.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapemotorhome/index.html")
-},
-{
-    title: "Hoodaescapenashville 2023",
-    imgSrc: "/hdmath/hoodaescapenashville2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenashville2023/index.html")
-},
-{
-    title: "Hoodaescapenaturewalk 2023",
-    imgSrc: "/hdmath/hoodaescapenaturewalk2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenaturewalk2023/index.html")
-},
-{
-    title: "Escape Nebraska",
-    imgSrc: "/hdmath/hoodaescapenebraska.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenebraska/index.html")
-},
-{
-    title: "Hoodaescapenebraska 2022",
-    imgSrc: "/hdmath/hoodaescapenebraska2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenebraska2022/index.html")
-},
-{
-    title: "Escape Nevada",
-    imgSrc: "/hdmath/hoodaescapenevada.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenevada/index.html")
-},
-{
-    title: "Hoodaescapenevada 2022",
-    imgSrc: "/hdmath/hoodaescapenevada2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenevada2022/index.html")
-},
-{
-    title: "hoodaescapeneverland",
-    imgSrc: "/hdmath/hoodaescapeneverland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeneverland/index.html")
-},
-{
-    title: "Escape New Hampshire",
-    imgSrc: "/hdmath/hoodaescapenewhampshire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewhampshire/index.html")
-},
-{
-    title: "Hoodaescapenewhampshire 2022",
-    imgSrc: "/hdmath/hoodaescapenewhampshire2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewhampshire2022/index.html")
-},
-{
-    title: "Escape New Jersey",
-    imgSrc: "/hdmath/hoodaescapenewjersey.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewjersey/index.html")
-},
-{
-    title: "Hoodaescapenewjersey 2022",
-    imgSrc: "/hdmath/hoodaescapenewjersey2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewjersey2022/index.html")
-},
-{
-    title: "Escape New Mexico",
-    imgSrc: "/hdmath/hoodaescapenewmexico.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewmexico/index.html")
-},
-{
-    title: "Hoodaescapenewmexico 2022",
-    imgSrc: "/hdmath/hoodaescapenewmexico2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewmexico2022/index.html")
-},
-{
-    title: "Hoodaescapenewyearseve 2023",
-    imgSrc: "/hdmath/hoodaescapenewyearseve2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewyearseve2023/index.html")
-},
-{
-    title: "Escape New York",
-    imgSrc: "/hdmath/hoodaescapenewyork.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewyork/index.html")
-},
-{
-    title: "Hoodaescapenewyork 2022",
-    imgSrc: "/hdmath/hoodaescapenewyork2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewyork2022/index.html")
-},
-{
-    title: "Hoodaescapenewyorkcity 2023",
-    imgSrc: "/hdmath/hoodaescapenewyorkcity2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenewyorkcity2023/index.html")
-},
-{
-    title: "Escape North Carolina",
-    imgSrc: "/hdmath/hoodaescapenorthcarolina.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenorthcarolina/index.html")
-},
-{
-    title: "Hoodaescapenorthcarolina 2022",
-    imgSrc: "/hdmath/hoodaescapenorthcarolina2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenorthcarolina2022/index.html")
-},
-{
-    title: "Escape North Dakota",
-    imgSrc: "/hdmath/hoodaescapenorthdakota.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenorthdakota/index.html")
-},
-{
-    title: "Hoodaescapenorthdakota 2022",
-    imgSrc: "/hdmath/hoodaescapenorthdakota2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenorthdakota2022/index.html")
-},
-{
-    title: "Hoodaescapenorthpole 2023",
-    imgSrc: "/hdmath/hoodaescapenorthpole2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapenorthpole2023/index.html")
-},
-{
-    title: "Escape Ohio",
-    imgSrc: "/hdmath/hoodaescapeohio.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeohio/index.html")
-},
-{
-    title: "Hoodaescapeohio 2022",
-    imgSrc: "/hdmath/hoodaescapeohio2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeohio2022/index.html")
-},
-{
-    title: "Escape Oklahoma",
-    imgSrc: "/hdmath/hoodaescapeoklahoma.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeoklahoma/index.html")
-},
-{
-    title: "Hoodaescapeoklahoma 2022",
-    imgSrc: "/hdmath/hoodaescapeoklahoma2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeoklahoma2022/index.html")
-},
-{
-    title: "Hoodaescapeoklahomacity 2023",
-    imgSrc: "/hdmath/hoodaescapeoklahomacity2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeoklahomacity2023/index.html")
-},
-{
-    title: "Hooda Escape Olympia",
-    imgSrc: "/hdmath/hoodaescapeolympia.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeolympia/index.html")
-},
-{
-    title: "Escape Oregon",
-    imgSrc: "/hdmath/hoodaescapeoregon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeoregon/index.html")
-},
-{
-    title: "Hoodaescapeoregon 2022",
-    imgSrc: "/hdmath/hoodaescapeoregon2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeoregon2022/index.html")
-},
-{
-    title: "Hoodaescapeottawa 2024",
-    imgSrc: "/hdmath/hoodaescapeottawa2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeottawa2024/index.html")
-},
-{
-    title: "Hoodaescapeparade 2023",
-    imgSrc: "/hdmath/hoodaescapeparade2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeparade2023/index.html")
-},
-{
-    title: "Escape Pennsylvania",
-    imgSrc: "/hdmath/hoodaescapepennsylvania.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapepennsylvania/index.html")
-},
-{
-    title: "Hoodaescapepennsylvania 2022",
-    imgSrc: "/hdmath/hoodaescapepennsylvania2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapepennsylvania2022/index.html")
-},
-{
-    title: "Hoodaescapeperth 2024",
-    imgSrc: "/hdmath/hoodaescapeperth2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeperth2024/index.html")
-},
-{
-    title: "Hoodaescapepettingzoo 2024",
-    imgSrc: "/hdmath/hoodaescapepettingzoo2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapepettingzoo2024/index.html")
-},
-{
-    title: "Hoodaescapephiladelphia 2023",
-    imgSrc: "/hdmath/hoodaescapephiladelphia2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapephiladelphia2023/index.html")
-},
-{
-    title: "Escape Phoenix",
-    imgSrc: "/hdmath/hoodaescapephoenix.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapephoenix/index.html")
-},
-{
-    title: "Hoodaescapephoenix 2023",
-    imgSrc: "/hdmath/hoodaescapephoenix2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapephoenix2023/index.html")
-},
-{
-    title: "Hoodaescapepizzashop 2024",
-    imgSrc: "/hdmath/hoodaescapepizzashop2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapepizzashop2024/index.html")
-},
-{
-    title: "Hoodaescapeplayground 2024",
-    imgSrc: "/hdmath/hoodaescapeplayground2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeplayground2024/index.html")
-},
-{
-    title: "Hoodaescapepolicestation 2024",
-    imgSrc: "/hdmath/hoodaescapepolicestation2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapepolicestation2024/index.html")
-},
-{
-    title: "Hoodaescapeportland 2023",
-    imgSrc: "/hdmath/hoodaescapeportland2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeportland2023/index.html")
-},
-{
-    title: "Hoodaescapeprison 2023",
-    imgSrc: "/hdmath/hoodaescapeprison2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeprison2023/index.html")
-},
-{
-    title: "Hoodaescapepumpkinpatch 2023",
-    imgSrc: "/hdmath/hoodaescapepumpkinpatch2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapepumpkinpatch2023/index.html")
-},
-{
-    title: "Hoodaescapequebeccity 2024",
-    imgSrc: "/hdmath/hoodaescapequebeccity2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapequebeccity2024/index.html")
-},
-{
-    title: "Hoodaescaperedroom 2024",
-    imgSrc: "/hdmath/hoodaescaperedroom2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescaperedroom2024/index.html")
-},
-{
-    title: "hoodaescaperedsgrandmashouse",
-    imgSrc: "/hdmath/hoodaescaperedsgrandmashouse.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescaperedsgrandmashouse/index.html")
-},
-{
-    title: "Hoodaescaperhodeisland",
-    imgSrc: "/hdmath/hoodaescaperhodeisland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescaperhodeisland/index.html")
-},
-{
-    title: "Hoodaescaperhodeisland 2022",
-    imgSrc: "/hdmath/hoodaescaperhodeisland2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescaperhodeisland2022/index.html")
-},
-{
-    title: "Escape Rocket Ship",
-    imgSrc: "/hdmath/hoodaescaperocketship.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescaperocketship/index.html")
-},
-{
-    title: "Escape Sacramento",
-    imgSrc: "/hdmath/hoodaescapesacramento.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesacramento/index.html")
-},
-{
-    title: "Hoodaescapesacramento 2023",
-    imgSrc: "/hdmath/hoodaescapesacramento2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesacramento2023/index.html")
-},
-{
-    title: "Escape Salem",
-    imgSrc: "/hdmath/hoodaescapesalem.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesalem/index.html")
-},
-{
-    title: "Hoodaescapesanantonio 2023",
-    imgSrc: "/hdmath/hoodaescapesanantonio2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesanantonio2023/index.html")
-},
-{
-    title: "Hoodaescapesandiego 2023",
-    imgSrc: "/hdmath/hoodaescapesandiego2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesandiego2023/index.html")
-},
-{
-    title: "Hoodaescapesanfrancisco 2023",
-    imgSrc: "/hdmath/hoodaescapesanfrancisco2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesanfrancisco2023/index.html")
-},
-{
-    title: "Hoodaescapesanjose 2023",
-    imgSrc: "/hdmath/hoodaescapesanjose2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesanjose2023/index.html")
-},
-{
-    title: "Hoodaescapesciencemuseum 2023",
-    imgSrc: "/hdmath/hoodaescapesciencemuseum2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesciencemuseum2023/index.html")
-},
-{
-    title: "Hoodaescapeseattle 2023",
-    imgSrc: "/hdmath/hoodaescapeseattle2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeseattle2023/index.html")
-},
-{
-    title: "hoodaescapesherwoodforest",
-    imgSrc: "/hdmath/hoodaescapesherwoodforest.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesherwoodforest/index.html")
-},
-{
-    title: "Hoodaescapeshoppingmall 2023",
-    imgSrc: "/hdmath/hoodaescapeshoppingmall2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeshoppingmall2023/index.html")
-},
-{
-    title: "hoodaescapeskatepark",
-    imgSrc: "/hdmath/hoodaescapeskatepark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeskatepark/index.html")
-},
-{
-    title: "Hoodaescapeskilodge 2024",
-    imgSrc: "/hdmath/hoodaescapeskilodge2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeskilodge2024/index.html")
-},
-{
-    title: "Hoodaescapesnowstorm 2024",
-    imgSrc: "/hdmath/hoodaescapesnowstorm2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesnowstorm2024/index.html")
-},
-{
-    title: "Escape South Carolina",
-    imgSrc: "/hdmath/hoodaescapesouthcarolina.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesouthcarolina/index.html")
-},
-{
-    title: "Hoodaescapesouthcarolina 2022",
-    imgSrc: "/hdmath/hoodaescapesouthcarolina2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesouthcarolina2022/index.html")
-},
-{
-    title: "Escape South Dakota",
-    imgSrc: "/hdmath/hoodaescapesouthdakota.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesouthdakota/index.html")
-},
-{
-    title: "Hoodaescapesouthdakota 2022",
-    imgSrc: "/hdmath/hoodaescapesouthdakota2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesouthdakota2022/index.html")
-},
-{
-    title: "Hooda Escape Spooky Farm Mobile Game",
-    imgSrc: "/hdmath/hoodaescapespookyfarm.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapespookyfarm/index.html")
-},
-{
-    title: "Hoodaescapespringgarden 2024",
-    imgSrc: "/hdmath/hoodaescapespringgarden2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapespringgarden2024/index.html")
-},
-{
-    title: "Escape Submarine",
-    imgSrc: "/hdmath/hoodaescapesubmarine.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesubmarine/index.html")
-},
-{
-    title: "Hoodaescapesubway 2024",
-    imgSrc: "/hdmath/hoodaescapesubway2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesubway2024/index.html")
-},
-{
-    title: "Hoodaescapesummerschool 2023",
-    imgSrc: "/hdmath/hoodaescapesummerschool2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesummerschool2023/index.html")
-},
-{
-    title: "Hoodaescapesydney 2024",
-    imgSrc: "/hdmath/hoodaescapesydney2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapesydney2024/index.html")
-},
-{
-    title: "Escape Tallahassee",
-    imgSrc: "/hdmath/hoodaescapetallahassee.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetallahassee/index.html")
-},
-{
-    title: "Escape Tennessee",
-    imgSrc: "/hdmath/hoodaescapetennessee.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetennessee/index.html")
-},
-{
-    title: "Hoodaescapetennessee 2022",
-    imgSrc: "/hdmath/hoodaescapetennessee2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetennessee2022/index.html")
-},
-{
-    title: "Escape Texas",
-    imgSrc: "/hdmath/hoodaescapetexas.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetexas/index.html")
-},
-{
-    title: "Hoodaescapetexas 2022",
-    imgSrc: "/hdmath/hoodaescapetexas2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetexas2022/index.html")
-},
-{
-    title: "Hoodaescapethanksgiving 2023",
-    imgSrc: "/hdmath/hoodaescapethanksgiving2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapethanksgiving2023/index.html")
-},
-{
-    title: "hoodaescapethewickedstepsisters",
-    imgSrc: "/hdmath/hoodaescapethewickedstepsisters.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapethewickedstepsisters/index.html")
-},
-{
-    title: "Escape Topeka",
-    imgSrc: "/hdmath/hoodaescapetopeka.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetopeka/index.html")
-},
-{
-    title: "Hoodaescapetoronto 2024",
-    imgSrc: "/hdmath/hoodaescapetoronto2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetoronto2024/index.html")
-},
-{
-    title: "hoodaescapetrainstation",
-    imgSrc: "/hdmath/hoodaescapetrainstation.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetrainstation/index.html")
-},
-{
-    title: "Hoodaescapetrampolinepark 2024",
-    imgSrc: "/hdmath/hoodaescapetrampolinepark2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetrampolinepark2024/index.html")
-},
-{
-    title: "Hoodaescapetrickortreat 2023",
-    imgSrc: "/hdmath/hoodaescapetrickortreat2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetrickortreat2023/index.html")
-},
-{
-    title: "Hoodaescapetucson 2023",
-    imgSrc: "/hdmath/hoodaescapetucson2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapetucson2023/index.html")
-},
-{
-    title: "Escape Ufo",
-    imgSrc: "/hdmath/hoodaescapeufo.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeufo/index.html")
-},
-{
-    title: "Escape Utah",
-    imgSrc: "/hdmath/hoodaescapeutah.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeutah/index.html")
-},
-{
-    title: "Hoodaescapeutah 2022",
-    imgSrc: "/hdmath/hoodaescapeutah2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapeutah2022/index.html")
-},
-{
-    title: "Hoodaescapevalentinesday 2024",
-    imgSrc: "/hdmath/hoodaescapevalentinesday2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapevalentinesday2024/index.html")
-},
-{
-    title: "Hoodaescapevancouver 2024",
-    imgSrc: "/hdmath/hoodaescapevancouver2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapevancouver2024/index.html")
-},
-{
-    title: "Escape Vermont",
-    imgSrc: "/hdmath/hoodaescapevermont.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapevermont/index.html")
-},
-{
-    title: "Hoodaescapevermont 2022",
-    imgSrc: "/hdmath/hoodaescapevermont2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapevermont2022/index.html")
-},
-{
-    title: "Escape Virginia",
-    imgSrc: "/hdmath/hoodaescapevirginia.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapevirginia/index.html")
-},
-{
-    title: "Hoodaescapevirginia 2022",
-    imgSrc: "/hdmath/hoodaescapevirginia2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapevirginia2022/index.html")
-},
-{
-    title: "Escape Washington",
-    imgSrc: "/hdmath/hoodaescapewashington.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewashington/index.html")
-},
-{
-    title: "Hoodaescapewashington 2022",
-    imgSrc: "/hdmath/hoodaescapewashington2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewashington2022/index.html")
-},
-{
-    title: "Hoodaescapewashingtondc 2023",
-    imgSrc: "/hdmath/hoodaescapewashingtondc2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewashingtondc2023/index.html")
-},
-{
-    title: "Hooda Escape Water Park Mobile Game",
-    imgSrc: "/hdmath/hoodaescapewaterpark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewaterpark/index.html")
-},
-{
-    title: "Hoodaescapewaterpark 2023",
-    imgSrc: "/hdmath/hoodaescapewaterpark2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewaterpark2023/index.html")
-},
-{
-    title: "West Virginia",
-    imgSrc: "/hdmath/hoodaescapewestvirginia.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewestvirginia/index.html")
-},
-{
-    title: "Hoodaescapewestvirginia 2022",
-    imgSrc: "/hdmath/hoodaescapewestvirginia2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewestvirginia2022/index.html")
-},
-{
-    title: "Hoodaescapewinnipeg 2024",
-    imgSrc: "/hdmath/hoodaescapewinnipeg2024.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewinnipeg2024/index.html")
-},
-{
-    title: "Escape Wisconsin",
-    imgSrc: "/hdmath/hoodaescapewisconsin.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewisconsin/index.html")
-},
-{
-    title: "Hoodaescapewisconsin 2022",
-    imgSrc: "/hdmath/hoodaescapewisconsin2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewisconsin2022/index.html")
-},
-{
-    title: "hoodaescapewithaladdinslamp",
-    imgSrc: "/hdmath/hoodaescapewithaladdinslamp.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithaladdinslamp/index.html")
-},
-{
-    title: "hoodaescapewithbeauty",
-    imgSrc: "/hdmath/hoodaescapewithbeauty.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithbeauty/index.html")
-},
-{
-    title: "hoodaescapewithfrank",
-    imgSrc: "/hdmath/hoodaescapewithfrank.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithfrank/index.html")
-},
-{
-    title: "hoodaescapewithgoldilocks",
-    imgSrc: "/hdmath/hoodaescapewithgoldilocks.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithgoldilocks/index.html")
-},
-{
-    title: "Hans and Grettel",
-    imgSrc: "/hdmath/hoodaescapewithhanselandgretel.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithhanselandgretel/index.html")
-},
-{
-    title: "hoodaescapewithjack",
-    imgSrc: "/hdmath/hoodaescapewithjack.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithjack/index.html")
-},
-{
-    title: "hoodaescapewithrapunzel",
-    imgSrc: "/hdmath/hoodaescapewithrapunzel.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithrapunzel/index.html")
-},
-{
-    title: "hoodaescapewithsnowwhite",
-    imgSrc: "/hdmath/hoodaescapewithsnowwhite.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithsnowwhite/index.html")
-},
-{
-    title: "Escape with Spooky",
-    imgSrc: "/hdmath/hoodaescapewithspooky.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithspooky/index.html")
-},
-{
-    title: "hoodaescapewithtom",
-    imgSrc: "/hdmath/hoodaescapewithtom.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewithtom/index.html")
-},
-{
-    title: "hoodaescapewonderland",
-    imgSrc: "/hdmath/hoodaescapewonderland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewonderland/index.html")
-},
-{
-    title: "Escape Wyoming",
-    imgSrc: "/hdmath/hoodaescapewyoming.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewyoming/index.html")
-},
-{
-    title: "Hoodaescapewyoming 2022",
-    imgSrc: "/hdmath/hoodaescapewyoming2022.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapewyoming2022/index.html")
-},
-{
-    title: "Hoodaescapezoo 2023",
-    imgSrc: "/hdmath/hoodaescapezoo2023.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaescapezoo2023/index.html")
-},
-{
-    title: "hoodafindhqdonutshop",
-    imgSrc: "/hdmath/hoodafindhqdonutshop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodafindhqdonutshop/index.html")
-},
-{
-    title: "hoodafindhqfort",
-    imgSrc: "/hdmath/hoodafindhqfort.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodafindhqfort/index.html")
-},
-{
-    title: "hoodafindhqpark",
-    imgSrc: "/hdmath/hoodafindhqpark.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodafindhqpark/index.html")
-},
-{
-    title: "hoodafindhqpolicestation",
-    imgSrc: "/hdmath/hoodafindhqpolicestation.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodafindhqpolicestation/index.html")
-},
-{
-    title: "hoodafindhqsubway",
-    imgSrc: "/hdmath/hoodafindhqsubway.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodafindhqsubway/index.html")
-},
-{
-    title: "Hooda Grow Aquarium",
-    imgSrc: "/hdmath/hoodagrowaquarium.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodagrowaquarium/index.html")
-},
-{
-    title: "hoodagrowcanyon",
-    imgSrc: "/hdmath/hoodagrowcanyon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodagrowcanyon/index.html")
-},
-{
-    title: "Hooda Grow City",
-    imgSrc: "/hdmath/hoodagrowcity.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodagrowcity/index.html")
-},
-{
-    title: "hoodagrowmountain",
-    imgSrc: "/hdmath/hoodagrowmountain.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodagrowmountain/index.html")
-},
-{
-    title: "Hooda Grow Rocket",
-    imgSrc: "/hdmath/hoodagrowrocket.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodagrowrocket/index.html")
-},
-{
-    title: "Hoodamathdefense",
-    imgSrc: "/hdmath/hoodamathdefense.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathdefense/index.html")
-},
-{
-    title: "hoodamathescaperoomalbany",
-    imgSrc: "/hdmath/hoodamathescaperoomalbany.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomalbany/index.html")
-},
-{
-    title: "Hooda Escape Annapolis",
-    imgSrc: "/hdmath/hoodamathescaperoomannapolis.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomannapolis/index.html")
-},
-{
-    title: "Hooda Escape",
-    imgSrc: "/hdmath/hoodamathescaperoomatlanta.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomatlanta/index.html")
-},
-{
-    title: "Hooda Escape Austin",
-    imgSrc: "/hdmath/hoodamathescaperoomaustin.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomaustin/index.html")
-},
-{
-    title: "Hooda Escape Room Baton Rouge",
-    imgSrc: "/hdmath/hoodamathescaperoombatonrouge.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoombatonrouge/index.html")
-},
-{
-    title: "Escape Room Bismarck",
-    imgSrc: "/hdmath/hoodamathescaperoombismarck.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoombismarck/index.html")
-},
-{
-    title: "Hooda Escape Room Boston",
-    imgSrc: "/hdmath/hoodamathescaperoomboston.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomboston/index.html")
-},
-{
-    title: "Hooda Escape Carson City",
-    imgSrc: "/hdmath/hoodamathescaperoomcarsoncity.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomcarsoncity/index.html")
-},
-{
-    title: "Hooda Escape Charleston",
-    imgSrc: "/hdmath/hoodamathescaperoomcharleston.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomcharleston/index.html")
-},
-{
-    title: "Hooda Escape Columbus",
-    imgSrc: "/hdmath/hoodamathescaperoomcolumbus.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomcolumbus/index.html")
-},
-{
-    title: "Fiond HQ Concord",
-    imgSrc: "/hdmath/hoodamathescaperoomconcord.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomconcord/index.html")
-},
-{
-    title: "Escape Room Des Moines",
-    imgSrc: "/hdmath/hoodamathescaperoomdesmoines.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomdesmoines/index.html")
-},
-{
-    title: "Hooda Escape Dover",
-    imgSrc: "/hdmath/hoodamathescaperoomdover.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomdover/index.html")
-},
-{
-    title: "Hooda Escape Frankfort",
-    imgSrc: "/hdmath/hoodamathescaperoomfrankfort.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomfrankfort/index.html")
-},
-{
-    title: "Hooda Escape Harrisburg",
-    imgSrc: "/hdmath/hoodamathescaperoomharrisburg.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomharrisburg/index.html")
-},
-{
-    title: "Hooda Math Escape Room Hartford",
-    imgSrc: "/hdmath/hoodamathescaperoomhartford.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomhartford/index.html")
-},
-{
-    title: "Hooda Escape Helena",
-    imgSrc: "/hdmath/hoodamathescaperoomhelena.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomhelena/index.html")
-},
-{
-    title: "Hooda Escape Jefferson City",
-    imgSrc: "/hdmath/hoodamathescaperoomjeffersoncity.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomjeffersoncity/index.html")
-},
-{
-    title: "Escape Lansing",
-    imgSrc: "/hdmath/hoodamathescaperoomlansing.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomlansing/index.html")
-},
-{
-    title: "Escape Room Lincoln",
-    imgSrc: "/hdmath/hoodamathescaperoomlincoln.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomlincoln/index.html")
-},
-{
-    title: "Hooda Escape Montgomery",
-    imgSrc: "/hdmath/hoodamathescaperoommontgomery.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoommontgomery/index.html")
-},
-{
-    title: "Hooda Escape Montpelier",
-    imgSrc: "/hdmath/hoodamathescaperoommontpelier.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoommontpelier/index.html")
-},
-{
-    title: "Hooda Escape Room Oklahoma City",
-    imgSrc: "/hdmath/hoodamathescaperoomoklahomacity.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomoklahomacity/index.html")
-},
-{
-    title: "Hooda Escape Pierre",
-    imgSrc: "/hdmath/hoodamathescaperoompierre.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoompierre/index.html")
-},
-{
-    title: "Hooda Escape Room Providence",
-    imgSrc: "/hdmath/hoodamathescaperoomprovidence.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomprovidence/index.html")
-},
-{
-    title: "Escape Room PSL",
-    imgSrc: "/hdmath/hoodamathescaperoompsl.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoompsl/index.html")
-},
-{
-    title: "Hooda Escape Raleigh",
-    imgSrc: "/hdmath/hoodamathescaperoomraleigh.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomraleigh/index.html")
-},
-{
-    title: "Hooda Escape Richmond",
-    imgSrc: "/hdmath/hoodamathescaperoomrichmond.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomrichmond/index.html")
-},
-{
-    title: "Hooda Escape Salt Lake City",
-    imgSrc: "/hdmath/hoodamathescaperoomsaltlakecity.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomsaltlakecity/index.html")
-},
-{
-    title: "Hooda Escape Springfield",
-    imgSrc: "/hdmath/hoodamathescaperoomspringfield.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomspringfield/index.html")
-},
-{
-    title: "Hooda Escape St Paul",
-    imgSrc: "/hdmath/hoodamathescaperoomstpaul.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomstpaul/index.html")
-},
-{
-    title: "Hooda Escape Trenton",
-    imgSrc: "/hdmath/hoodamathescaperoomtrenton.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodamathescaperoomtrenton/index.html")
-},
-{
-    title: "Hooda Remover",
-    imgSrc: "/hdmath/hoodaremover.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaremover/index.html")
-},
-{
-    title: "Hooda Room Escape 1",
-    imgSrc: "/hdmath/hoodaroomescape1.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaroomescape1/index.html")
-},
-{
-    title: "Hooda Room Escape 2",
-    imgSrc: "/hdmath/hoodaroomescape2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaroomescape2/index.html")
-},
-{
-    title: "Room Escape 3",
-    imgSrc: "/hdmath/hoodaroomescape3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaroomescape3/index.html")
-},
-{
-    title: "Room Escape 4",
-    imgSrc: "/hdmath/hoodaroomescape4.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaroomescape4/index.html")
-},
-{
-    title: "Room Escape 5",
-    imgSrc: "/hdmath/hoodaroomescape5.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodaroomescape5/index.html")
-},
-{
-    title: "Hoodasdrivethru",
-    imgSrc: "/hdmath/hoodasdrivethru.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodasdrivethru/index.html")
-},
-{
-    title: "Slice",
-    imgSrc: "/hdmath/hoodasliceit.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodasliceit/index.html")
-},
-{
-    title: "Hooda Stacker Game",
-    imgSrc: "/hdmath/hoodastacker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodastacker/index.html")
-},
-{
-    title: "Hooda Stacker 2",
-    imgSrc: "/hdmath/hoodastacker2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodastacker2/index.html")
-},
-{
-    title: "Hooda Tiny Fishing",
-    imgSrc: "/hdmath/hoodatinyfishing.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodatinyfishing/index.html")
-},
-{
-    title: "Tunnel",
-    imgSrc: "/hdmath/hoodatunnel.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodatunnel/index.html")
-},
-{
-    title: "hoodawhat",
-    imgSrc: "/hdmath/hoodawhat.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodawhat/index.html")
-},
-{
-    title: "hoodawhat2",
-    imgSrc: "/hdmath/hoodawhat2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoodawhat2/index.html")
-},
-{
-    title: "Hoo Goo Game",
-    imgSrc: "/hdmath/hoogoo.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hoogoo/index.html")
-},
-{
-    title: "Hotel Hooda",
-    imgSrc: "/hdmath/hotelhooda.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hotelhooda/index.html")
-},
-{
-    title: "Hot Java",
-    imgSrc: "/hdmath/hotjava.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/hotjava/index.html")
-},
-{
-    title: "House Painter",
-    imgSrc: "/hdmath/housepainter.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/housepainter/index.html")
-},
-{
-    title: "Howsmartareyou",
-    imgSrc: "/hdmath/howsmartareyou.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/howsmartareyou/index.html")
-},
-{
-    title: "Ice Cream Truck",
-    imgSrc: "/hdmath/icecreamtruck.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/icecreamtruck/index.html")
-},
-{
-    title: "Icy Purple Head 2",
-    imgSrc: "/hdmath/icypurplehead2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/icypurplehead2/index.html")
-},
-{
-    title: "Icy Purple Head",
-    imgSrc: "/hdmath/icypurplehead3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/icypurplehead3/index.html")
-},
-{
-    title: "Created with GameMaker Studio 2",
-    imgSrc: "/hdmath/idlebreakout.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/idlebreakout/index.html")
-},
-{
-    title: "Innkeeper",
-    imgSrc: "/hdmath/innkeeper.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/innkeeper/index.html")
-},
-{
-    title: "Integers Timed Tests",
-    imgSrc: "/hdmath/integerstimedtests.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/integerstimedtests/index.html")
-},
-{
-    title: "Integertilt",
-    imgSrc: "/hdmath/integertilt.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/integertilt/index.html")
-},
-{
-    title: "intospace",
-    imgSrc: "/hdmath/intospace.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/intospace/index.html")
-},
-{
-    title: "Jelly Slice",
-    imgSrc: "/hdmath/jellyslice.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/jellyslice/index.html")
-},
-{
-    title: "KLONDIKE",
-    imgSrc: "/hdmath/klondikesolitaire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/klondikesolitaire/index.html")
-},
-{
-    title: "Lava Snake",
-    imgSrc: "/hdmath/lavasnake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/lavasnake/index.html")
-},
-{
-    title: "Learntofly",
-    imgSrc: "/hdmath/learntofly.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/learntofly/index.html")
-},
-{
-    title: "Learntofly 3",
-    imgSrc: "/hdmath/learntofly3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/learntofly3/index.html")
-},
-{
-    title: "Learntoflyidle",
-    imgSrc: "/hdmath/learntoflyidle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/learntoflyidle/index.html")
-},
-{
-    title: "Lemonade Stand",
-    imgSrc: "/hdmath/lemonadestand.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/lemonadestand/index.html")
-},
-{
-    title: "Trap Path",
-    imgSrc: "/hdmath/leveldeviltrappath.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/leveldeviltrappath/index.html")
-},
-{
-    title: "lightbot",
-    imgSrc: "/hdmath/lightbot.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/lightbot/index.html")
-},
-{
-    title: "Lighto",
-    imgSrc: "/hdmath/lighto.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/lighto/index.html")
-},
-{
-    title: "linebounder",
-    imgSrc: "/hdmath/linebounder.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/linebounder/index.html")
-},
-{
-    title: "Line To Bathroom",
-    imgSrc: "/hdmath/linetobathroom.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/linetobathroom/index.html")
-},
-{
-    title: "Line to Cashier",
-    imgSrc: "/hdmath/linetocashier.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/linetocashier/index.html")
-},
-{
-    title: "liquidmeasure",
-    imgSrc: "/hdmath/liquidmeasure.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/liquidmeasure/index.html")
-},
-{
-    title: "Liquid Sort",
-    imgSrc: "/hdmath/liquidsort.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/liquidsort/index.html")
-},
-{
-    title: "Loot the King",
-    imgSrc: "/hdmath/loottheking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/loottheking/index.html")
-},
-{
-    title: "Losthead",
-    imgSrc: "/hdmath/losthead.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/losthead/index.html")
-},
-{
-    title: "loveballs",
-    imgSrc: "/hdmath/loveballs.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/loveballs/index.html")
-},
-{
-    title: "Low's adventures",
-    imgSrc: "/hdmath/lowsadventures.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/lowsadventures/index.html")
-},
-{
-    title: "Low's Adventures 2",
-    imgSrc: "/hdmath/lowsadventures2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/lowsadventures2/index.html")
-},
-{
-    title: "Low's Adventures 3",
-    imgSrc: "/hdmath/lowsadventures3.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/lowsadventures3/index.html")
-},
-{
-    title: "Magicpen",
-    imgSrc: "/hdmath/magicpen.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/magicpen/index.html")
-},
-{
-    title: "Magicpen 2",
-    imgSrc: "/hdmath/magicpen2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/magicpen2/index.html")
-},
-{
-    title: "makechallah",
-    imgSrc: "/hdmath/makechallah.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/makechallah/index.html")
-},
-{
-    title: "makechocolatecake",
-    imgSrc: "/hdmath/makechocolatecake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/makechocolatecake/index.html")
-},
-{
-    title: "Mancala Game",
-    imgSrc: "/hdmath/mancala.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mancala/index.html")
-},
-{
-    title: "mansionmogul",
-    imgSrc: "/hdmath/mansionmogul.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mansionmogul/index.html")
-},
-{
-    title: "Math Duck",
-    imgSrc: "/hdmath/mathduck.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mathduck/index.html")
-},
-{
-    title: "Math Timed Tests",
-    imgSrc: "/hdmath/mathtimedtests.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mathtimedtests/index.html")
-},
-{
-    title: "Math Timed Tests 2",
-    imgSrc: "/hdmath/mathtimedtests2.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mathtimedtests2/index.html")
-},
-{
-    title: "mealmasters",
-    imgSrc: "/hdmath/mealmasters.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mealmasters/index.html")
-},
-{
-    title: "mealmasters2",
-    imgSrc: "/hdmath/mealmasters2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mealmasters2/index.html")
-},
-{
-    title: "mealmasters3",
-    imgSrc: "/hdmath/mealmasters3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mealmasters3/index.html")
-},
-{
-    title: "measureandmixblueberrymuffins",
-    imgSrc: "/hdmath/measureandmixblueberrymuffins.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/measureandmixblueberrymuffins/index.html")
-},
-{
-    title: "measureandmixchocolatecake",
-    imgSrc: "/hdmath/measureandmixchocolatecake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/measureandmixchocolatecake/index.html")
-},
-{
-    title: "measureandmixchocolatechipcookies",
-    imgSrc: "/hdmath/measureandmixchocolatechipcookies.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/measureandmixchocolatechipcookies/index.html")
-},
-{
-    title: "measureandmixdonuts",
-    imgSrc: "/hdmath/measureandmixdonuts.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/measureandmixdonuts/index.html")
-},
-{
-    title: "measureandmixfudgebrownies",
-    imgSrc: "/hdmath/measureandmixfudgebrownies.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/measureandmixfudgebrownies/index.html")
-},
-{
-    title: "measureandmixpancakes",
-    imgSrc: "/hdmath/measureandmixpancakes.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/measureandmixpancakes/index.html")
-},
-{
-    title: "measureandmixpretzels",
-    imgSrc: "/hdmath/measureandmixpretzels.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/measureandmixpretzels/index.html")
-},
-{
-    title: "CityMall",
-    imgSrc: "/hdmath/megamallmadness.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/megamallmadness/index.html")
-},
-{
-    title: "Melody's Adventure",
-    imgSrc: "/hdmath/melodysadventure.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/melodysadventure/index.html")
-},
-{
-    title: "Miniclipbaseball",
-    imgSrc: "/hdmath/miniclipbaseball.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/miniclipbaseball/index.html")
-},
-{
-    title: "Mini Golf",
-    imgSrc: "/hdmath/minigolf.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/minigolf/index.html")
-},
-{
-    title: "Miniputt",
-    imgSrc: "/hdmath/miniputt.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/miniputt/index.html")
-},
-{
-    title: "miniputt2",
-    imgSrc: "/hdmath/miniputt2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/miniputt2/index.html")
-},
-{
-    title: "Miniputt 3",
-    imgSrc: "/hdmath/miniputt3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/miniputt3/index.html")
-},
-{
-    title: "minitrain",
-    imgSrc: "/hdmath/minitrain.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/minitrain/index.html")
-},
-{
-    title: "Mixedworld",
-    imgSrc: "/hdmath/mixedworld.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mixedworld/index.html")
-},
-{
-    title: "Moborz",
-    imgSrc: "/hdmath/moborz.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/moborz/index.html")
-},
-{
-    title: "Monsterland",
-    imgSrc: "/hdmath/monsterland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/monsterland/index.html")
-},
-{
-    title: "montgolfier",
-    imgSrc: "/hdmath/montgolfier.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/montgolfier/index.html")
-},
-{
-    title: "motorcycletycoon",
-    imgSrc: "/hdmath/motorcycletycoon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/motorcycletycoon/index.html")
-},
-{
-    title: "mountain bike runner",
-    imgSrc: "/hdmath/mountainbikerunner.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mountainbikerunner/index.html")
-},
-{
-    title: "Mouse Trap Game",
-    imgSrc: "/hdmath/mousetrap.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mousetrap/index.html")
-},
-{
-    title: "Move The Pin",
-    imgSrc: "/hdmath/movethepin.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/movethepin/index.html")
-},
-{
-    title: "Mr. Smith",
-    imgSrc: "/hdmath/mrsmithpicsandwords.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mrsmithpicsandwords/index.html")
-},
-{
-    title: "Bubble Pop - Multiplication Game",
-    imgSrc: "/hdmath/multiplicationbubblepop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/multiplicationbubblepop/index.html")
-},
-{
-    title: "Multiplication",
-    imgSrc: "/hdmath/multiplicationgame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/multiplicationgame/index.html")
-},
-{
-    title: "Multiplication Skydiver Game",
-    imgSrc: "/hdmath/multiplicationskydiver.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/multiplicationskydiver/index.html")
-},
-{
-    title: "Munchie Bob",
-    imgSrc: "/hdmath/munchiebob.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/munchiebob/index.html")
-},
-{
-    title: "mustescapelighthouseisland",
-    imgSrc: "/hdmath/mustescapelighthouseisland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapelighthouseisland/index.html")
-},
-{
-    title: "mustescapethebakery",
-    imgSrc: "/hdmath/mustescapethebakery.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethebakery/index.html")
-},
-{
-    title: "mustescapetheburgerjoint",
-    imgSrc: "/hdmath/mustescapetheburgerjoint.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetheburgerjoint/index.html")
-},
-{
-    title: "mustescapethecastle",
-    imgSrc: "/hdmath/mustescapethecastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethecastle/index.html")
-},
-{
-    title: "mustescapetheclocktower",
-    imgSrc: "/hdmath/mustescapetheclocktower.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetheclocktower/index.html")
-},
-{
-    title: "mustescapethefactory",
-    imgSrc: "/hdmath/mustescapethefactory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethefactory/index.html")
-},
-{
-    title: "mustescapethefarm",
-    imgSrc: "/hdmath/mustescapethefarm.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethefarm/index.html")
-},
-{
-    title: "mustescapethefortress",
-    imgSrc: "/hdmath/mustescapethefortress.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethefortress/index.html")
-},
-{
-    title: "mustescapetheicecastle",
-    imgSrc: "/hdmath/mustescapetheicecastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetheicecastle/index.html")
-},
-{
-    title: "mustescapetheicecave",
-    imgSrc: "/hdmath/mustescapetheicecave.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetheicecave/index.html")
-},
-{
-    title: "mustescapetheisland",
-    imgSrc: "/hdmath/mustescapetheisland.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetheisland/index.html")
-},
-{
-    title: "mustescapethemuseum",
-    imgSrc: "/hdmath/mustescapethemuseum.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethemuseum/index.html")
-},
-{
-    title: "mustescapethepetshop",
-    imgSrc: "/hdmath/mustescapethepetshop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethepetshop/index.html")
-},
-{
-    title: "mustescapetheplayground",
-    imgSrc: "/hdmath/mustescapetheplayground.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetheplayground/index.html")
-},
-{
-    title: "mustescapetherooftop",
-    imgSrc: "/hdmath/mustescapetherooftop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetherooftop/index.html")
-},
-{
-    title: "mustescapethesewer",
-    imgSrc: "/hdmath/mustescapethesewer.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethesewer/index.html")
-},
-{
-    title: "Mustescapetheshoppingmall",
-    imgSrc: "/hdmath/mustescapetheshoppingmall.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapetheshoppingmall/index.html")
-},
-{
-    title: "mustescapethesubway",
-    imgSrc: "/hdmath/mustescapethesubway.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethesubway/index.html")
-},
-{
-    title: "mustescapethetemple",
-    imgSrc: "/hdmath/mustescapethetemple.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethetemple/index.html")
-},
-{
-    title: "mustescapethewizardscastle",
-    imgSrc: "/hdmath/mustescapethewizardscastle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/mustescapethewizardscastle/index.html")
-},
-{
-    title: "Neon_Rocket",
-    imgSrc: "/hdmath/neonrocket.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/neonrocket/index.html")
-},
-{
-    title: "Ninja Balloons",
-    imgSrc: "/hdmath/ninjaballoons.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ninjaballoons/index.html")
-},
-{
-    title: "Ninja Frog Web",
-    imgSrc: "/hdmath/ninjafrog.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ninjafrog/index.html")
-},
-{
-    title: "ninjapainter",
-    imgSrc: "/hdmath/ninjapainter.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ninjapainter/index.html")
-},
-{
-    title: "ninjapainter2",
-    imgSrc: "/hdmath/ninjapainter2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/ninjapainter2/index.html")
-},
-{
-    title: "Number Eaters",
-    imgSrc: "/hdmath/numbereaters.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/numbereaters/index.html")
-},
-{
-    title: "NumberSnake",
-    imgSrc: "/hdmath/numbersnake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/numbersnake/index.html")
-},
-{
-    title: "Oblong Game",
-    imgSrc: "/hdmath/oblong.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/oblong/index.html")
-},
-{
-    title: "Omit Orange",
-    imgSrc: "/hdmath/omitorange.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/omitorange/index.html")
-},
-{
-    title: "Omit Orange 2",
-    imgSrc: "/hdmath/omitorange2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/omitorange2/index.html")
-},
-{
-    title: "Open Restaurant",
-    imgSrc: "/hdmath/openrestaurant.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/openrestaurant/index.html")
-},
-{
-    title: "Oppositeday",
-    imgSrc: "/hdmath/oppositeday.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/oppositeday/index.html")
-},
-{
-    title: "Oppositeday 2",
-    imgSrc: "/hdmath/oppositeday2.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/oppositeday2/index.html")
-},
-{
-    title: "orange",
-    imgSrc: "/hdmath/orange.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/orange/index.html")
-},
-{
-    title: "paintersguild",
-    imgSrc: "/hdmath/paintersguild.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/paintersguild/index.html")
-},
-{
-    title: "Papalouie",
-    imgSrc: "/hdmath/papalouie.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/papalouie/index.html")
-},
-{
-    title: "Papalouie 2",
-    imgSrc: "/hdmath/papalouie2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/papalouie2/index.html")
-},
-{
-    title: "Papalouie 3",
-    imgSrc: "/hdmath/papalouie3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/papalouie3/index.html")
-},
-{
-    title: "Papaspizzeria",
-    imgSrc: "/hdmath/papaspizzeria.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/papaspizzeria/index.html")
-},
-{
-    title: "Parkingfury",
-    imgSrc: "/hdmath/parkingfury.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/parkingfury/index.html")
-},
-{
-    title: "parkingfury2",
-    imgSrc: "/hdmath/parkingfury2.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/parkingfury2/index.html")
-},
-{
-    title: "Parkingfury 3",
-    imgSrc: "/hdmath/parkingfury3.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/parkingfury3/index.html")
-},
-{
-    title: "parkinglot",
-    imgSrc: "/hdmath/parkinglot.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/parkinglot/index.html")
-},
-{
-    title: "parkinglot2",
-    imgSrc: "/hdmath/parkinglot2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/parkinglot2/index.html")
-},
-{
-    title: "parkinglot3",
-    imgSrc: "/hdmath/parkinglot3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/parkinglot3/index.html")
-},
-{
-    title: "parkingvirtuoso",
-    imgSrc: "/hdmath/parkingvirtuoso.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/parkingvirtuoso/index.html")
-},
-{
-    title: "PENALTY KICKS",
-    imgSrc: "/hdmath/penaltykicks.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/penaltykicks/index.html")
-},
-{
-    title: "Penalty Mania",
-    imgSrc: "/hdmath/penaltymania.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/penaltymania/index.html")
-},
-{
-    title: "penguinpass",
-    imgSrc: "/hdmath/penguinpass.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/penguinpass/index.html")
-},
-{
-    title: "pentapuzzle",
-    imgSrc: "/hdmath/pentapuzzle.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pentapuzzle/index.html")
-},
-{
-    title: "Pet Stand",
-    imgSrc: "/hdmath/petstand.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/petstand/index.html")
-},
-{
-    title: "Phantomb",
-    imgSrc: "/hdmath/phantomb.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/phantomb/index.html")
-},
-{
-    title: "phit",
-    imgSrc: "/hdmath/phit.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/phit/index.html")
-},
-{
-    title: "Piano Tiles - Multiple Songs, Fixed Score",
-    imgSrc: "/hdmath/pianotiles.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pianotiles/index.html")
-},
-{
-    title: "Pirate Treasure Quotient Game",
-    imgSrc: "/hdmath/piratetreasurequotientgame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/piratetreasurequotientgame/index.html")
-},
-{
-    title: "Pizza Party",
-    imgSrc: "/hdmath/pizzaparty.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pizzaparty/index.html")
-},
-{
-    title: "planetf",
-    imgSrc: "/hdmath/planetf.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/planetf/index.html")
-},
-{
-    title: "Poker Dice Solitaire",
-    imgSrc: "/hdmath/pokerdicesolitaire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pokerdicesolitaire/index.html")
-},
-{
-    title: "Popcorn Master",
-    imgSrc: "/hdmath/popcornmaster.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/popcornmaster/index.html")
-},
-{
-    title: "Popsicle Clicker",
-    imgSrc: "/hdmath/popsicleclicker.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/popsicleclicker/index.html")
-},
-{
-    title: "Prime Factor Tree Game",
-    imgSrc: "/hdmath/primefactortreegame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/primefactortreegame/index.html")
-},
-{
-    title: "Princessmath",
-    imgSrc: "/hdmath/princessmath.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/princessmath/index.html")
-},
-{
-    title: "proseandmotion",
-    imgSrc: "/hdmath/proseandmotion.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/proseandmotion/index.html")
-},
-{
-    title: "Pumpkin Patch Multiplication Hunt",
-    imgSrc: "/hdmath/pumpkinpatchmultiplication.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pumpkinpatchmultiplication/index.html")
-},
-{
-    title: "Puppet Hockey Battle",
-    imgSrc: "/hdmath/puppethockey.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/puppethockey/index.html")
-},
-{
-    title: "pursuitofhat",
-    imgSrc: "/hdmath/pursuitofhat.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pursuitofhat/index.html")
-},
-{
-    title: "pursuitofhat2",
-    imgSrc: "/hdmath/pursuitofhat2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pursuitofhat2/index.html")
-},
-{
-    title: "PYRAMID SOLITAIRE",
-    imgSrc: "/hdmath/pyramidsolitaire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/pyramidsolitaire/index.html")
-},
-{
-    title: "Rabbit Run Web",
-    imgSrc: "/hdmath/rabbitrunadventure.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rabbitrunadventure/index.html")
-},
-{
-    title: "rainwords",
-    imgSrc: "/hdmath/rainwords.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rainwords/index.html")
-},
-{
-    title: "realestatefun",
-    imgSrc: "/hdmath/realestatefun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/realestatefun/index.html")
-},
-{
-    title: "Rearrange Letters",
-    imgSrc: "/hdmath/rearrangeletters.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rearrangeletters/index.html")
-},
-{
-    title: "recordshoptycoon",
-    imgSrc: "/hdmath/recordshoptycoon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/recordshoptycoon/index.html")
-},
-{
-    title: "Redball 1",
-    imgSrc: "/hdmath/redball1.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/redball1/index.html")
-},
-{
-    title: "Redball 4 Volume 2",
-    imgSrc: "/hdmath/redball4volume2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/redball4volume2/index.html")
-},
-{
-    title: "redball4volume3",
-    imgSrc: "/hdmath/redball4volume3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/redball4volume3/index.html")
-},
-{
-    title: "redremover",
-    imgSrc: "/hdmath/redremover.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/redremover/index.html")
-},
-{
-    title: "redremoverplayerpack",
-    imgSrc: "/hdmath/redremoverplayerpack.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/redremoverplayerpack/index.html")
-},
-{
-    title: "Resizer",
-    imgSrc: "/hdmath/resizer.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/resizer/index.html")
-},
-{
-    title: "resortempire",
-    imgSrc: "/hdmath/resortempire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/resortempire/index.html")
-},
-{
-    title: "Pong Classic",
-    imgSrc: "/hdmath/retropingpong.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/retropingpong/index.html")
-},
-{
-    title: "Snake Game with Eating Sound (640x480)",
-    imgSrc: "/hdmath/retrosnake.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/retrosnake/index.html")
-},
-{
-    title: "reverseparking",
-    imgSrc: "/hdmath/reverseparking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/reverseparking/index.html")
-},
-{
-    title: "REVERSI",
-    imgSrc: "/hdmath/reversi.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/reversi/index.html")
-},
-{
-    title: "Rise Higher",
-    imgSrc: "/hdmath/risehigher.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/risehigher/index.html")
-},
-{
-    title: "roadshops",
-    imgSrc: "/hdmath/roadshops.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/roadshops/index.html")
-},
-{
-    title: "Unity WebGL Player | Rodha",
-    imgSrc: "/hdmath/rodha.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rodha/index.html")
-},
-{
-    title: "Rollercoastercreator",
-    imgSrc: "/hdmath/rollercoastercreator.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rollercoastercreator/index.html")
-},
-{
-    title: "rollercoastercreator2",
-    imgSrc: "/hdmath/rollercoastercreator2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rollercoastercreator2/index.html")
-},
-{
-    title: "ROLLING BALL 3D",
-    imgSrc: "/hdmath/rollingball3d.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rollingball3d/index.html")
-},
-{
-    title: "rootcollector",
-    imgSrc: "/hdmath/rootcollector.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rootcollector/index.html")
-},
-{
-    title: "Rotateandroll",
-    imgSrc: "/hdmath/rotateandroll.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rotateandroll/index.html")
-},
-{
-    title: "rotateandrollplayerspack",
-    imgSrc: "/hdmath/rotateandrollplayerspack.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/rotateandrollplayerspack/index.html")
-},
-{
-    title: "Run 2",
-    imgSrc: "/hdmath/run2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/run2/index.html")
-},
-{
-    title: "Sandgrid",
-    imgSrc: "/hdmath/sandgrid.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sandgrid/index.html")
-},
-{
-    title: "Sand Trap - Put It in the Pail",
-    imgSrc: "/hdmath/sandtrap.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sandtrap/index.html")
-},
-{
-    title: "Santarun 2",
-    imgSrc: "/hdmath/santarun2.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/santarun2/index.html")
-},
-{
-    title: "Santarun 3",
-    imgSrc: "/hdmath/santarun3.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/santarun3/index.html")
-},
-{
-    title: "Savemyrobotos",
-    imgSrc: "/hdmath/savemyrobotos.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/savemyrobotos/index.html")
-},
-{
-    title: "shopempire2",
-    imgSrc: "/hdmath/shopempire2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/shopempire2/index.html")
-},
-{
-    title: "shoppingcartdash",
-    imgSrc: "/hdmath/shoppingcartdash.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/shoppingcartdash/index.html")
-},
-{
-    title: "shoppingcity",
-    imgSrc: "/hdmath/shoppingcity.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/shoppingcity/index.html")
-},
-{
-    title: "shoppingcorner",
-    imgSrc: "/hdmath/shoppingcorner.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/shoppingcorner/index.html")
-},
-{
-    title: "Shopping Mall",
-    imgSrc: "/hdmath/shoppingmall.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/shoppingmall/index.html")
-},
-{
-    title: "shoppingstreet",
-    imgSrc: "/hdmath/shoppingstreet.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/shoppingstreet/index.html")
-},
-{
-    title: "Shortcut Run",
-    imgSrc: "/hdmath/shortcutrace.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/shortcutrace/index.html")
-},
-{
-    title: "Skate King",
-    imgSrc: "/hdmath/skateking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/skateking/index.html")
-},
-{
-    title: "Skater Math",
-    imgSrc: "/hdmath/skatermath.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/skatermath/index.html")
-},
-{
-    title: "Skimaniacs",
-    imgSrc: "/hdmath/skimaniacs.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/skimaniacs/index.html")
-},
-{
-    title: "Ski Slopes Hoodamath",
-    imgSrc: "/hdmath/skislopes.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/skislopes/index.html")
-},
-{
-    title: "SkySpeedster",
-    imgSrc: "/hdmath/skyspeedster.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/skyspeedster/index.html")
-},
-{
-    title: "SLALOM SKI SIMULATOR",
-    imgSrc: "/hdmath/slalomski.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/slalomski/index.html")
-},
-{
-    title: "Slither Math",
-    imgSrc: "/hdmath/slithermath.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/slithermath/index.html")
-},
-{
-    title: "Slopeinterceptsurround",
-    imgSrc: "/hdmath/slopeinterceptsurround.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/slopeinterceptsurround/index.html")
-},
-{
-    title: "Slope Run Unblocked - ubg235 GC",
-    imgSrc: "/hdmath/sloperun.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sloperun/index.html")
-},
-{
-    title: "SNAKE AND LADDERS",
-    imgSrc: "/hdmath/snakesandladders.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snakesandladders/index.html")
-},
-{
-    title: "Snaketrap",
-    imgSrc: "/hdmath/snaketrap.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snaketrap/index.html")
-},
-{
-    title: "sneakycastleescape",
-    imgSrc: "/hdmath/sneakycastleescape.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sneakycastleescape/index.html")
-},
-{
-    title: "Snoring",
-    imgSrc: "/hdmath/snoring.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snoring/index.html")
-},
-{
-    title: "Snoring Wild West",
-    imgSrc: "/hdmath/snoringwildwest.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snoringwildwest/index.html")
-},
-{
-    title: "Snoring Winter Edition",
-    imgSrc: "/hdmath/snoringwinteredition.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snoringwinteredition/index.html")
-},
-{
-    title: "Snowline",
-    imgSrc: "/hdmath/snowline.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snowline/index.html")
-},
-{
-    title: "Snowline 2",
-    imgSrc: "/hdmath/snowline2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snowline2/index.html")
-},
-{
-    title: "Snow Rider 3D - Thrilling Skiing Adventure Game",
-    imgSrc: "/hdmath/snowrider3d.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/snowrider3d/index.html")
-},
-{
-    title: "soccerballs2",
-    imgSrc: "/hdmath/soccerballs2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/soccerballs2/index.html")
-},
-{
-    title: "soccerballs2levelpack",
-    imgSrc: "/hdmath/soccerballs2levelpack.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/soccerballs2levelpack/index.html")
-},
-{
-    title: "Soccerstar",
-    imgSrc: "/hdmath/soccerstar.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/soccerstar/index.html")
-},
-{
-    title: "Space Miner",
-    imgSrc: "/hdmath/spaceminer.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/spaceminer/index.html")
-},
-{
-    title: "Speed Cube",
-    imgSrc: "/hdmath/speedcube.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/speedcube/index.html")
-},
-{
-    title: "Spill The Sand",
-    imgSrc: "/hdmath/spillthesand.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/spillthesand/index.html")
-},
-{
-    title: "spinnersluck",
-    imgSrc: "/hdmath/spinnersluck.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/spinnersluck/index.html")
-},
-{
-    title: "Split Ball Game",
-    imgSrc: "/hdmath/splitball.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/splitball/index.html")
-},
-{
-    title: "Sportsheadsbasketball",
-    imgSrc: "/hdmath/sportsheadsbasketball.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sportsheadsbasketball/index.html")
-},
-{
-    title: "springgardenescape",
-    imgSrc: "/hdmath/springgardenescape.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/springgardenescape/index.html")
-},
-{
-    title: "sprout",
-    imgSrc: "/hdmath/sprout.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sprout/index.html")
-},
-{
-    title: "Stacky Duck",
-    imgSrc: "/hdmath/stackyduck.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/stackyduck/index.html")
-},
-{
-    title: "starlight",
-    imgSrc: "/hdmath/starlight.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/starlight/index.html")
-},
-{
-    title: "starlight2",
-    imgSrc: "/hdmath/starlight2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/starlight2/index.html")
-},
-{
-    title: "Stick Samurai",
-    imgSrc: "/hdmath/stickninja.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/stickninja/index.html")
-},
-{
-    title: "STREET BASKETBALL",
-    imgSrc: "/hdmath/streetbasketball.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/streetbasketball/index.html")
-},
-{
-    title: "Sugar Sugar",
-    imgSrc: "/hdmath/sugarsugar.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sugarsugar/index.html")
-},
-{
-    title: "sugarsugar3",
-    imgSrc: "/hdmath/sugarsugar3.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sugarsugar3/index.html")
-},
-{
-    title: "Suitup",
-    imgSrc: "/hdmath/suitup.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/suitup/index.html")
-},
-{
-    title: "Super Santa Kicker",
-    imgSrc: "/hdmath/supersantakicker.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/supersantakicker/index.html")
-},
-{
-    title: "superstacker",
-    imgSrc: "/hdmath/superstacker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/superstacker/index.html")
-},
-{
-    title: "Superstacker 2",
-    imgSrc: "/hdmath/superstacker2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/superstacker2/index.html")
-},
-{
-    title: "SWEETY MEMORY",
-    imgSrc: "/hdmath/sweetymemory.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/sweetymemory/index.html")
-},
-{
-    title: "Swing Monkey",
-    imgSrc: "/hdmath/swingmonkey.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/swingmonkey/index.html")
-},
-{
-    title: "Swing Robber",
-    imgSrc: "/hdmath/swingrobber.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/swingrobber/index.html")
-},
-{
-    title: "Tanukisunset",
-    imgSrc: "/hdmath/tanukisunset.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tanukisunset/index.html")
-},
-{
-    title: "Tap Supermarket",
-    imgSrc: "/hdmath/tapsupermarket.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tapsupermarket/index.html")
-},
-{
-    title: "Crazy Tennis",
-    imgSrc: "/hdmath/taptaptennis.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/taptaptennis/index.html")
-},
-{
-    title: "Targetsoe",
-    imgSrc: "/hdmath/targetsoe.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/targetsoe/index.html")
-},
-{
-    title: "Teleporting Kittens",
-    imgSrc: "/hdmath/teleportingkittens.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/teleportingkittens/index.html")
-},
-{
-    title: "tenpinbowling",
-    imgSrc: "/hdmath/tenpinbowling.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tenpinbowling/index.html")
-},
-{
-    title: "thanksgivingturkey",
-    imgSrc: "/hdmath/thanksgivingturkey.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/thanksgivingturkey/index.html")
-},
-{
-    title: "theconstructor",
-    imgSrc: "/hdmath/theconstructor.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/theconstructor/index.html")
-},
-{
-    title: "Themehotel",
-    imgSrc: "/hdmath/themehotel.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/themehotel/index.html")
-},
-{
-    title: "thetravellingsalesman",
-    imgSrc: "/hdmath/thetravellingsalesman.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/thetravellingsalesman/index.html")
-},
-{
-    title: "Tictactoe",
-    imgSrc: "/hdmath/tictactoe.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tictactoe/index.html")
-},
-{
-    title: "Timepunch",
-    imgSrc: "/hdmath/timepunch.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/timepunch/index.html")
-},
-{
-    title: "Timmy's Gems",
-    imgSrc: "/hdmath/timmysgems.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/timmysgems/index.html")
-},
-{
-    title: "tinysasters",
-    imgSrc: "/hdmath/tinysasters.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tinysasters/index.html")
-},
-{
-    title: "TOUCHDOWN RUSH",
-    imgSrc: "/hdmath/touchdownrush.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/touchdownrush/index.html")
-},
-{
-    title: "Touch Shapes",
-    imgSrc: "/hdmath/touchshapes.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/touchshapes/index.html")
-},
-{
-    title: "tradewest",
-    imgSrc: "/hdmath/tradewest.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tradewest/index.html")
-},
-{
-    title: "Train X7 Memory Game",
-    imgSrc: "/hdmath/trainx7.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/trainx7/index.html")
-},
-{
-    title: "Transformationgolf",
-    imgSrc: "/hdmath/transformationgolf.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/transformationgolf/index.html")
-},
-{
-    title: "Transformation Golf 2",
-    imgSrc: "/hdmath/transformationgolf2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/transformationgolf2/index.html")
-},
-{
-    title: "Transforming Blockies",
-    imgSrc: "/hdmath/transformingblockies.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/transformingblockies/index.html")
-},
-{
-    title: "tributetogrow",
-    imgSrc: "/hdmath/tributetogrow.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tributetogrow/index.html")
-},
-{
-    title: "TRIPEAKS SOLITAIRE",
-    imgSrc: "/hdmath/tripeakssolitaire.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tripeakssolitaire/index.html")
-},
-{
-    title: "Tronix",
-    imgSrc: "/hdmath/tronix.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/tronix/index.html")
-},
-{
-    title: "truckstopparking",
-    imgSrc: "/hdmath/truckstopparking.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/truckstopparking/index.html")
-},
-{
-    title: "Turkeyfling",
-    imgSrc: "/hdmath/turkeyfling.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/turkeyfling/index.html")
-},
-{
-    title: "Unloop",
-    imgSrc: "/hdmath/unloop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/unloop/index.html")
-},
-{
-    title: "Unscrew It!",
-    imgSrc: "/hdmath/unscrewit.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/unscrewit/index.html")
-},
-{
-    title: "useboxmen",
-    imgSrc: "/hdmath/useboxmen.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/useboxmen/index.html")
-},
-{
-    title: "villagefun",
-    imgSrc: "/hdmath/villagefun.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/villagefun/index.html")
-},
-{
-    title: "wackywordsearch",
-    imgSrc: "/hdmath/wackywordsearch.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wackywordsearch/index.html")
-},
-{
-    title: "Watermelon",
-    imgSrc: "/hdmath/watermelongame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/watermelongame/index.html")
-},
-{
-    title: "River Tube Racing",
-    imgSrc: "/hdmath/waterrider3d.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/waterrider3d/index.html")
-},
-{
-    title: "What Animal Are You?",
-    imgSrc: "/hdmath/whatanimalareyou.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/whatanimalareyou/index.html")
-},
-{
-    title: "Whatdowedonow",
-    imgSrc: "/hdmath/whatdowedonow.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/whatdowedonow/index.html")
-},
-{
-    title: "wheely4",
-    imgSrc: "/hdmath/wheely4.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wheely4/index.html")
-},
-{
-    title: "wheely5",
-    imgSrc: "/hdmath/wheely5.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wheely5/index.html")
-},
-{
-    title: "wheely8",
-    imgSrc: "/hdmath/wheely8.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wheely8/index.html")
-},
-{
-    title: "windfalltycoon",
-    imgSrc: "/hdmath/windfalltycoon.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/windfalltycoon/index.html")
-},
-{
-    title: "Wonderputt",
-    imgSrc: "/hdmath/wonderputt.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wonderputt/index.html")
-},
-{
-    title: "wordbuilder",
-    imgSrc: "/hdmath/wordbuilder.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordbuilder/index.html")
-},
-{
-    title: "wordfinder",
-    imgSrc: "/hdmath/wordfinder.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordfinder/index.html")
-},
-{
-    title: "wordmaster",
-    imgSrc: "/hdmath/wordmaster.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordmaster/index.html")
-},
-{
-    title: "wordmatching",
-    imgSrc: "/hdmath/wordmatching.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordmatching/index.html")
-},
-{
-    title: "wordplex",
-    imgSrc: "/hdmath/wordplex.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordplex/index.html")
-},
-{
-    title: "wordpop",
-    imgSrc: "/hdmath/wordpop.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordpop/index.html")
-},
-{
-    title: "wordsearch2000",
-    imgSrc: "/hdmath/wordsearch2000.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordsearch2000/index.html")
-},
-{
-    title: "wordtower",
-    imgSrc: "/hdmath/wordtower.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/wordtower/index.html")
-},
-{
-    title: "worldclasschefitaly",
-    imgSrc: "/hdmath/worldclasschefitaly.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/worldclasschefitaly/index.html")
-},
-{
-    title: "worldclasschefturkey",
-    imgSrc: "/hdmath/worldclasschefturkey.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/worldclasschefturkey/index.html")
-},
-{
-    title: "worldclasschefusa",
-    imgSrc: "/hdmath/worldclasschefusa.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/worldclasschefusa/index.html")
-},
-{
-    title: "Worldshardestgame",
-    imgSrc: "/hdmath/worldshardestgame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/worldshardestgame/index.html")
-},
-{
-    title: "Worms",
-    imgSrc: "/hdmath/worms.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/worms/index.html")
-},
-{
-    title: "Zen Words",
-    imgSrc: "/hdmath/zenwords.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/zenwords/index.html")
-},
-{
-    title: "67 Clicker",
-    imgSrc: "/hdmath/67clicker.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/67clicker.html")
-},
-{
-    title: "67 Clicker Rizzmas (1)",
-    imgSrc: "/hdmath/67clickerrizzmas.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/67clickerrizzmas.html")
-},
-{
-    title: "Algebra Run v1",
-    imgSrc: "/hdmath/algebrarun.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/algebrarun.html")
-},
-{
-    title: "Algebra Run Lite V1",
-    imgSrc: "/hdmath/algebrarunlite.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/algebrarunlite.html")
-},
-{
-    title: "Algebra Run  Meltdown",
-    imgSrc: "/hdmath/algebrarunmeltdown.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/algebrarunmeltdown.html")
-},
-{
-    title: "Algebra Run World Toxic Factory",
-    imgSrc: "/hdmath/algebrarunworldtoxicfactory.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/algebrarunworldtoxicfactory.html")
-},
-{
-    title: "Candy Clicker",
-    imgSrc: "/hdmath/candyclicker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/candyclicker.html")
-},
-{
-    title: "Candy Clicker 2",
-    imgSrc: "/hdmath/candyclicker2.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/candyclicker2.html")
-},
-{
-    title: "Capybara Clicker â",
-    imgSrc: "/hdmath/capybaraclicker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/capybaraclicker.html")
-},
-{
-    title: "Cookie Clicker v2",
-    imgSrc: "/hdmath/cookieclicker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/cookieclicker.html")
-},
-{
-    title: "DINO GAME :D",
-    imgSrc: "/hdmath/dinogame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dinogame.html")
-},
-{
-    title: "Dreidel Game",
-    imgSrc: "/hdmath/dreidelgame.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/dreidelgame.html")
-},
-{
-    title: "Flappy Bird!",
-    imgSrc: "/hdmath/flappybird.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/flappybird.html")
-},
-{
-    title: "Getting Over It v1",
-    imgSrc: "/hdmath/gettingoverit.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/gettingoverit.html")
-},
-{
-    title: "project",
-    imgSrc: "/hdmath/helixjump.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/helixjump.html")
-},
-{
-    title: "Infinite Craft (5000+ Merges)",
-    imgSrc: "/hdmath/infinitecraft.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/infinitecraft.html")
-},
-{
-    title: "Italian_Brainrot_Clicker_FULLSAVE",
-    imgSrc: "/hdmath/italianbrainrotclicker.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/italianbrainrotclicker.html")
-},
-{
-    title: "Little Alchemy",
-    imgSrc: "/hdmath/littlealchemy.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/littlealchemy.html")
-},
-{
-    title: "Pop the Lock 2",
-    imgSrc: "/hdmath/popthelock.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/popthelock.html")
-},
-{
-    title: "Hooda's Soflo Wheelie Life",
-    imgSrc: "/hdmath/soflowheelielife.png",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/soflowheelielife.html")
-},
-{
-    title: "Stack Game",
-    imgSrc: "/hdmath/stackgame.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/stackgame.html")
-},
-{
-    title: "Whopper Clicker",
-    imgSrc: "/hdmath/whopperclicker.jpg",
-    link: LocalGameEncoder.createEncodedLink("/hdmath/whopperclicker.html")
-}
+    {
+        title: "1 on 1 Basketball",
+        imgSrc: "/img/gameimg/1on1basketball.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/1-on-1-basketball/game.html")
+    },
+    {
+        title: "2048 Cuteness Edition",
+        imgSrc: "/img/gameimg/2048cutenessedition.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/2048-cuteness-edition/game.html")
+    },
+    {
+        title: "2048 Game",
+        imgSrc: "/img/gameimg/2048game.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/2048-game/game.html")
+    },
+    {
+        title: "2048 Minecraft",
+        imgSrc: "/img/gameimg/2048minecraft.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/2048-minecraft/game.html")
+    },
+    {
+        title: "3D Santa Run",
+        imgSrc: "/img/gameimg/3dsantarun.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/3d-santa-run/game.html")
+    },
+    {
+        title: "40xEscape",
+        imgSrc: "/img/gameimg/40xescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/40xescape.swf")
+    },
+    {
+        title: "60 Seconds Burger Run",
+        imgSrc: "/img/gameimg/60secondsburgerrun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/60-seconds-burger-run/game.html")
+    },
+    {
+        title: "60 Seconds Santa Run",
+        imgSrc: "/img/gameimg/60secondssantarun.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/60-seconds-santa-run/game.html")
+    },
+    {
+        title: "67 Clicker",
+        imgSrc: "/img/gameimg/67clicker.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/67-clicker/game.html")
+    },
+    {
+        title: "A Missing Shepherd",
+        imgSrc: "/img/gameimg/amissingshepherd.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/a-missing-shepherd/game.html")
+    },
+    {
+        title: "Addition Bubble Pop",
+        imgSrc: "/img/gameimg/additionbubblepop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/addition-bubble-pop/game.html")
+    },
+    {
+        title: "Addition Jeep",
+        imgSrc: "/img/gameimg/additionjeep.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/addition-jeep/game.html")
+    },
+    {
+        title: "Air Balloon Rally",
+        imgSrc: "/img/gameimg/airballoonrally.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/airballoonrally.swf")
+    },
+    {
+        title: "Air Hockey",
+        imgSrc: "/img/gameimg/airhockey.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/air-hockey/game.html")
+    },
+    {
+        title: "Algebra Run",
+        imgSrc: "/img/gameimg/algebrarun.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/algebra-run/game.html")
+    },
+    {
+        title: "Algebra Run Lite",
+        imgSrc: "/img/gameimg/algebrarunlite.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/algebra-run-lite/game.html")
+    },
+    {
+        title: "Algebra Run Meltdown",
+        imgSrc: "/img/gameimg/algebrarunmeltdown.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/algebra-run-meltdown/game.html")
+    },
+    {
+        title: "Algebra Run Subzero",
+        imgSrc: "/img/gameimg/algebrarunsubzero.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/algebra-run-subzero/game.html")
+    },
+    {
+        title: "Algebra Run World Toxic Factory",
+        imgSrc: "/img/gameimg/algebrarunworldtoxicfactory.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/algebra-run-world-toxic-factory/game.html")
+    },
+    {
+        title: "Amazing Escape Atlantis",
+        imgSrc: "/img/gameimg/amazingescapeatlantis.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapeatlantis.swf")
+    },
+    {
+        title: "Amazing Escape Castle",
+        imgSrc: "/img/gameimg/amazingescapecastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapecastle.swf")
+    },
+    {
+        title: "Amazing Escape Ghost Town",
+        imgSrc: "/img/gameimg/amazingescapeghosttown.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapeghosttown.swf")
+    },
+    {
+        title: "Amazing Escape Island",
+        imgSrc: "/img/gameimg/amazingescapeisland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapeisland.swf")
+    },
+    {
+        title: "Amazing Escape Maze",
+        imgSrc: "/img/gameimg/amazingescapemaze.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapemaze.swf")
+    },
+    {
+        title: "Amazing Escape North Pole",
+        imgSrc: "/img/gameimg/amazingescapenorthpole.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/amazing-escape-north-pole/game.html")
+    },
+    {
+        title: "Amazing Escape Pyramid",
+        imgSrc: "/img/gameimg/amazingescapepyramid.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapepyramid.swf")
+    },
+    {
+        title: "Amazing Escape Ruins",
+        imgSrc: "/img/gameimg/amazingescaperuins.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescaperuins.swf")
+    },
+    {
+        title: "Amazing Escape School",
+        imgSrc: "/img/gameimg/amazingescapeschool.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapeschool.swf")
+    },
+    {
+        title: "Amazing Escape Spring Garden",
+        imgSrc: "/img/gameimg/amazingescapespringgarden.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amazingescapespringgarden.swf")
+    },
+    {
+        title: "American Football Challenge",
+        imgSrc: "/img/gameimg/americanfootballchallenge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/american-football-challenge/game.html")
+    },
+    {
+        title: "American Football Kicks",
+        imgSrc: "/img/gameimg/americanfootballkicks.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/american-football-kicks/game.html")
+    },
+    {
+        title: "Amuse Park",
+        imgSrc: "/img/gameimg/amusepark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/amusepark.swf")
+    },
+    {
+        title: "Angry Animals",
+        imgSrc: "/img/gameimg/angryanimals.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/angry-animals/game.html")
+    },
+    {
+        title: "Angry Animals 2",
+        imgSrc: "/img/gameimg/angryanimals2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/angryanimals2.swf")
+    },
+    {
+        title: "Anikas Odyssey",
+        imgSrc: "/img/gameimg/anikasodyssey.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/anikasodyssey.swf")
+    },
+    {
+        title: "Animal Raceway",
+        imgSrc: "/img/gameimg/animalraceway.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/animalraceway.swf")
+    },
+    {
+        title: "Aqua Thief",
+        imgSrc: "/img/gameimg/aquathief.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/aqua-thief/game.html")
+    },
+    {
+        title: "Aquatic Rescue",
+        imgSrc: "/img/gameimg/aquaticrescue.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/aquatic-rescue/game.html")
+    },
+    {
+        title: "Are You Human",
+        imgSrc: "/img/gameimg/areyouhuman.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/are-you-human/game.html")
+    },
+    {
+        title: "Atomic Puzzle",
+        imgSrc: "/img/gameimg/atomicpuzzle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/atomicpuzzle.swf")
+    },
+    {
+        title: "Backgammon",
+        imgSrc: "/img/gameimg/backgammon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/backgammon/game.html")
+    },
+    {
+        title: "Backyard Baseball",
+        imgSrc: "/img/gameimg/backyardbaseball.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/backyard-baseball/game.html")
+    },
+    {
+        title: "Baking Apple Pie",
+        imgSrc: "/img/gameimg/bakingapplepie.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/bakingapplepie.swf")
+    },
+    {
+        title: "Balloon Math",
+        imgSrc: "/img/gameimg/balloonmath.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/balloon-math/game.html")
+    },
+    {
+        title: "Baseball Pro",
+        imgSrc: "/img/gameimg/baseballpro.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/baseball-pro/game.html")
+    },
+    {
+        title: "Basket Balls",
+        imgSrc: "/img/gameimg/basketballs.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/basket-balls/game.html")
+    },
+    {
+        title: "Basket Balls Level Pack",
+        imgSrc: "/img/gameimg/basketballslevelpack.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/basketballslevelpack.swf")
+    },
+    {
+        title: "Basket Goal",
+        imgSrc: "/img/gameimg/basketgoal.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/basket-goal/game.html")
+    },
+    {
+        title: "Basketball Mania",
+        imgSrc: "/img/gameimg/basketballmania.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/basketball-mania/game.html")
+    },
+    {
+        title: "Battleship",
+        imgSrc: "/img/gameimg/battleship.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/battleship/game.html")
+    },
+    {
+        title: "Beach Soccer",
+        imgSrc: "/img/gameimg/beachsoccer.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/beach-soccer/game.html")
+    },
+    {
+        title: "Beach Town Escape",
+        imgSrc: "/img/gameimg/beachtownescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/beachtownescape.swf")
+    },
+    {
+        title: "Big Block Puzzle",
+        imgSrc: "/img/gameimg/bigblockpuzzle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/big-block-puzzle/game.html")
+    },
+    {
+        title: "Bike Hero",
+        imgSrc: "/img/gameimg/bikehero.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/bike-hero/game.html")
+    },
+    {
+        title: "Bitcoin Clicker",
+        imgSrc: "/img/gameimg/bitcoinclicker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/bitcoin-clicker/game.html")
+    },
+    {
+        title: "BIZ WIZ",
+        imgSrc: "/img/gameimg/bizwiz.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/biz-wiz/game.html")
+    },
+    {
+        title: "Block Master",
+        imgSrc: "/img/gameimg/blockmaster.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/blockmaster.swf")
+    },
+    {
+        title: "Bloons Tower Defense 2",
+        imgSrc: "/img/gameimg/bloonstowerdefense2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/bloonstowerdefense2.swf")
+    },
+    {
+        title: "Bloons Tower Defense 3",
+        imgSrc: "/img/gameimg/bloonstowerdefense3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/bloons-tower-defense-3/game.html")
+    },
+    {
+        title: "Blue and Pink",
+        imgSrc: "/img/gameimg/blueandpink.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/blue-and-pink/game.html")
+    },
+    {
+        title: "Boomers Words Quiz",
+        imgSrc: "/img/gameimg/boomerswordsquiz.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/boomers-words-quiz/game.html")
+    },
+    {
+        title: "Bouncing Balls",
+        imgSrc: "/img/gameimg/bouncingballs.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/bouncing-balls/game.html")
+    },
+    {
+        title: "Breakfast Cooking",
+        imgSrc: "/img/gameimg/breakfastcooking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/breakfastcooking.swf")
+    },
+    {
+        title: "Bridge Crossing",
+        imgSrc: "/img/gameimg/bridgecrossing.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/bridge-crossing/game.html")
+    },
+    {
+        title: "Briker",
+        imgSrc: "/img/gameimg/briker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/briker.swf")
+    },
+    {
+        title: "Briker 2",
+        imgSrc: "/img/gameimg/briker2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/briker2.swf")
+    },
+    {
+        title: "Build The Bridge",
+        imgSrc: "/img/gameimg/buildthebridge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/build-the-bridge/game.html")
+    },
+    {
+        title: "Burger Time",
+        imgSrc: "/img/gameimg/burgertime.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/burger-time/game.html")
+    },
+    {
+        title: "Bus Parking",
+        imgSrc: "/img/gameimg/busparking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/bus-parking/game.html")
+    },
+    {
+        title: "Business Fun",
+        imgSrc: "/img/gameimg/businessfun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/businessfun.swf")
+    },
+    {
+        title: "Calculator Balance",
+        imgSrc: "/img/gameimg/calculatorbalance.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/calculator-balance/game.html")
+    },
+    {
+        title: "Calculus Game 1-1",
+        imgSrc: "/img/gameimg/calculusgame11.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/calculus-game-1-1/game.html")
+    },
+    {
+        title: "Candy Clicker",
+        imgSrc: "/img/gameimg/candyclicker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/candy-clicker/game.html")
+    },
+    {
+        title: "Candy Clicker 2",
+        imgSrc: "/img/gameimg/candyclicker2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/candy-clicker-2/game.html")
+    },
+    {
+        title: "Candy Fun",
+        imgSrc: "/img/gameimg/candyfun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/candyfun.swf")
+    },
+    {
+        title: "Capybara Clicker",
+        imgSrc: "/img/gameimg/capybaraclicker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/capybara-clicker/game.html")
+    },
+    {
+        title: "Car Park Challenge",
+        imgSrc: "/img/gameimg/carparkchallenge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/carparkchallenge.swf")
+    },
+    {
+        title: "Car Park Chaos",
+        imgSrc: "/img/gameimg/carparkchaos.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/carparkchaos.swf")
+    },
+    {
+        title: "Car Rush",
+        imgSrc: "/img/gameimg/carrush.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/car-rush/game.html")
+    },
+    {
+        title: "Cargo Bridge Xmas Level Pack",
+        imgSrc: "/img/gameimg/cargobridgexmaslevelpack.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/cargo-bridge-xmas-level-pack/game.html")
+    },
+    {
+        title: "Cargo Shipment",
+        imgSrc: "/img/gameimg/cargoshipment.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/cargoshipment.swf")
+    },
+    {
+        title: "Cargo Shipment Chicago",
+        imgSrc: "/img/gameimg/cargoshipmentchicago.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/cargoshipmentchicago.swf")
+    },
+    {
+        title: "Carnival Fun",
+        imgSrc: "/img/gameimg/carnivalfun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/carnivalfun.swf")
+    },
+    {
+        title: "Carpenter's Cut",
+        imgSrc: "/img/gameimg/carpenterscut.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/carpenterscut.swf")
+    },
+    {
+        title: "Carrot Crave",
+        imgSrc: "/img/gameimg/carrotcrave.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/carrot-crave/game.html")
+    },
+    {
+        title: "Caveman",
+        imgSrc: "/img/gameimg/caveman.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/caveman/game.html")
+    },
+    {
+        title: "Chat Noir",
+        imgSrc: "/img/gameimg/chatnoir.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/chatnoir.swf")
+    },
+    {
+        title: "Checkers",
+        imgSrc: "/img/gameimg/checkers.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/checkers/game.html")
+    },
+    {
+        title: "Christmas Memory",
+        imgSrc: "/img/gameimg/christmasmemory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/christmas-memory/game.html")
+    },
+    {
+        title: "Christmas Tree Light Up",
+        imgSrc: "/img/gameimg/christmastreelightup.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/christmas-tree-light-up/game.html")
+    },
+    {
+        title: "Civiballs",
+        imgSrc: "/img/gameimg/civiballs.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/civiballs/game.html")
+    },
+    {
+        title: "Civiballs 2",
+        imgSrc: "/img/gameimg/civiballs2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/civiballs-2/game.html")
+    },
+    {
+        title: "Civiballs Xmas Levels Pack",
+        imgSrc: "/img/gameimg/civiballsxmaslevelspack.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/civiballs-xmas-levels-pack/game.html")
+    },
+    {
+        title: "Classic Car Parking",
+        imgSrc: "/img/gameimg/classiccarparking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/classiccarparking.swf")
+    },
+    {
+        title: "Classic Snake",
+        imgSrc: "/img/gameimg/classicsnake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/classic-snake/game.html")
+    },
+    {
+        title: "Cliff Diving",
+        imgSrc: "/img/gameimg/cliffdiving.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/cliff-diving/game.html")
+    },
+    {
+        title: "Climbable Arrow",
+        imgSrc: "/img/gameimg/climbablearrow.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/climbable-arrow/game.html")
+    },
+    {
+        title: "Coffee Shop Game",
+        imgSrc: "/img/gameimg/coffeeshopgame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/coffee-shop-game/game.html")
+    },
+    {
+        title: "Color Block Jam",
+        imgSrc: "/img/gameimg/colorblockjam.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/color-block-jam/game.html")
+    },
+    {
+        title: "Color Cleaner",
+        imgSrc: "/img/gameimg/colorcleaner.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/colorcleaner.swf")
+    },
+    {
+        title: "Color Fill",
+        imgSrc: "/img/gameimg/colorfill.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/color-fill/game.html")
+    },
+    {
+        title: "Color Flip",
+        imgSrc: "/img/gameimg/colorflip.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/color-flip/game.html")
+    },
+    {
+        title: "Combination Lock",
+        imgSrc: "/img/gameimg/combinationlock.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/combination-lock/game.html")
+    },
+    {
+        title: "Concert Parking",
+        imgSrc: "/img/gameimg/concertparking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/concertparking.swf")
+    },
+    {
+        title: "Count The Cubes",
+        imgSrc: "/img/gameimg/countthecubes.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/count-the-cubes/game.html")
+    },
+    {
+        title: "Court Clash Basketball",
+        imgSrc: "/img/gameimg/courtclashbasketball.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/court-clash-basketball/game.html")
+    },
+    {
+        title: "Crossword",
+        imgSrc: "/img/gameimg/crossword.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/crossword.swf")
+    },
+    {
+        title: "Cubeform",
+        imgSrc: "/img/gameimg/cubeform.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/cubeform/game.html")
+    },
+    {
+        title: "cubeNet",
+        imgSrc: "/img/gameimg/cubenet.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/cubenet/game.html")
+    },
+    {
+        title: "Custom Car Shop",
+        imgSrc: "/img/gameimg/customcarshop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/customcarshop.swf")
+    },
+    {
+        title: "Cycle Sprint",
+        imgSrc: "/img/gameimg/cyclesprint.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/cycle-sprint/game.html")
+    },
+    {
+        title: "Dark Room",
+        imgSrc: "/img/gameimg/darkroom.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/dark-room/game.html")
+    },
+    {
+        title: "Day Trader",
+        imgSrc: "/img/gameimg/daytrader.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/day-trader/game.html")
+    },
+    {
+        title: "Desk Movement",
+        imgSrc: "/img/gameimg/deskmovement.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/deskmovement.swf")
+    },
+    {
+        title: "Destress Game",
+        imgSrc: "/img/gameimg/destressgame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/destress-game/game.html")
+    },
+    {
+        title: "DICEWARS",
+        imgSrc: "/img/gameimg/dicewars.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/dicewars.swf")
+    },
+    {
+        title: "Digitle",
+        imgSrc: "/img/gameimg/digitle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/digitle/game.html")
+    },
+    {
+        title: "Diner City",
+        imgSrc: "/img/gameimg/dinercity.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/dinercity.swf")
+    },
+    {
+        title: "Dobble",
+        imgSrc: "/img/gameimg/dobble.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/dobble.swf")
+    },
+    {
+        title: "Doctor Acorn",
+        imgSrc: "/img/gameimg/doctoracorn.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/doctoracorn.swf")
+    },
+    {
+        title: "Doggnation",
+        imgSrc: "/img/gameimg/doggnation.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/doggnation.swf")
+    },
+    {
+        title: "Dominoes",
+        imgSrc: "/img/gameimg/dominoes.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/dominoes/game.html")
+    },
+    {
+        title: "Donut Empire",
+        imgSrc: "/img/gameimg/donutempire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/donutempire.swf")
+    },
+    {
+        title: "Donut Stand",
+        imgSrc: "/img/gameimg/donutstand.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/donut-stand/game.html")
+    },
+    {
+        title: "Doughnuts Recipe",
+        imgSrc: "/img/gameimg/doughnutsrecipe.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/doughnutsrecipe.swf")
+    },
+    {
+        title: "Draw Surfer",
+        imgSrc: "/img/gameimg/drawsurfer.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/draw-surfer/game.html")
+    },
+    {
+        title: "Draw The Rest",
+        imgSrc: "/img/gameimg/drawtherest.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/draw-the-rest/game.html")
+    },
+    {
+        title: "Draw to Smash",
+        imgSrc: "/img/gameimg/drawtosmash.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/draw-to-smash/game.html")
+    },
+    {
+        title: "Dreidel Game",
+        imgSrc: "/img/gameimg/dreidelgame.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/dreidel-game/game.html")
+    },
+    {
+        title: "Dress Up Math",
+        imgSrc: "/img/gameimg/dressupmath.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/dress-up-math/game.html")
+    },
+    {
+        title: "Drift Bus",
+        imgSrc: "/img/gameimg/driftbus.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/drift-bus/game.html")
+    },
+    {
+        title: "Driverless Car",
+        imgSrc: "/img/gameimg/driverlesscar.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/driverless-car/game.html")
+    },
+    {
+        title: "DuBlox",
+        imgSrc: "/img/gameimg/dublox.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/dublox/game.html")
+    },
+    {
+        title: "Duck Duck Clicker",
+        imgSrc: "/img/gameimg/duckduckclicker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/duck-duck-clicker/game.html")
+    },
+    {
+        title: "Duck Duck Clicker 3D",
+        imgSrc: "/img/gameimg/duckduckclicker3d.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/duck-duck-clicker-3d/game.html")
+    },
+    {
+        title: "Duck Life 2 World Champion",
+        imgSrc: "/img/gameimg/ducklife2worldchampion.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/duck-life-2-world-champion/game.html")
+    },
+    {
+        title: "Duck Life 3 Evolution",
+        imgSrc: "/img/gameimg/ducklife3evolution.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/duck-life-3-evolution/game.html")
+    },
+    {
+        title: "Duck Life 5 Treasure Hunt",
+        imgSrc: "/img/gameimg/ducklife5treasurehunt.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/duck-life-5-treasure-hunt/game.html")
+    },
+    {
+        title: "Duck Life 6 Space",
+        imgSrc: "/img/gameimg/ducklife6space.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/duck-life-6-space/game.html")
+    },
+    {
+        title: "Duck Think Outside the Flock",
+        imgSrc: "/img/gameimg/duckthinkoutsidetheflock.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/duckthinkoutsidetheflock.swf")
+    },
+    {
+        title: "Dune Buggy",
+        imgSrc: "/img/gameimg/dunebuggy.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/dune-buggy/game.html")
+    },
+    {
+        title: "Dunkers",
+        imgSrc: "/img/gameimg/dunkers.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/dunkers/game.html")
+    },
+    {
+        title: "Easter Clicker",
+        imgSrc: "/img/gameimg/easterclicker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/easter-clicker/game.html")
+    },
+    {
+        title: "Easter Memory",
+        imgSrc: "/img/gameimg/eastermemory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/easter-memory/game.html")
+    },
+    {
+        title: "Electric Box",
+        imgSrc: "/img/gameimg/electricbox.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/electricbox.swf")
+    },
+    {
+        title: "Electric Box 2",
+        imgSrc: "/img/gameimg/electricbox2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/electricbox2.swf")
+    },
+    {
+        title: "Electron Dash",
+        imgSrc: "/img/gameimg/electrondash.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/electron-dash/game.html")
+    },
+    {
+        title: "Element Merge",
+        imgSrc: "/img/gameimg/elementmerge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/element-merge/game.html")
+    },
+    {
+        title: "Escape Beijing",
+        imgSrc: "/img/gameimg/escapebeijing.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-beijing/game.html")
+    },
+    {
+        title: "Escape Berlin",
+        imgSrc: "/img/gameimg/escapeberlin.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-berlin/game.html")
+    },
+    {
+        title: "Escape Cairo",
+        imgSrc: "/img/gameimg/escapecairo.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-cairo/game.html")
+    },
+    {
+        title: "Escape Istanbul",
+        imgSrc: "/img/gameimg/escapeistanbul.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-istanbul/game.html")
+    },
+    {
+        title: "Escape London",
+        imgSrc: "/img/gameimg/escapelondon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-london/game.html")
+    },
+    {
+        title: "Escape Moscow",
+        imgSrc: "/img/gameimg/escapemoscow.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-moscow/game.html")
+    },
+    {
+        title: "Escape Plan Dragon Castle",
+        imgSrc: "/img/gameimg/escapeplandragoncastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/escapeplandragoncastle.swf")
+    },
+    {
+        title: "Escape Plan Ghost House",
+        imgSrc: "/img/gameimg/escapeplanghosthouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/escapeplanghosthouse.swf")
+    },
+    {
+        title: "Escape Plan North Pole",
+        imgSrc: "/img/gameimg/escapeplannorthpole.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-plan-north-pole/game.html")
+    },
+    {
+        title: "Escape Plan Office",
+        imgSrc: "/img/gameimg/escapeplanoffice.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/escapeplanoffice.swf")
+    },
+    {
+        title: "Escape Prague",
+        imgSrc: "/img/gameimg/escapeprague.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-prague/game.html")
+    },
+    {
+        title: "Escape Santiago",
+        imgSrc: "/img/gameimg/escapesantiago.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/escape-santiago/game.html")
+    },
+    {
+        title: "Escape The Candy Factory",
+        imgSrc: "/img/gameimg/escapethecandyfactory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/escapethecandyfactory.swf")
+    },
+    {
+        title: "Expert Parking",
+        imgSrc: "/img/gameimg/expertparking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/expertparking.swf")
+    },
+    {
+        title: "Factor Feeder",
+        imgSrc: "/img/gameimg/factorfeeder.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/factor-feeder/game.html")
+    },
+    {
+        title: "Factory Balls",
+        imgSrc: "/img/gameimg/factoryballs.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/factoryballs.swf")
+    },
+    {
+        title: "Factory Balls 2",
+        imgSrc: "/img/gameimg/factoryballs2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/factoryballs2.swf")
+    },
+    {
+        title: "Factory Balls 3",
+        imgSrc: "/img/gameimg/factoryballs3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/factoryballs3.swf")
+    },
+    {
+        title: "Factory Balls Forever",
+        imgSrc: "/img/gameimg/factoryballsforever.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/factory-balls-forever/game.html")
+    },
+    {
+        title: "Factory Balls the Christmas Edition",
+        imgSrc: "/img/gameimg/factoryballsthechristmasedition.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/factory-balls-the-christmas-edition/game.html")
+    },
+    {
+        title: "Fall Beans",
+        imgSrc: "/img/gameimg/fallbeans.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/fall-beans/game.html")
+    },
+    {
+        title: "Falling Cubes",
+        imgSrc: "/img/gameimg/fallingcubes.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/falling-cubes/game.html")
+    },
+    {
+        title: "Fancy Diver",
+        imgSrc: "/img/gameimg/fancydiver.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/fancy-diver/game.html")
+    },
+    {
+        title: "Fantastic Chef Blueberry Muffins",
+        imgSrc: "/img/gameimg/fantasticchefblueberrymuffins.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/fantasticchefblueberrymuffins.swf")
+    },
+    {
+        title: "Fantastic Chef Chocolate Cake",
+        imgSrc: "/img/gameimg/fantasticchefchocolatecake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/fantasticchefchocolatecake.swf")
+    },
+    {
+        title: "Fantastic Chef Peach Cobbler",
+        imgSrc: "/img/gameimg/fantasticchefpeachcobbler.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/fantasticchefpeachcobbler.swf")
+    },
+    {
+        title: "Fantastic Contraption 2",
+        imgSrc: "/img/gameimg/fantasticcontraption2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/fantasticcontraption2.swf")
+    },
+    {
+        title: "Farm Harvest Multiplication Game",
+        imgSrc: "/img/gameimg/farmharvestmultiplicationgame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/farm-harvest-multiplication-game/game.html")
+    },
+    {
+        title: "Feed The Figures",
+        imgSrc: "/img/gameimg/feedthefigures.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/feed-the-figures/game.html")
+    },
+    {
+        title: "Feed The Figures 2",
+        imgSrc: "/img/gameimg/feedthefigures2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/feed-the-figures-2/game.html")
+    },
+    {
+        title: "Find HQ Backyard",
+        imgSrc: "/img/gameimg/findhqbackyard.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-backyard/game.html")
+    },
+    {
+        title: "Find HQ Beach House",
+        imgSrc: "/img/gameimg/findhqbeachhouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqbeachhouse.swf")
+    },
+    {
+        title: "Find HQ Bowling Alley",
+        imgSrc: "/img/gameimg/findhqbowlingalley.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqbowlingalley.swf")
+    },
+    {
+        title: "Find HQ Camp",
+        imgSrc: "/img/gameimg/findhqcamp.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqcamp.swf")
+    },
+    {
+        title: "Find HQ Carnival",
+        imgSrc: "/img/gameimg/findhqcarnival.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqcarnival.swf")
+    },
+    {
+        title: "Find HQ Castle",
+        imgSrc: "/img/gameimg/findhqcastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-castle/game.html")
+    },
+    {
+        title: "Find HQ Cave",
+        imgSrc: "/img/gameimg/findhqcave.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-cave/game.html")
+    },
+    {
+        title: "Find HQ Denver",
+        imgSrc: "/img/gameimg/findhqdenver.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-denver/game.html")
+    },
+    {
+        title: "Find HQ Farm",
+        imgSrc: "/img/gameimg/findhqfarm.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqfarm.swf")
+    },
+    {
+        title: "Find HQ Fire Station",
+        imgSrc: "/img/gameimg/findhqfirestation.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqfirestation.swf")
+    },
+    {
+        title: "Find HQ Fun House",
+        imgSrc: "/img/gameimg/findhqfunhouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-fun-house/game.html")
+    },
+    {
+        title: "Find HQ Game Center",
+        imgSrc: "/img/gameimg/findhqgamecenter.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqgamecenter.swf")
+    },
+    {
+        title: "Find HQ Glacier National Park",
+        imgSrc: "/img/gameimg/findhqglaciernationalpark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-glacier-national-park/game.html")
+    },
+    {
+        title: "Find HQ Great Smoky Mountains",
+        imgSrc: "/img/gameimg/findhqgreatsmokymountains.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-great-smoky-mountains/game.html")
+    },
+    {
+        title: "Find HQ Gym",
+        imgSrc: "/img/gameimg/findhqgym.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/findhqgym.swf")
+    },
+    {
+        title: "Find HQ Honolulu",
+        imgSrc: "/img/gameimg/findhqhonolulu.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-honolulu/game.html")
+    },
+    {
+        title: "Find HQ Hospital",
+        imgSrc: "/img/gameimg/findhqhospital.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqhospital.swf")
+    },
+    {
+        title: "Find HQ Joshua Tree",
+        imgSrc: "/img/gameimg/findhqjoshuatree.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-joshua-tree/game.html")
+    },
+    {
+        title: "Find HQ Lab",
+        imgSrc: "/img/gameimg/findhqlab.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqlab.swf")
+    },
+    {
+        title: "Find HQ Library",
+        imgSrc: "/img/gameimg/findhqlibrary.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqlibrary.swf")
+    },
+    {
+        title: "Find HQ Lighthouse",
+        imgSrc: "/img/gameimg/findhqlighthouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqlighthouse.swf")
+    },
+    {
+        title: "Find HQ Los Angeles",
+        imgSrc: "/img/gameimg/findhqlosangeles.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-los-angeles/game.html")
+    },
+    {
+        title: "Find HQ Miami",
+        imgSrc: "/img/gameimg/findhqmiami.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-miami/game.html")
+    },
+    {
+        title: "Find HQ Nashville",
+        imgSrc: "/img/gameimg/findhqnashville.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-nashville/game.html")
+    },
+    {
+        title: "Find HQ Neighborhood",
+        imgSrc: "/img/gameimg/findhqneighborhood.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-neighborhood/game.html")
+    },
+    {
+        title: "Find HQ New York",
+        imgSrc: "/img/gameimg/findhqnewyork.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-new-york/game.html")
+    },
+    {
+        title: "Find HQ Pirate Ship",
+        imgSrc: "/img/gameimg/findhqpirateship.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqpirateship.swf")
+    },
+    {
+        title: "Find HQ San Francisco",
+        imgSrc: "/img/gameimg/findhqsanfrancisco.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-san-francisco/game.html")
+    },
+    {
+        title: "Find HQ Santa Fe",
+        imgSrc: "/img/gameimg/findhqsantafe.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-santa-fe/game.html")
+    },
+    {
+        title: "Find HQ Ski Lodge",
+        imgSrc: "/img/gameimg/findhqskilodge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqskilodge.swf")
+    },
+    {
+        title: "Find HQ Space Lab",
+        imgSrc: "/img/gameimg/findhqspacelab.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqspacelab.swf")
+    },
+    {
+        title: "Find HQ Temple",
+        imgSrc: "/img/gameimg/findhqtemple.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqtemple.swf")
+    },
+    {
+        title: "Find HQ The Forest",
+        imgSrc: "/img/gameimg/findhqtheforest.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqtheforest.swf")
+    },
+    {
+        title: "Find HQ The Hotel",
+        imgSrc: "/img/gameimg/findhqthehotel.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqthehotel.swf")
+    },
+    {
+        title: "Find HQ The Mall",
+        imgSrc: "/img/gameimg/findhqthemall.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqthemall.swf")
+    },
+    {
+        title: "Find HQ The Pyramid",
+        imgSrc: "/img/gameimg/findhqthepyramid.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqthepyramid.swf")
+    },
+    {
+        title: "Find HQ The Resort",
+        imgSrc: "/img/gameimg/findhqtheresort.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqtheresort.swf")
+    },
+    {
+        title: "Find HQ The School",
+        imgSrc: "/img/gameimg/findhqtheschool.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqtheschool.swf")
+    },
+    {
+        title: "Find HQ The Theater",
+        imgSrc: "/img/gameimg/findhqthetheater.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/findhqthetheater.swf")
+    },
+    {
+        title: "Find HQ Washington DC",
+        imgSrc: "/img/gameimg/findhqwashingtondc.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-washington-dc/game.html")
+    },
+    {
+        title: "Find HQ Yellowstone",
+        imgSrc: "/img/gameimg/findhqyellowstone.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-yellowstone/game.html")
+    },
+    {
+        title: "Find HQ Yosemite",
+        imgSrc: "/img/gameimg/findhqyosemite.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-hq-yosemite/game.html")
+    },
+    {
+        title: "Find Me",
+        imgSrc: "/img/gameimg/findme.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-me/game.html")
+    },
+    {
+        title: "Find My Baseball Bathroom",
+        imgSrc: "/img/gameimg/findmybaseballbathroom.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-baseball-bathroom/game.html")
+    },
+    {
+        title: "Find My Baseball Tower",
+        imgSrc: "/img/gameimg/findmybaseballtower.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-baseball-tower/game.html")
+    },
+    {
+        title: "Find My Beach Ball Beach",
+        imgSrc: "/img/gameimg/findmybeachballbeach.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-beach-ball-beach/game.html")
+    },
+    {
+        title: "Find My Dodgeball Kitchen",
+        imgSrc: "/img/gameimg/findmydodgeballkitchen.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-dodgeball-kitchen/game.html")
+    },
+    {
+        title: "Find My Football Hotel",
+        imgSrc: "/img/gameimg/findmyfootballhotel.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-football-hotel/game.html")
+    },
+    {
+        title: "Find My Soccer Ball Alcatraz",
+        imgSrc: "/img/gameimg/findmysoccerballalcatraz.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-soccer-ball-alcatraz/game.html")
+    },
+    {
+        title: "Find My Softball Backyard",
+        imgSrc: "/img/gameimg/findmysoftballbackyard.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-softball-backyard/game.html")
+    },
+    {
+        title: "Find My Volleyball New York",
+        imgSrc: "/img/gameimg/findmyvolleyballnewyork.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/find-my-volleyball-new-york/game.html")
+    },
+    {
+        title: "fire boy and water girl Forest Temple 3",
+        imgSrc: "/img/gameimg/fireboyandwatergirlforesttemple3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/fire-boy-and-water-girl-forest-temple-3/game.html")
+    },
+    {
+        title: "fire boy and water girl in the Light Temple 2",
+        imgSrc: "/img/gameimg/fireboyandwatergirlinthelighttemple2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/fire-boy-and-water-girl-in-the-light-temple-2/game.html")
+    },
+    {
+        title: "Flappy Factors",
+        imgSrc: "/img/gameimg/flappyfactors.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/flappy-factors/game.html")
+    },
+    {
+        title: "Flappy Multiples",
+        imgSrc: "/img/gameimg/flappymultiples.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/flappy-multiples/game.html")
+    },
+    {
+        title: "Flappy Reindeer",
+        imgSrc: "/img/gameimg/flappyreindeer.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/flappy-reindeer/game.html")
+    },
+    {
+        title: "Flip Duck",
+        imgSrc: "/img/gameimg/flipduck.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/flip-duck/game.html")
+    },
+    {
+        title: "Flush",
+        imgSrc: "/img/gameimg/flush.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/flush/game.html")
+    },
+    {
+        title: "Food Truck Fun",
+        imgSrc: "/img/gameimg/foodtruckfun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/foodtruckfun.swf")
+    },
+    {
+        title: "Footgolf",
+        imgSrc: "/img/gameimg/footgolf.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/footgolf/game.html")
+    },
+    {
+        title: "Formula Rush",
+        imgSrc: "/img/gameimg/formularush.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/formula-rush/game.html")
+    },
+    {
+        title: "Four Colors",
+        imgSrc: "/img/gameimg/fourcolors.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/four-colors/game.html")
+    },
+    {
+        title: "Fraction Poker",
+        imgSrc: "/img/gameimg/fractionpoker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/fraction-poker/game.html")
+    },
+    {
+        title: "Fractions Timed Tests",
+        imgSrc: "/img/gameimg/fractionstimedtests.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/fractions-timed-tests/game.html")
+    },
+    {
+        title: "Freaking Math",
+        imgSrc: "/img/gameimg/freakingmath.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/freaking-math/game.html")
+    },
+    {
+        title: "Freecell Solitaire",
+        imgSrc: "/img/gameimg/freecellsolitaire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/freecell-solitaire/game.html")
+    },
+    {
+        title: "Freekick Training",
+        imgSrc: "/img/gameimg/freekicktraining.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/freekick-training/game.html")
+    },
+    {
+        title: "Frog Corral",
+        imgSrc: "/img/gameimg/frogcorral.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/frog-corral/game.html")
+    },
+    {
+        title: "Frog Leap",
+        imgSrc: "/img/gameimg/frogleap.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/frog-leap/game.html")
+    },
+    {
+        title: "Full Moon",
+        imgSrc: "/img/gameimg/fullmoon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/fullmoon.swf")
+    },
+    {
+        title: "Gen X Words Quiz",
+        imgSrc: "/img/gameimg/genxwordsquiz.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/gen-x-words-quiz/game.html")
+    },
+    {
+        title: "Gen Z Words Quiz",
+        imgSrc: "/img/gameimg/genzwordsquiz.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/gen-z-words-quiz/game.html")
+    },
+    {
+        title: "Geometry Rash",
+        imgSrc: "/img/gameimg/geometryrash.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/geometry-rash/game.html")
+    },
+    {
+        title: "Germies",
+        imgSrc: "/img/gameimg/germies.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/germies/game.html")
+    },
+    {
+        title: "Gingerbread House Escape",
+        imgSrc: "/img/gameimg/gingerbreadhouseescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/gingerbreadhouseescape.swf")
+    },
+    {
+        title: "Gingerbread Maker",
+        imgSrc: "/img/gameimg/gingerbreadmaker.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/gingerbread-maker/game.html")
+    },
+    {
+        title: "Glitch",
+        imgSrc: "/img/gameimg/glitch.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/glitch/game.html")
+    },
+    {
+        title: "Goat Crossing",
+        imgSrc: "/img/gameimg/goatcrossing.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/goat-crossing/game.html")
+    },
+    {
+        title: "Goldburger To Go",
+        imgSrc: "/img/gameimg/goldburgertogo.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/goldburger-to-go/game.html")
+    },
+    {
+        title: "Golf Field 2",
+        imgSrc: "/img/gameimg/golffield2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/golf-field-2/game.html")
+    },
+    {
+        title: "Grammar Fun",
+        imgSrc: "/img/gameimg/grammarfun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grammar-fun/game.html")
+    },
+    {
+        title: "Grammar Ninja",
+        imgSrc: "/img/gameimg/grammarninja.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/grammarninja.swf")
+    },
+    {
+        title: "Graphing Gala",
+        imgSrc: "/img/gameimg/graphinggala.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/graphinggala.swf")
+    },
+    {
+        title: "Graveyard Snake",
+        imgSrc: "/img/gameimg/graveyardsnake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/graveyard-snake/game.html")
+    },
+    {
+        title: "Grayscale Escape Christmas",
+        imgSrc: "/img/gameimg/grayscaleescapechristmas.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grayscale-escape-christmas/game.html")
+    },
+    {
+        title: "Great Adviser",
+        imgSrc: "/img/gameimg/greatadviser.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/great-adviser/game.html")
+    },
+    {
+        title: "Grow Castle",
+        imgSrc: "/img/gameimg/growcastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grow-castle/game.html")
+    },
+    {
+        title: "Grow Cube",
+        imgSrc: "/img/gameimg/growcube.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/growcube.swf")
+    },
+    {
+        title: "Grow Farm",
+        imgSrc: "/img/gameimg/growfarm.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grow-farm/game.html")
+    },
+    {
+        title: "Grow Island",
+        imgSrc: "/img/gameimg/growisland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/growisland.swf")
+    },
+    {
+        title: "Grow Nano Vol 3",
+        imgSrc: "/img/gameimg/grownanovol3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/grownanovol3.swf")
+    },
+    {
+        title: "Grow Park",
+        imgSrc: "/img/gameimg/growpark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/growpark.swf")
+    },
+    {
+        title: "Grow School",
+        imgSrc: "/img/gameimg/growschool.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grow-school/game.html")
+    },
+    {
+        title: "Grow Tower",
+        imgSrc: "/img/gameimg/growtower.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/growtower.swf")
+    },
+    {
+        title: "Grow Tree",
+        imgSrc: "/img/gameimg/growtree.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grow-tree/game.html")
+    },
+    {
+        title: "Grow Valley",
+        imgSrc: "/img/gameimg/growvalley.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/growvalley.swf")
+    },
+    {
+        title: "Grow Water Park",
+        imgSrc: "/img/gameimg/growwaterpark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grow-water-park/game.html")
+    },
+    {
+        title: "Grow Zoo",
+        imgSrc: "/img/gameimg/growzoo.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/grow-zoo/game.html")
+    },
+    {
+        title: "Growmi",
+        imgSrc: "/img/gameimg/growmi.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/growmi/game.html")
+    },
+    {
+        title: "Guess Word",
+        imgSrc: "/img/gameimg/guessword.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/guess-word/game.html")
+    },
+    {
+        title: "Halloween Knife",
+        imgSrc: "/img/gameimg/halloweenknife.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/halloween-knife/game.html")
+    },
+    {
+        title: "Halloween Memory",
+        imgSrc: "/img/gameimg/halloweenmemory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/halloween-memory/game.html")
+    },
+    {
+        title: "Happy Filled Glass",
+        imgSrc: "/img/gameimg/happyfilledglass.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/happy-filled-glass/game.html")
+    },
+    {
+        title: "Happy Filled Glass 2",
+        imgSrc: "/img/gameimg/happyfilledglass2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/happy-filled-glass-2/game.html")
+    },
+    {
+        title: "Happy Filled Glass 3",
+        imgSrc: "/img/gameimg/happyfilledglass3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/happy-filled-glass-3/game.html")
+    },
+    {
+        title: "Happy Filled Glass 4",
+        imgSrc: "/img/gameimg/happyfilledglass4.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/happy-filled-glass-4/game.html")
+    },
+    {
+        title: "Happy Mart",
+        imgSrc: "/img/gameimg/happymart.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/happymart.swf")
+    },
+    {
+        title: "Happy Tower",
+        imgSrc: "/img/gameimg/happytower.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/happytower.swf")
+    },
+    {
+        title: "Haunt The House",
+        imgSrc: "/img/gameimg/hauntthehouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/haunt-the-house/game.html")
+    },
+    {
+        title: "Head Soccer 2026",
+        imgSrc: "/img/gameimg/headsoccer2026.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/head-soccer-2026/game.html")
+    },
+    {
+        title: "Helix Jump",
+        imgSrc: "/img/gameimg/helixjump.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/helix-jump/game.html")
+    },
+    {
+        title: "Hex Wars",
+        imgSrc: "/img/gameimg/hexwars.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hex-wars/game.html")
+    },
+    {
+        title: "Hide Caesar",
+        imgSrc: "/img/gameimg/hidecaesar.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hide-caesar/game.html")
+    },
+    {
+        title: "Hockey Shootout",
+        imgSrc: "/img/gameimg/hockeyshootout.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hockey-shootout/game.html")
+    },
+    {
+        title: "Home Sheep Home",
+        imgSrc: "/img/gameimg/homesheephome.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/homesheephome.swf")
+    },
+    {
+        title: "Hoo Goo",
+        imgSrc: "/img/gameimg/hoogoo.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hoogoo/game.html")
+    },
+    {
+        title: "Hoo Pi Gallery",
+        imgSrc: "/img/gameimg/hoopigallery.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hoo-pi-gallery/game.html")
+    },
+    {
+        title: "Hooda Bridge",
+        imgSrc: "/img/gameimg/hoodabridge.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-bridge/game.html")
+    },
+    {
+        title: "Hooda Dissection",
+        imgSrc: "/img/gameimg/hoodadissection.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-dissection/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Aquarium",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtripaquarium.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-aquarium/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Arcade",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtriparcade.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-arcade/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Beach",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtripbeach.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-beach/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Chicken Farm",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtripchickenfarm.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-chicken-farm/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Cookie Factory",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtripcookiefactory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-cookie-factory/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Dino Land",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtripdinoland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-dino-land/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Ice Cream Shop",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtripicecreamshop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-ice-cream-shop/game.html")
+    },
+    {
+        title: "Hooda Escape 3rd Grade Field Trip Summer Camp",
+        imgSrc: "/img/gameimg/hoodaescape3rdgradefieldtripsummercamp.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-3rd-grade-field-trip-summer-camp/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Airfield",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtripairfield.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-airfield/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Ancient Ruins",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtripancientruins.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-ancient-ruins/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Castle",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtripcastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-castle/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Museum",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtripmuseum.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-museum/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Nature Park",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtripnaturepark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-nature-park/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Pyramid",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtrippyramid.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-pyramid/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Trampoline Park",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtriptrampolinepark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-trampoline-park/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Water Park",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtripwaterpark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-water-park/game.html")
+    },
+    {
+        title: "Hooda Escape 6th Grade Field Trip Zoo",
+        imgSrc: "/img/gameimg/hoodaescape6thgradefieldtripzoo.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-6th-grade-field-trip-zoo/game.html")
+    },
+    {
+        title: "Hooda Escape Adelaide 2024",
+        imgSrc: "/img/gameimg/hoodaescapeadelaide2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-adelaide-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Airfield",
+        imgSrc: "/img/gameimg/hoodaescapeairfield.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-airfield/game.html")
+    },
+    {
+        title: "Hooda Escape Alabama",
+        imgSrc: "/img/gameimg/hoodaescapealabama.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-alabama/game.html")
+    },
+    {
+        title: "Hooda Escape Alabama 2022",
+        imgSrc: "/img/gameimg/hoodaescapealabama2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-alabama-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Alaska",
+        imgSrc: "/img/gameimg/hoodaescapealaska.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-alaska/game.html")
+    },
+    {
+        title: "Hooda Escape Alaska 2022",
+        imgSrc: "/img/gameimg/hoodaescapealaska2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-alaska-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Albuquerque 2023",
+        imgSrc: "/img/gameimg/hoodaescapealbuquerque2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-albuquerque-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Apple Orchard 2023",
+        imgSrc: "/img/gameimg/hoodaescapeappleorchard2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-apple-orchard-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Aquarium 2024",
+        imgSrc: "/img/gameimg/hoodaescapeaquarium2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-aquarium-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Arizona",
+        imgSrc: "/img/gameimg/hoodaescapearizona.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-arizona/game.html")
+    },
+    {
+        title: "Hooda Escape Arizona 2022",
+        imgSrc: "/img/gameimg/hoodaescapearizona2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-arizona-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Arkansas",
+        imgSrc: "/img/gameimg/hoodaescapearkansas.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-arkansas/game.html")
+    },
+    {
+        title: "Hooda Escape Arkansas 2022",
+        imgSrc: "/img/gameimg/hoodaescapearkansas2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-arkansas-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Art Museum 2023",
+        imgSrc: "/img/gameimg/hoodaescapeartmuseum2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-art-museum-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Atlanta 2023",
+        imgSrc: "/img/gameimg/hoodaescapeatlanta2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-atlanta-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Augusta",
+        imgSrc: "/img/gameimg/hoodaescapeaugusta.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-augusta/game.html")
+    },
+    {
+        title: "Hooda Escape Austin 2023",
+        imgSrc: "/img/gameimg/hoodaescapeaustin2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-austin-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Australian Capital Territory 2024",
+        imgSrc: "/img/gameimg/hoodaescapeaustraliancapitalterritory2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-australian-capital-territory-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Auto Factory",
+        imgSrc: "/img/gameimg/hoodaescapeautofactory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-auto-factory/game.html")
+    },
+    {
+        title: "Hooda Escape Auto Shop",
+        imgSrc: "/img/gameimg/hoodaescapeautoshop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-auto-shop/game.html")
+    },
+    {
+        title: "Hooda Escape Ballpark 2023",
+        imgSrc: "/img/gameimg/hoodaescapeballpark2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ballpark-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Baltimore 2023",
+        imgSrc: "/img/gameimg/hoodaescapebaltimore2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-baltimore-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Birthday Party 2024",
+        imgSrc: "/img/gameimg/hoodaescapebirthdayparty2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-birthday-party-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Boise",
+        imgSrc: "/img/gameimg/hoodaescapeboise.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-boise/game.html")
+    },
+    {
+        title: "Hooda Escape Boston 2023",
+        imgSrc: "/img/gameimg/hoodaescapeboston2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-boston-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Bowling 2024",
+        imgSrc: "/img/gameimg/hoodaescapebowling2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-bowling-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Brisbane 2024",
+        imgSrc: "/img/gameimg/hoodaescapebrisbane2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-brisbane-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Bullet Train",
+        imgSrc: "/img/gameimg/hoodaescapebullettrain.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-bullet-train/game.html")
+    },
+    {
+        title: "Hooda Escape Cabin 2023",
+        imgSrc: "/img/gameimg/hoodaescapecabin2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-cabin-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Calgary 2024",
+        imgSrc: "/img/gameimg/hoodaescapecalgary2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-calgary-2024/game.html")
+    },
+    {
+        title: "Hooda Escape California",
+        imgSrc: "/img/gameimg/hoodaescapecalifornia.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-california/game.html")
+    },
+    {
+        title: "Hooda Escape California 2022",
+        imgSrc: "/img/gameimg/hoodaescapecalifornia2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-california-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Camp 2023",
+        imgSrc: "/img/gameimg/hoodaescapecamp2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-camp-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Central Park 2024",
+        imgSrc: "/img/gameimg/hoodaescapecentralpark2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-central-park-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Charlotte 2023",
+        imgSrc: "/img/gameimg/hoodaescapecharlotte2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-charlotte-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Cheyenne",
+        imgSrc: "/img/gameimg/hoodaescapecheyenne.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-cheyenne/game.html")
+    },
+    {
+        title: "Hooda Escape Chicago 2023",
+        imgSrc: "/img/gameimg/hoodaescapechicago2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-chicago-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Colorado",
+        imgSrc: "/img/gameimg/hoodaescapecolorado.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-colorado/game.html")
+    },
+    {
+        title: "Hooda Escape Colorado 2022",
+        imgSrc: "/img/gameimg/hoodaescapecolorado2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-colorado-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Colorado Springs 2023",
+        imgSrc: "/img/gameimg/hoodaescapecoloradosprings2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-colorado-springs-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Columbia",
+        imgSrc: "/img/gameimg/hoodaescapecolumbia.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-columbia/game.html")
+    },
+    {
+        title: "Hooda Escape Columbus 2023",
+        imgSrc: "/img/gameimg/hoodaescapecolumbus2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-columbus-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Concert Venue 2023",
+        imgSrc: "/img/gameimg/hoodaescapeconcertvenue2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-concert-venue-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Connecticut",
+        imgSrc: "/img/gameimg/hoodaescapeconnecticut.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-connecticut/game.html")
+    },
+    {
+        title: "Hooda Escape Connecticut 2022",
+        imgSrc: "/img/gameimg/hoodaescapeconnecticut2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-connecticut-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Corn Maze",
+        imgSrc: "/img/gameimg/hoodaescapecornmaze.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-corn-maze/game.html")
+    },
+    {
+        title: "Hooda Escape Corn Maze 2023",
+        imgSrc: "/img/gameimg/hoodaescapecornmaze2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-corn-maze-2023/game.html")
+    },
+    {
+        title: "Hooda Escape County Fair 2023",
+        imgSrc: "/img/gameimg/hoodaescapecountyfair2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-county-fair-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Dallas 2023",
+        imgSrc: "/img/gameimg/hoodaescapedallas2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-dallas-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Darwin 2024",
+        imgSrc: "/img/gameimg/hoodaescapedarwin2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-darwin-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Delaware",
+        imgSrc: "/img/gameimg/hoodaescapedelaware.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-delaware/game.html")
+    },
+    {
+        title: "Hooda Escape Delaware 2022",
+        imgSrc: "/img/gameimg/hoodaescapedelaware2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-delaware-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Denver 2023",
+        imgSrc: "/img/gameimg/hoodaescapedenver2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-denver-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Detroit 2023",
+        imgSrc: "/img/gameimg/hoodaescapedetroit2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-detroit-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Dog Park 2024",
+        imgSrc: "/img/gameimg/hoodaescapedogpark2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-dog-park-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Easter Egg Hunt 2024",
+        imgSrc: "/img/gameimg/hoodaescapeeasteregghunt2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-easter-egg-hunt-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Edmonton 2024",
+        imgSrc: "/img/gameimg/hoodaescapeedmonton2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-edmonton-2024/game.html")
+    },
+    {
+        title: "Hooda Escape El Paso 2023",
+        imgSrc: "/img/gameimg/hoodaescapeelpaso2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-el-paso-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Family BBQ 2023",
+        imgSrc: "/img/gameimg/hoodaescapefamilybbq2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-family-bbq-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Farm 2023",
+        imgSrc: "/img/gameimg/hoodaescapefarm2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-farm-2023/game.html")
+    },
+    {
+        title: "Hooda Escape FBI 2024",
+        imgSrc: "/img/gameimg/hoodaescapefbi2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-fbi-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Fire Station 2024",
+        imgSrc: "/img/gameimg/hoodaescapefirestation2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-fire-station-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Fisherman Island",
+        imgSrc: "/img/gameimg/hoodaescapefishermanisland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-fisherman-island/game.html")
+    },
+    {
+        title: "Hooda Escape Florida",
+        imgSrc: "/img/gameimg/hoodaescapeflorida.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-florida/game.html")
+    },
+    {
+        title: "Hooda Escape Florida 2022",
+        imgSrc: "/img/gameimg/hoodaescapeflorida2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-florida-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Football Stadium 2023",
+        imgSrc: "/img/gameimg/hoodaescapefootballstadium2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-football-stadium-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Fort Worth 2023",
+        imgSrc: "/img/gameimg/hoodaescapefortworth2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-fort-worth-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Fresno 2023",
+        imgSrc: "/img/gameimg/hoodaescapefresno2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-fresno-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Fyre Festival",
+        imgSrc: "/img/gameimg/hoodaescapefyrefestival.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-fyre-festival/game.html")
+    },
+    {
+        title: "Hooda Escape Garden Maze 2023",
+        imgSrc: "/img/gameimg/hoodaescapegardenmaze2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-garden-maze-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Georgia",
+        imgSrc: "/img/gameimg/hoodaescapegeorgia.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-georgia/game.html")
+    },
+    {
+        title: "Hooda Escape Georgia 2022",
+        imgSrc: "/img/gameimg/hoodaescapegeorgia2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-georgia-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Ghost House",
+        imgSrc: "/img/gameimg/hoodaescapeghosthouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ghost-house/game.html")
+    },
+    {
+        title: "Hooda Escape Grandma's House",
+        imgSrc: "/img/gameimg/hoodaescapegrandmashouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-grandmas-house/game.html")
+    },
+    {
+        title: "Hooda Escape Hamilton 2024",
+        imgSrc: "/img/gameimg/hoodaescapehamilton2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-hamilton-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Haunted House 2023",
+        imgSrc: "/img/gameimg/hoodaescapehauntedhouse2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-haunted-house-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Haunted House 2024",
+        imgSrc: "/img/gameimg/hoodaescapehauntedhouse2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-haunted-house-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Hawaii",
+        imgSrc: "/img/gameimg/hoodaescapehawaii.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-hawaii/game.html")
+    },
+    {
+        title: "Hooda Escape Hawaii 2022",
+        imgSrc: "/img/gameimg/hoodaescapehawaii2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-hawaii-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Hike 2023",
+        imgSrc: "/img/gameimg/hoodaescapehike2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-hike-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Hobart 2024",
+        imgSrc: "/img/gameimg/hoodaescapehobart2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-hobart-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Homecoming 2023",
+        imgSrc: "/img/gameimg/hoodaescapehomecoming2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-homecoming-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Houston 2023",
+        imgSrc: "/img/gameimg/hoodaescapehouston2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-houston-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Hunting Lodge",
+        imgSrc: "/img/gameimg/hoodaescapehuntinglodge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-hunting-lodge/game.html")
+    },
+    {
+        title: "Hooda Escape Ice Cream Shop",
+        imgSrc: "/img/gameimg/hoodaescapeicecreamshop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ice-cream-shop/game.html")
+    },
+    {
+        title: "Hooda Escape Ice Skating 2023",
+        imgSrc: "/img/gameimg/hoodaescapeiceskating2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ice-skating-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Idaho",
+        imgSrc: "/img/gameimg/hoodaescapeidaho.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-idaho/game.html")
+    },
+    {
+        title: "Hooda Escape Idaho 2022",
+        imgSrc: "/img/gameimg/hoodaescapeidaho2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-idaho-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Illinois",
+        imgSrc: "/img/gameimg/hoodaescapeillinois.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-illinois/game.html")
+    },
+    {
+        title: "Hooda Escape Illinois 2022",
+        imgSrc: "/img/gameimg/hoodaescapeillinois2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-illinois-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Indiana",
+        imgSrc: "/img/gameimg/hoodaescapeindiana.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-indiana/game.html")
+    },
+    {
+        title: "Hooda Escape Indiana 2022",
+        imgSrc: "/img/gameimg/hoodaescapeindiana2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-indiana-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Indianapolis",
+        imgSrc: "/img/gameimg/hoodaescapeindianapolis.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-indianapolis/game.html")
+    },
+    {
+        title: "Hooda Escape Indianapolis 2023",
+        imgSrc: "/img/gameimg/hoodaescapeindianapolis2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-indianapolis-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Iowa",
+        imgSrc: "/img/gameimg/hoodaescapeiowa.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-iowa/game.html")
+    },
+    {
+        title: "Hooda Escape Iowa 2022",
+        imgSrc: "/img/gameimg/hoodaescapeiowa2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-iowa-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Jackson",
+        imgSrc: "/img/gameimg/hoodaescapejackson.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-jackson/game.html")
+    },
+    {
+        title: "Hooda Escape Jacksonville 2023",
+        imgSrc: "/img/gameimg/hoodaescapejacksonville2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-jacksonville-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Jersey Shore",
+        imgSrc: "/img/gameimg/hoodaescapejerseyshore.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-jersey-shore/game.html")
+    },
+    {
+        title: "Hooda Escape Juneau",
+        imgSrc: "/img/gameimg/hoodaescapejuneau.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-juneau/game.html")
+    },
+    {
+        title: "Hooda Escape Jungle 2024",
+        imgSrc: "/img/gameimg/hoodaescapejungle2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-jungle-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Kansas",
+        imgSrc: "/img/gameimg/hoodaescapekansas.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-kansas/game.html")
+    },
+    {
+        title: "Hooda Escape Kansas 2022",
+        imgSrc: "/img/gameimg/hoodaescapekansas2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-kansas-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Kansas City 2023",
+        imgSrc: "/img/gameimg/hoodaescapekansascity2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-kansas-city-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Kentucky",
+        imgSrc: "/img/gameimg/hoodaescapekentucky.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-kentucky/game.html")
+    },
+    {
+        title: "Hooda Escape Kentucky 2022",
+        imgSrc: "/img/gameimg/hoodaescapekentucky2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-kentucky-2022/game.html")
+    },
+    {
+        title: "Hooda Escape King's Landing",
+        imgSrc: "/img/gameimg/hoodaescapekingslanding.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-kings-landing/game.html")
+    },
+    {
+        title: "Hooda Escape Kitchener 2024",
+        imgSrc: "/img/gameimg/hoodaescapekitchener2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-kitchener-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Las Vegas 2023",
+        imgSrc: "/img/gameimg/hoodaescapelasvegas2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-las-vegas-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Lazy River 2023",
+        imgSrc: "/img/gameimg/hoodaescapelazyriver2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-lazy-river-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Library 2024",
+        imgSrc: "/img/gameimg/hoodaescapelibrary2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-library-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Little Rock",
+        imgSrc: "/img/gameimg/hoodaescapelittlerock.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-little-rock/game.html")
+    },
+    {
+        title: "Hooda Escape London 2024",
+        imgSrc: "/img/gameimg/hoodaescapelondon2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-london-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Los Angeles 2023",
+        imgSrc: "/img/gameimg/hoodaescapelosangeles2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-los-angeles-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Louisiana",
+        imgSrc: "/img/gameimg/hoodaescapelouisiana.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-louisiana/game.html")
+    },
+    {
+        title: "Hooda Escape Louisiana 2022",
+        imgSrc: "/img/gameimg/hoodaescapelouisiana2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-louisiana-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Louisville 2023",
+        imgSrc: "/img/gameimg/hoodaescapelouisville2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-louisville-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Madison",
+        imgSrc: "/img/gameimg/hoodaescapemadison.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-madison/game.html")
+    },
+    {
+        title: "Hooda Escape Maine",
+        imgSrc: "/img/gameimg/hoodaescapemaine.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-maine/game.html")
+    },
+    {
+        title: "Hooda Escape Maine 2022",
+        imgSrc: "/img/gameimg/hoodaescapemaine2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-maine-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Maryland",
+        imgSrc: "/img/gameimg/hoodaescapemaryland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-maryland/game.html")
+    },
+    {
+        title: "Hooda Escape Maryland 2022",
+        imgSrc: "/img/gameimg/hoodaescapemaryland2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-maryland-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Massachusetts",
+        imgSrc: "/img/gameimg/hoodaescapemassachusetts.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-massachusetts/game.html")
+    },
+    {
+        title: "Hooda Escape Massachusetts 2022",
+        imgSrc: "/img/gameimg/hoodaescapemassachusetts2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-massachusetts-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Math Mansion",
+        imgSrc: "/img/gameimg/hoodaescapemathmansion.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-math-mansion/game.html")
+    },
+    {
+        title: "Hooda Escape Melbourne 2024",
+        imgSrc: "/img/gameimg/hoodaescapemelbourne2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-melbourne-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Memphis 2023",
+        imgSrc: "/img/gameimg/hoodaescapememphis2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-memphis-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Mesa 2023",
+        imgSrc: "/img/gameimg/hoodaescapemesa2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-mesa-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Michigan",
+        imgSrc: "/img/gameimg/hoodaescapemichigan.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-michigan/game.html")
+    },
+    {
+        title: "Hooda Escape Michigan 2022",
+        imgSrc: "/img/gameimg/hoodaescapemichigan2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-michigan-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Milwaukee 2023",
+        imgSrc: "/img/gameimg/hoodaescapemilwaukee2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-milwaukee-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Minnesota",
+        imgSrc: "/img/gameimg/hoodaescapeminnesota.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-minnesota/game.html")
+    },
+    {
+        title: "Hooda Escape Minnesota 2022",
+        imgSrc: "/img/gameimg/hoodaescapeminnesota2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-minnesota-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Mississippi",
+        imgSrc: "/img/gameimg/hoodaescapemississippi.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-mississippi/game.html")
+    },
+    {
+        title: "Hooda Escape Mississippi 2022",
+        imgSrc: "/img/gameimg/hoodaescapemississippi2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-mississippi-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Missouri",
+        imgSrc: "/img/gameimg/hoodaescapemissouri.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-missouri/game.html")
+    },
+    {
+        title: "Hooda Escape Missouri 2022",
+        imgSrc: "/img/gameimg/hoodaescapemissouri2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-missouri-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Montana",
+        imgSrc: "/img/gameimg/hoodaescapemontana.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-montana/game.html")
+    },
+    {
+        title: "Hooda Escape Montana 2022",
+        imgSrc: "/img/gameimg/hoodaescapemontana2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-montana-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Montreal 2024",
+        imgSrc: "/img/gameimg/hoodaescapemontreal2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-montreal-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Motorhome",
+        imgSrc: "/img/gameimg/hoodaescapemotorhome.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-motorhome/game.html")
+    },
+    {
+        title: "Hooda Escape Nashville 2023",
+        imgSrc: "/img/gameimg/hoodaescapenashville2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-nashville-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Nature Walk 2023",
+        imgSrc: "/img/gameimg/hoodaescapenaturewalk2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-nature-walk-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Nebraska",
+        imgSrc: "/img/gameimg/hoodaescapenebraska.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-nebraska/game.html")
+    },
+    {
+        title: "Hooda Escape Nebraska 2022",
+        imgSrc: "/img/gameimg/hoodaescapenebraska2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-nebraska-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Nevada",
+        imgSrc: "/img/gameimg/hoodaescapenevada.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-nevada/game.html")
+    },
+    {
+        title: "Hooda Escape Nevada 2022",
+        imgSrc: "/img/gameimg/hoodaescapenevada2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-nevada-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Neverland",
+        imgSrc: "/img/gameimg/hoodaescapeneverland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapeneverland.swf")
+    },
+    {
+        title: "Hooda Escape New Hampshire",
+        imgSrc: "/img/gameimg/hoodaescapenewhampshire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-hampshire/game.html")
+    },
+    {
+        title: "Hooda Escape New Hampshire 2022",
+        imgSrc: "/img/gameimg/hoodaescapenewhampshire2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-hampshire-2022/game.html")
+    },
+    {
+        title: "Hooda Escape New Jersey",
+        imgSrc: "/img/gameimg/hoodaescapenewjersey.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-jersey/game.html")
+    },
+    {
+        title: "Hooda Escape New Jersey 2022",
+        imgSrc: "/img/gameimg/hoodaescapenewjersey2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-jersey-2022/game.html")
+    },
+    {
+        title: "Hooda Escape New Mexico",
+        imgSrc: "/img/gameimg/hoodaescapenewmexico.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-mexico/game.html")
+    },
+    {
+        title: "Hooda Escape New Mexico 2022",
+        imgSrc: "/img/gameimg/hoodaescapenewmexico2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-mexico-2022/game.html")
+    },
+    {
+        title: "Hooda Escape New Years Eve 2023",
+        imgSrc: "/img/gameimg/hoodaescapenewyearseve2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-years-eve-2023/game.html")
+    },
+    {
+        title: "Hooda Escape New York",
+        imgSrc: "/img/gameimg/hoodaescapenewyork.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-york/game.html")
+    },
+    {
+        title: "Hooda Escape New York 2022",
+        imgSrc: "/img/gameimg/hoodaescapenewyork2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-york-2022/game.html")
+    },
+    {
+        title: "Hooda Escape New York City 2023",
+        imgSrc: "/img/gameimg/hoodaescapenewyorkcity2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-new-york-city-2023/game.html")
+    },
+    {
+        title: "Hooda Escape North Carolina",
+        imgSrc: "/img/gameimg/hoodaescapenorthcarolina.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-north-carolina/game.html")
+    },
+    {
+        title: "Hooda Escape North Carolina 2022",
+        imgSrc: "/img/gameimg/hoodaescapenorthcarolina2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-north-carolina-2022/game.html")
+    },
+    {
+        title: "Hooda Escape North Dakota",
+        imgSrc: "/img/gameimg/hoodaescapenorthdakota.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-north-dakota/game.html")
+    },
+    {
+        title: "Hooda Escape North Dakota 2022",
+        imgSrc: "/img/gameimg/hoodaescapenorthdakota2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-north-dakota-2022/game.html")
+    },
+    {
+        title: "Hooda Escape North Pole 2023",
+        imgSrc: "/img/gameimg/hoodaescapenorthpole2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-north-pole-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Ohio",
+        imgSrc: "/img/gameimg/hoodaescapeohio.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ohio/game.html")
+    },
+    {
+        title: "Hooda Escape Ohio 2022",
+        imgSrc: "/img/gameimg/hoodaescapeohio2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ohio-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Oklahoma",
+        imgSrc: "/img/gameimg/hoodaescapeoklahoma.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-oklahoma/game.html")
+    },
+    {
+        title: "Hooda Escape Oklahoma 2022",
+        imgSrc: "/img/gameimg/hoodaescapeoklahoma2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-oklahoma-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Oklahoma City 2023",
+        imgSrc: "/img/gameimg/hoodaescapeoklahomacity2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-oklahoma-city-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Olympia",
+        imgSrc: "/img/gameimg/hoodaescapeolympia.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-olympia/game.html")
+    },
+    {
+        title: "Hooda Escape Oregon",
+        imgSrc: "/img/gameimg/hoodaescapeoregon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-oregon/game.html")
+    },
+    {
+        title: "Hooda Escape Oregon 2022",
+        imgSrc: "/img/gameimg/hoodaescapeoregon2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-oregon-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Ottawa 2024",
+        imgSrc: "/img/gameimg/hoodaescapeottawa2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ottawa-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Parade 2023",
+        imgSrc: "/img/gameimg/hoodaescapeparade2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-parade-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Pennsylvania",
+        imgSrc: "/img/gameimg/hoodaescapepennsylvania.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-pennsylvania/game.html")
+    },
+    {
+        title: "Hooda Escape Pennsylvania 2022",
+        imgSrc: "/img/gameimg/hoodaescapepennsylvania2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-pennsylvania-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Perth 2024",
+        imgSrc: "/img/gameimg/hoodaescapeperth2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-perth-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Pet Shop",
+        imgSrc: "/img/gameimg/hoodaescapepetshop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-pet-shop/game.html")
+    },
+    {
+        title: "Hooda Escape Petting Zoo 2024",
+        imgSrc: "/img/gameimg/hoodaescapepettingzoo2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-petting-zoo-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Philadelphia 2023",
+        imgSrc: "/img/gameimg/hoodaescapephiladelphia2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-philadelphia-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Phoenix",
+        imgSrc: "/img/gameimg/hoodaescapephoenix.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-phoenix/game.html")
+    },
+    {
+        title: "Hooda Escape Phoenix 2023",
+        imgSrc: "/img/gameimg/hoodaescapephoenix2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-phoenix-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Pizza Shop 2024",
+        imgSrc: "/img/gameimg/hoodaescapepizzashop2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-pizza-shop-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Playground 2024",
+        imgSrc: "/img/gameimg/hoodaescapeplayground2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-playground-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Police Station 2024",
+        imgSrc: "/img/gameimg/hoodaescapepolicestation2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-police-station-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Portland 2023",
+        imgSrc: "/img/gameimg/hoodaescapeportland2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-portland-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Prison 2023",
+        imgSrc: "/img/gameimg/hoodaescapeprison2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-prison-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Pumpkin Patch 2023",
+        imgSrc: "/img/gameimg/hoodaescapepumpkinpatch2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-pumpkin-patch-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Pumpkin Patch 2024",
+        imgSrc: "/img/gameimg/hoodaescapepumpkinpatch2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-pumpkin-patch-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Quebec City 2024",
+        imgSrc: "/img/gameimg/hoodaescapequebeccity2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-quebec-city-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Red Room 2024",
+        imgSrc: "/img/gameimg/hoodaescaperedroom2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-red-room-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Red's Grandma's House",
+        imgSrc: "/img/gameimg/hoodaescaperedsgrandmashouse.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescaperedsgrandmashouse.swf")
+    },
+    {
+        title: "Hooda Escape Rhode Island",
+        imgSrc: "/img/gameimg/hoodaescaperhodeisland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-rhode-island/game.html")
+    },
+    {
+        title: "Hooda Escape Rhode Island 2022",
+        imgSrc: "/img/gameimg/hoodaescaperhodeisland2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-rhode-island-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Rocket Ship",
+        imgSrc: "/img/gameimg/hoodaescaperocketship.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-rocket-ship/game.html")
+    },
+    {
+        title: "Hooda Escape Sacramento",
+        imgSrc: "/img/gameimg/hoodaescapesacramento.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-sacramento/game.html")
+    },
+    {
+        title: "Hooda Escape Sacramento 2023",
+        imgSrc: "/img/gameimg/hoodaescapesacramento2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-sacramento-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Salem",
+        imgSrc: "/img/gameimg/hoodaescapesalem.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-salem/game.html")
+    },
+    {
+        title: "Hooda Escape San Antonio 2023",
+        imgSrc: "/img/gameimg/hoodaescapesanantonio2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-san-antonio-2023/game.html")
+    },
+    {
+        title: "Hooda Escape San Diego 2023",
+        imgSrc: "/img/gameimg/hoodaescapesandiego2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-san-diego-2023/game.html")
+    },
+    {
+        title: "Hooda Escape San Francisco 2023",
+        imgSrc: "/img/gameimg/hoodaescapesanfrancisco2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-san-francisco-2023/game.html")
+    },
+    {
+        title: "Hooda Escape San Jose 2023",
+        imgSrc: "/img/gameimg/hoodaescapesanjose2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-san-jose-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Science Museum 2023",
+        imgSrc: "/img/gameimg/hoodaescapesciencemuseum2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-science-museum-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Seattle 2023",
+        imgSrc: "/img/gameimg/hoodaescapeseattle2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-seattle-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Sherwood Forest",
+        imgSrc: "/img/gameimg/hoodaescapesherwoodforest.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapesherwoodforest.swf")
+    },
+    {
+        title: "Hooda Escape Ship",
+        imgSrc: "/img/gameimg/hoodaescapeship.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ship/game.html")
+    },
+    {
+        title: "Hooda Escape Shopping Mall 2023",
+        imgSrc: "/img/gameimg/hoodaescapeshoppingmall2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-shopping-mall-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Skate Park",
+        imgSrc: "/img/gameimg/hoodaescapeskatepark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapeskatepark.swf")
+    },
+    {
+        title: "Hooda Escape Ski Lodge 2024",
+        imgSrc: "/img/gameimg/hoodaescapeskilodge2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ski-lodge-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Snow Storm 2024",
+        imgSrc: "/img/gameimg/hoodaescapesnowstorm2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-snow-storm-2024/game.html")
+    },
+    {
+        title: "Hooda Escape South Carolina",
+        imgSrc: "/img/gameimg/hoodaescapesouthcarolina.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-south-carolina/game.html")
+    },
+    {
+        title: "Hooda Escape South Carolina 2022",
+        imgSrc: "/img/gameimg/hoodaescapesouthcarolina2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-south-carolina-2022/game.html")
+    },
+    {
+        title: "Hooda Escape South Dakota",
+        imgSrc: "/img/gameimg/hoodaescapesouthdakota.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-south-dakota/game.html")
+    },
+    {
+        title: "Hooda Escape South Dakota 2022",
+        imgSrc: "/img/gameimg/hoodaescapesouthdakota2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-south-dakota-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Spooky Farm",
+        imgSrc: "/img/gameimg/hoodaescapespookyfarm.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-spooky-farm/game.html")
+    },
+    {
+        title: "Hooda Escape Spring Garden 2024",
+        imgSrc: "/img/gameimg/hoodaescapespringgarden2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-spring-garden-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Submarine",
+        imgSrc: "/img/gameimg/hoodaescapesubmarine.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-submarine/game.html")
+    },
+    {
+        title: "Hooda Escape Subway 2024",
+        imgSrc: "/img/gameimg/hoodaescapesubway2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-subway-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Summer School 2023",
+        imgSrc: "/img/gameimg/hoodaescapesummerschool2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-summer-school-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Sydney 2024",
+        imgSrc: "/img/gameimg/hoodaescapesydney2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-sydney-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Tallahassee",
+        imgSrc: "/img/gameimg/hoodaescapetallahassee.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-tallahassee/game.html")
+    },
+    {
+        title: "Hooda Escape Tennessee",
+        imgSrc: "/img/gameimg/hoodaescapetennessee.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-tennessee/game.html")
+    },
+    {
+        title: "Hooda Escape Tennessee 2022",
+        imgSrc: "/img/gameimg/hoodaescapetennessee2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-tennessee-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Texas",
+        imgSrc: "/img/gameimg/hoodaescapetexas.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-texas/game.html")
+    },
+    {
+        title: "Hooda Escape Texas 2022",
+        imgSrc: "/img/gameimg/hoodaescapetexas2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-texas-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Thanksgiving 2023",
+        imgSrc: "/img/gameimg/hoodaescapethanksgiving2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-thanksgiving-2023/game.html")
+    },
+    {
+        title: "Hooda Escape The Wicked Step Sisters",
+        imgSrc: "/img/gameimg/hoodaescapethewickedstepsisters.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapethewickedstepsisters.swf")
+    },
+    {
+        title: "Hooda Escape Topeka",
+        imgSrc: "/img/gameimg/hoodaescapetopeka.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-topeka/game.html")
+    },
+    {
+        title: "Hooda Escape Toronto 2024",
+        imgSrc: "/img/gameimg/hoodaescapetoronto2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-toronto-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Train Station",
+        imgSrc: "/img/gameimg/hoodaescapetrainstation.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapetrainstation.swf")
+    },
+    {
+        title: "Hooda Escape Trampoline Park 2024",
+        imgSrc: "/img/gameimg/hoodaescapetrampolinepark2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-trampoline-park-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Trick or Treat 2023",
+        imgSrc: "/img/gameimg/hoodaescapetrickortreat2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-trick-or-treat-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Trick or Treat 2024",
+        imgSrc: "/img/gameimg/hoodaescapetrickortreat2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-trick-or-treat-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Tucson 2023",
+        imgSrc: "/img/gameimg/hoodaescapetucson2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-tucson-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Ufo",
+        imgSrc: "/img/gameimg/hoodaescapeufo.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-ufo/game.html")
+    },
+    {
+        title: "Hooda Escape Utah",
+        imgSrc: "/img/gameimg/hoodaescapeutah.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-utah/game.html")
+    },
+    {
+        title: "Hooda Escape Utah 2022",
+        imgSrc: "/img/gameimg/hoodaescapeutah2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-utah-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Valentine's Day 2024",
+        imgSrc: "/img/gameimg/hoodaescapevalentinesday2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-valentines-day-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Vancouver 2024",
+        imgSrc: "/img/gameimg/hoodaescapevancouver2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-vancouver-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Vermont",
+        imgSrc: "/img/gameimg/hoodaescapevermont.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-vermont/game.html")
+    },
+    {
+        title: "Hooda Escape Vermont 2022",
+        imgSrc: "/img/gameimg/hoodaescapevermont2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-vermont-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Virginia",
+        imgSrc: "/img/gameimg/hoodaescapevirginia.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-virginia/game.html")
+    },
+    {
+        title: "Hooda Escape Virginia 2022",
+        imgSrc: "/img/gameimg/hoodaescapevirginia2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-virginia-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Washington",
+        imgSrc: "/img/gameimg/hoodaescapewashington.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-washington/game.html")
+    },
+    {
+        title: "Hooda Escape Washington 2022",
+        imgSrc: "/img/gameimg/hoodaescapewashington2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-washington-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Washington DC 2023",
+        imgSrc: "/img/gameimg/hoodaescapewashingtondc2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-washington-dc-2023/game.html")
+    },
+    {
+        title: "Hooda Escape Water Park",
+        imgSrc: "/img/gameimg/hoodaescapewaterpark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-water-park/game.html")
+    },
+    {
+        title: "Hooda Escape Water Park 2023",
+        imgSrc: "/img/gameimg/hoodaescapewaterpark2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-water-park-2023/game.html")
+    },
+    {
+        title: "Hooda Escape West Virginia",
+        imgSrc: "/img/gameimg/hoodaescapewestvirginia.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-west-virginia/game.html")
+    },
+    {
+        title: "Hooda Escape West Virginia 2022",
+        imgSrc: "/img/gameimg/hoodaescapewestvirginia2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-west-virginia-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Winnipeg 2024",
+        imgSrc: "/img/gameimg/hoodaescapewinnipeg2024.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-winnipeg-2024/game.html")
+    },
+    {
+        title: "Hooda Escape Wisconsin",
+        imgSrc: "/img/gameimg/hoodaescapewisconsin.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-wisconsin/game.html")
+    },
+    {
+        title: "Hooda Escape Wisconsin 2022",
+        imgSrc: "/img/gameimg/hoodaescapewisconsin2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-wisconsin-2022/game.html")
+    },
+    {
+        title: "Hooda Escape With Aladdin's Lamp",
+        imgSrc: "/img/gameimg/hoodaescapewithaladdinslamp.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithaladdinslamp.swf")
+    },
+    {
+        title: "Hooda Escape With Beauty",
+        imgSrc: "/img/gameimg/hoodaescapewithbeauty.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithbeauty.swf")
+    },
+    {
+        title: "Hooda Escape With Frank",
+        imgSrc: "/img/gameimg/hoodaescapewithfrank.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithfrank.swf")
+    },
+    {
+        title: "Hooda Escape With Goldilocks",
+        imgSrc: "/img/gameimg/hoodaescapewithgoldilocks.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithgoldilocks.swf")
+    },
+    {
+        title: "Hooda Escape with Hansel and Gretel",
+        imgSrc: "/img/gameimg/hoodaescapewithhanselandgretel.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-with-hansel-and-gretel/game.html")
+    },
+    {
+        title: "Hooda Escape with Jack",
+        imgSrc: "/img/gameimg/hoodaescapewithjack.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithjack.swf")
+    },
+    {
+        title: "Hooda Escape With Rapunzel",
+        imgSrc: "/img/gameimg/hoodaescapewithrapunzel.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithrapunzel.swf")
+    },
+    {
+        title: "Hooda Escape With Snow White",
+        imgSrc: "/img/gameimg/hoodaescapewithsnowwhite.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithsnowwhite.swf")
+    },
+    {
+        title: "Hooda Escape With Spooky",
+        imgSrc: "/img/gameimg/hoodaescapewithspooky.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-with-spooky/game.html")
+    },
+    {
+        title: "Hooda Escape With Tom",
+        imgSrc: "/img/gameimg/hoodaescapewithtom.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewithtom.swf")
+    },
+    {
+        title: "Hooda Escape Wonderland",
+        imgSrc: "/img/gameimg/hoodaescapewonderland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodaescapewonderland.swf")
+    },
+    {
+        title: "Hooda Escape Wyoming",
+        imgSrc: "/img/gameimg/hoodaescapewyoming.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-wyoming/game.html")
+    },
+    {
+        title: "Hooda Escape Wyoming 2022",
+        imgSrc: "/img/gameimg/hoodaescapewyoming2022.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-wyoming-2022/game.html")
+    },
+    {
+        title: "Hooda Escape Zoo 2023",
+        imgSrc: "/img/gameimg/hoodaescapezoo2023.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-escape-zoo-2023/game.html")
+    },
+    {
+        title: "Hooda Find HQ Donut Shop",
+        imgSrc: "/img/gameimg/hoodafindhqdonutshop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/hoodafindhqdonutshop.swf")
+    },
+    {
+        title: "Hooda Find HQ Fort",
+        imgSrc: "/img/gameimg/hoodafindhqfort.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/hoodafindhqfort.swf")
+    },
+    {
+        title: "Hooda Find HQ Park",
+        imgSrc: "/img/gameimg/hoodafindhqpark.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodafindhqpark.swf")
+    },
+    {
+        title: "Hooda Find HQ Police Station",
+        imgSrc: "/img/gameimg/hoodafindhqpolicestation.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/hoodafindhqpolicestation.swf")
+    },
+    {
+        title: "Hooda Find HQ Subway",
+        imgSrc: "/img/gameimg/hoodafindhqsubway.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/hoodafindhqsubway.swf")
+    },
+    {
+        title: "Hooda Grow Aquarium",
+        imgSrc: "/img/gameimg/hoodagrowaquarium.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-grow-aquarium/game.html")
+    },
+    {
+        title: "Hooda Grow Canyon",
+        imgSrc: "/img/gameimg/hoodagrowcanyon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodagrowcanyon.swf")
+    },
+    {
+        title: "Hooda Grow City",
+        imgSrc: "/img/gameimg/hoodagrowcity.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-grow-city/game.html")
+    },
+    {
+        title: "Hooda Grow Mountain",
+        imgSrc: "/img/gameimg/hoodagrowmountain.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodagrowmountain.swf")
+    },
+    {
+        title: "Hooda Grow Rocket",
+        imgSrc: "/img/gameimg/hoodagrowrocket.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-grow-rocket/game.html")
+    },
+    {
+        title: "Hooda Math Defense",
+        imgSrc: "/img/gameimg/hoodamathdefense.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-defense/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Albany",
+        imgSrc: "/img/gameimg/hoodamathescaperoomalbany.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodamathescaperoomalbany.swf")
+    },
+    {
+        title: "Hooda Math Escape Room Annapolis",
+        imgSrc: "/img/gameimg/hoodamathescaperoomannapolis.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-annapolis/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Atlanta",
+        imgSrc: "/img/gameimg/hoodamathescaperoomatlanta.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-atlanta/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Austin",
+        imgSrc: "/img/gameimg/hoodamathescaperoomaustin.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-austin/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Baton Rouge",
+        imgSrc: "/img/gameimg/hoodamathescaperoombatonrouge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-baton-rouge/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Bismarck",
+        imgSrc: "/img/gameimg/hoodamathescaperoombismarck.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-bismarck/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Boston",
+        imgSrc: "/img/gameimg/hoodamathescaperoomboston.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-boston/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Carson City",
+        imgSrc: "/img/gameimg/hoodamathescaperoomcarsoncity.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-carson-city/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Charleston",
+        imgSrc: "/img/gameimg/hoodamathescaperoomcharleston.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-charleston/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Columbus",
+        imgSrc: "/img/gameimg/hoodamathescaperoomcolumbus.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-columbus/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Concord",
+        imgSrc: "/img/gameimg/hoodamathescaperoomconcord.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-concord/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Des Moines",
+        imgSrc: "/img/gameimg/hoodamathescaperoomdesmoines.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-des-moines/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Dover",
+        imgSrc: "/img/gameimg/hoodamathescaperoomdover.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-dover/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Frankfort",
+        imgSrc: "/img/gameimg/hoodamathescaperoomfrankfort.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-frankfort/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Halloween SLC",
+        imgSrc: "/img/gameimg/hoodamathescaperoomhalloweenslc.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodamathescaperoomhalloweenslc.swf")
+    },
+    {
+        title: "Hooda Math Escape Room Harrisburg",
+        imgSrc: "/img/gameimg/hoodamathescaperoomharrisburg.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-harrisburg/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Hartford",
+        imgSrc: "/img/gameimg/hoodamathescaperoomhartford.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-hartford/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Helena",
+        imgSrc: "/img/gameimg/hoodamathescaperoomhelena.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-helena/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Jefferson City",
+        imgSrc: "/img/gameimg/hoodamathescaperoomjeffersoncity.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-jefferson-city/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Lansing",
+        imgSrc: "/img/gameimg/hoodamathescaperoomlansing.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-lansing/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Lincoln",
+        imgSrc: "/img/gameimg/hoodamathescaperoomlincoln.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-lincoln/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Montgomery",
+        imgSrc: "/img/gameimg/hoodamathescaperoommontgomery.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-montgomery/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Montpelier",
+        imgSrc: "/img/gameimg/hoodamathescaperoommontpelier.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-montpelier/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Oklahoma City",
+        imgSrc: "/img/gameimg/hoodamathescaperoomoklahomacity.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-oklahoma-city/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Pierre",
+        imgSrc: "/img/gameimg/hoodamathescaperoompierre.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-pierre/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Providence",
+        imgSrc: "/img/gameimg/hoodamathescaperoomprovidence.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-providence/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room PSL",
+        imgSrc: "/img/gameimg/hoodamathescaperoompsl.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-psl/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Raleigh",
+        imgSrc: "/img/gameimg/hoodamathescaperoomraleigh.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-raleigh/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Richmond",
+        imgSrc: "/img/gameimg/hoodamathescaperoomrichmond.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-richmond/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Salt Lake City",
+        imgSrc: "/img/gameimg/hoodamathescaperoomsaltlakecity.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-salt-lake-city/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Springfield",
+        imgSrc: "/img/gameimg/hoodamathescaperoomspringfield.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-springfield/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room St Paul",
+        imgSrc: "/img/gameimg/hoodamathescaperoomstpaul.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-st-paul/game.html")
+    },
+    {
+        title: "Hooda Math Escape Room Trenton",
+        imgSrc: "/img/gameimg/hoodamathescaperoomtrenton.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-math-escape-room-trenton/game.html")
+    },
+    {
+        title: "Hooda Remover",
+        imgSrc: "/img/gameimg/hoodaremover.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-remover/game.html")
+    },
+    {
+        title: "Hooda Room Escape 1",
+        imgSrc: "/img/gameimg/hoodaroomescape1.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-room-escape-1/game.html")
+    },
+    {
+        title: "Hooda Room Escape 2",
+        imgSrc: "/img/gameimg/hoodaroomescape2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-room-escape-2/game.html")
+    },
+    {
+        title: "Hooda Room Escape 3",
+        imgSrc: "/img/gameimg/hoodaroomescape3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-room-escape-3/game.html")
+    },
+    {
+        title: "Hooda Room Escape 4",
+        imgSrc: "/img/gameimg/hoodaroomescape4.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-room-escape-4/game.html")
+    },
+    {
+        title: "Hooda Room Escape 5",
+        imgSrc: "/img/gameimg/hoodaroomescape5.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-room-escape-5/game.html")
+    },
+    {
+        title: "Hooda Slice It",
+        imgSrc: "/img/gameimg/hoodasliceit.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-slice-it/game.html")
+    },
+    {
+        title: "Hooda Stacker",
+        imgSrc: "/img/gameimg/hoodastacker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-stacker/game.html")
+    },
+    {
+        title: "Hooda Stacker 2",
+        imgSrc: "/img/gameimg/hoodastacker2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-stacker-2/game.html")
+    },
+    {
+        title: "Hooda Tiny Fishing",
+        imgSrc: "/img/gameimg/hoodatinyfishing.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-tiny-fishing/game.html")
+    },
+    {
+        title: "Hooda Tunnel",
+        imgSrc: "/img/gameimg/hoodatunnel.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hooda-tunnel/game.html")
+    },
+    {
+        title: "Hooda What",
+        imgSrc: "/img/gameimg/hoodawhat.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodawhat.swf")
+    },
+    {
+        title: "Hooda What 2",
+        imgSrc: "/img/gameimg/hoodawhat2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/hoodawhat2.swf")
+    },
+    {
+        title: "Hoodas Drive Thru",
+        imgSrc: "/img/gameimg/hoodasdrivethru.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hoodas-drive-thru/game.html")
+    },
+    {
+        title: "Hot Java",
+        imgSrc: "/img/gameimg/hotjava.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hot-java/game.html")
+    },
+    {
+        title: "Hotel Hooda",
+        imgSrc: "/img/gameimg/hotelhooda.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/hotel-hooda/game.html")
+    },
+    {
+        title: "House Painter",
+        imgSrc: "/img/gameimg/housepainter.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/house-painter/game.html")
+    },
+    {
+        title: "How Smart Are You",
+        imgSrc: "/img/gameimg/howsmartareyou.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/how-smart-are-you/game.html")
+    },
+    {
+        title: "Ice Cream Truck",
+        imgSrc: "/img/gameimg/icecreamtruck.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/ice-cream-truck/game.html")
+    },
+    {
+        title: "Icy Purple Head 2",
+        imgSrc: "/img/gameimg/icypurplehead2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/icy-purple-head-2/game.html")
+    },
+    {
+        title: "Icy Purple Head 3",
+        imgSrc: "/img/gameimg/icypurplehead3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/icy-purple-head-3/game.html")
+    },
+    {
+        title: "Icy Purple Head Super Slide",
+        imgSrc: "/img/gameimg/icypurpleheadsuperslide.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/icy-purple-head-super-slide/game.html")
+    },
+    {
+        title: "Infinite Craft",
+        imgSrc: "/img/gameimg/infinitecraft.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/infinite-craft/game.html")
+    },
+    {
+        title: "Inn Keeper",
+        imgSrc: "/img/gameimg/innkeeper.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/inn-keeper/game.html")
+    },
+    {
+        title: "Integer Tilt",
+        imgSrc: "/img/gameimg/integertilt.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/integer-tilt/game.html")
+    },
+    {
+        title: "Integers Timed Tests",
+        imgSrc: "/img/gameimg/integerstimedtests.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/integers-timed-tests/game.html")
+    },
+    {
+        title: "Into Space",
+        imgSrc: "/img/gameimg/intospace.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/intospace.swf")
+    },
+    {
+        title: "Italian Brainrot Clicker",
+        imgSrc: "/img/gameimg/italianbrainrotclicker.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/italian-brainrot-clicker/game.html")
+    },
+    {
+        title: "Jelly Slice",
+        imgSrc: "/img/gameimg/jellyslice.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/jelly-slice/game.html")
+    },
+    {
+        title: "Klondike Solitaire",
+        imgSrc: "/img/gameimg/klondikesolitaire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/klondike-solitaire/game.html")
+    },
+    {
+        title: "Lava Snake",
+        imgSrc: "/img/gameimg/lavasnake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/lava-snake/game.html")
+    },
+    {
+        title: "Lemonade Stand",
+        imgSrc: "/img/gameimg/lemonadestand.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/lemonade-stand/game.html")
+    },
+    {
+        title: "Level Devil Trap Path",
+        imgSrc: "/img/gameimg/leveldeviltrappath.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/level-devil-trap-path/game.html")
+    },
+    {
+        title: "Light Bot",
+        imgSrc: "/img/gameimg/lightbot.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/lightbot.swf")
+    },
+    {
+        title: "Lighto",
+        imgSrc: "/img/gameimg/lighto.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/lighto/game.html")
+    },
+    {
+        title: "Line Bounder",
+        imgSrc: "/img/gameimg/linebounder.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/linebounder.swf")
+    },
+    {
+        title: "Line To Bathroom",
+        imgSrc: "/img/gameimg/linetobathroom.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/line-to-bathroom/game.html")
+    },
+    {
+        title: "Line To Cashier",
+        imgSrc: "/img/gameimg/linetocashier.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/line-to-cashier/game.html")
+    },
+    {
+        title: "Liquid Measure",
+        imgSrc: "/img/gameimg/liquidmeasure.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/liquidmeasure.swf")
+    },
+    {
+        title: "Liquid Sort",
+        imgSrc: "/img/gameimg/liquidsort.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/liquid-sort/game.html")
+    },
+    {
+        title: "Little Alchemy",
+        imgSrc: "/img/gameimg/littlealchemy.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/little-alchemy/game.html")
+    },
+    {
+        title: "Loot The King",
+        imgSrc: "/img/gameimg/loottheking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/loot-the-king/game.html")
+    },
+    {
+        title: "Lost Head",
+        imgSrc: "/img/gameimg/losthead.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/lost-head/game.html")
+    },
+    {
+        title: "Love Balls",
+        imgSrc: "/img/gameimg/loveballs.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/love-balls/game.html")
+    },
+    {
+        title: "Low's Adventures",
+        imgSrc: "/img/gameimg/lowsadventures.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/lows-adventures/game.html")
+    },
+    {
+        title: "Low's Adventures 2",
+        imgSrc: "/img/gameimg/lowsadventures2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/lows-adventures-2/game.html")
+    },
+    {
+        title: "Low's Adventures 3",
+        imgSrc: "/img/gameimg/lowsadventures3.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/lows-adventures-3/game.html")
+    },
+    {
+        title: "Magic Pen",
+        imgSrc: "/img/gameimg/magicpen.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/magic-pen/game.html")
+    },
+    {
+        title: "Magic Pen 2",
+        imgSrc: "/img/gameimg/magicpen2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/magic-pen-2/game.html")
+    },
+    {
+        title: "Make Challah",
+        imgSrc: "/img/gameimg/makechallah.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/makechallah.swf")
+    },
+    {
+        title: "Make Chocolate Cake",
+        imgSrc: "/img/gameimg/makechocolatecake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/makechocolatecake.swf")
+    },
+    {
+        title: "Mansion Mogul",
+        imgSrc: "/img/gameimg/mansionmogul.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mansionmogul.swf")
+    },
+    {
+        title: "Math Duck",
+        imgSrc: "/img/gameimg/mathduck.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/math-duck/game.html")
+    },
+    {
+        title: "Math Snake",
+        imgSrc: "/img/gameimg/mathsnake.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/math-snake/game.html")
+    },
+    {
+        title: "Math Timed Tests",
+        imgSrc: "/img/gameimg/mathtimedtests.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/math-timed-tests/game.html")
+    },
+    {
+        title: "Math Timed Tests 2",
+        imgSrc: "/img/gameimg/mathtimedtests2.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/math-timed-tests-2/game.html")
+    },
+    {
+        title: "Meal Masters",
+        imgSrc: "/img/gameimg/mealmasters.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mealmasters.swf")
+    },
+    {
+        title: "Meal Masters 2",
+        imgSrc: "/img/gameimg/mealmasters2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mealmasters2.swf")
+    },
+    {
+        title: "Meal Masters 3",
+        imgSrc: "/img/gameimg/mealmasters3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mealmasters3.swf")
+    },
+    {
+        title: "Measure and Mix Blueberry Muffins",
+        imgSrc: "/img/gameimg/measureandmixblueberrymuffins.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/measureandmixblueberrymuffins.swf")
+    },
+    {
+        title: "Measure and Mix Chocolate Cake",
+        imgSrc: "/img/gameimg/measureandmixchocolatecake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/measureandmixchocolatecake.swf")
+    },
+    {
+        title: "Measure and Mix Chocolate Chip Cookies",
+        imgSrc: "/img/gameimg/measureandmixchocolatechipcookies.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/measureandmixchocolatechipcookies.swf")
+    },
+    {
+        title: "Measure and Mix Donuts",
+        imgSrc: "/img/gameimg/measureandmixdonuts.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/measureandmixdonuts.swf")
+    },
+    {
+        title: "Measure and Mix Fudge Brownies",
+        imgSrc: "/img/gameimg/measureandmixfudgebrownies.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/measureandmixfudgebrownies.swf")
+    },
+    {
+        title: "Measure and Mix Pancakes",
+        imgSrc: "/img/gameimg/measureandmixpancakes.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/measureandmixpancakes.swf")
+    },
+    {
+        title: "Measure and Mix Pretzels",
+        imgSrc: "/img/gameimg/measureandmixpretzels.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/measureandmixpretzels.swf")
+    },
+    {
+        title: "Mega Mall Madness",
+        imgSrc: "/img/gameimg/megamallmadness.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/megamall-madness/game.html")
+    },
+    {
+        title: "Melody's Adventure",
+        imgSrc: "/img/gameimg/melodysadventure.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/melodys-adventure/game.html")
+    },
+    {
+        title: "Merge the Numbers",
+        imgSrc: "/img/gameimg/mergethenumbers.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/merge-the-numbers/game.html")
+    },
+    {
+        title: "Millennials Words Quiz",
+        imgSrc: "/img/gameimg/millennialswordsquiz.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/millennials-words-quiz/game.html")
+    },
+    {
+        title: "Mini Golf",
+        imgSrc: "/img/gameimg/minigolf.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/mini-golf/game.html")
+    },
+    {
+        title: "Mini Putt",
+        imgSrc: "/img/gameimg/miniputt.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/mini-putt/game.html")
+    },
+    {
+        title: "Mini Putt 2",
+        imgSrc: "/img/gameimg/miniputt2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/miniputt2.swf")
+    },
+    {
+        title: "Mini Putt 3",
+        imgSrc: "/img/gameimg/miniputt3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/mini-putt-3/game.html")
+    },
+    {
+        title: "Mini Train",
+        imgSrc: "/img/gameimg/minitrain.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/minitrain.swf")
+    },
+    {
+        title: "Miniclip Baseball",
+        imgSrc: "/img/gameimg/miniclipbaseball.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/miniclip-baseball/game.html")
+    },
+    {
+        title: "Mixed World",
+        imgSrc: "/img/gameimg/mixedworld.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/mixed-world/game.html")
+    },
+    {
+        title: "Moborz",
+        imgSrc: "/img/gameimg/moborz.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/moborz/game.html")
+    },
+    {
+        title: "Monsterland",
+        imgSrc: "/img/gameimg/monsterland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/monsterland/game.html")
+    },
+    {
+        title: "Monsterland 2",
+        imgSrc: "/img/gameimg/monsterland2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/monsterland-2/game.html")
+    },
+    {
+        title: "Monsterland Challenge",
+        imgSrc: "/img/gameimg/monsterlandchallenge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/monsterland-challenge/game.html")
+    },
+    {
+        title: "Montgolfier",
+        imgSrc: "/img/gameimg/montgolfier.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/montgolfier.swf")
+    },
+    {
+        title: "Moto Flyer",
+        imgSrc: "/img/gameimg/motoflyer.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/moto-flyer/game.html")
+    },
+    {
+        title: "Motocross Challenge",
+        imgSrc: "/img/gameimg/motocrosschallenge.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/motocross-challenge/game.html")
+    },
+    {
+        title: "Motorcycle Tycoon",
+        imgSrc: "/img/gameimg/motorcycletycoon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/motorcycletycoon.swf")
+    },
+    {
+        title: "Mountain Bike Runner",
+        imgSrc: "/img/gameimg/mountainbikerunner.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/mountain-bike-runner/game.html")
+    },
+    {
+        title: "Mouse Trap",
+        imgSrc: "/img/gameimg/mousetrap.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/mouse-trap/game.html")
+    },
+    {
+        title: "Move The Pin",
+        imgSrc: "/img/gameimg/movethepin.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/move-the-pin/game.html")
+    },
+    {
+        title: "Mr Smith Pics and Words",
+        imgSrc: "/img/gameimg/mrsmithpicsandwords.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/mr-smith-pics-and-words/game.html")
+    },
+    {
+        title: "Multiplication Bubble Pop",
+        imgSrc: "/img/gameimg/multiplicationbubblepop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/multiplication-bubble-pop/game.html")
+    },
+    {
+        title: "Multiplication Game",
+        imgSrc: "/img/gameimg/multiplicationgame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/multiplication-game/game.html")
+    },
+    {
+        title: "Multiplication Skydiver",
+        imgSrc: "/img/gameimg/multiplicationskydiver.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/multiplication-skydiver/game.html")
+    },
+    {
+        title: "Munchie Bob",
+        imgSrc: "/img/gameimg/munchiebob.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/munchie-bob/game.html")
+    },
+    {
+        title: "Must Escape Lighthouse Island",
+        imgSrc: "/img/gameimg/mustescapelighthouseisland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapelighthouseisland.swf")
+    },
+    {
+        title: "Must Escape The Bakery",
+        imgSrc: "/img/gameimg/mustescapethebakery.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethebakery.swf")
+    },
+    {
+        title: "Must Escape The Burger Joint",
+        imgSrc: "/img/gameimg/mustescapetheburgerjoint.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapetheburgerjoint.swf")
+    },
+    {
+        title: "Must Escape The Castle",
+        imgSrc: "/img/gameimg/mustescapethecastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethecastle.swf")
+    },
+    {
+        title: "Must Escape The Clock Tower",
+        imgSrc: "/img/gameimg/mustescapetheclocktower.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapetheclocktower.swf")
+    },
+    {
+        title: "Must Escape The Factory",
+        imgSrc: "/img/gameimg/mustescapethefactory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethefactory.swf")
+    },
+    {
+        title: "Must Escape The Farm",
+        imgSrc: "/img/gameimg/mustescapethefarm.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethefarm.swf")
+    },
+    {
+        title: "Must Escape The Fortress",
+        imgSrc: "/img/gameimg/mustescapethefortress.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethefortress.swf")
+    },
+    {
+        title: "Must Escape The Ice Castle",
+        imgSrc: "/img/gameimg/mustescapetheicecastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapetheicecastle.swf")
+    },
+    {
+        title: "Must Escape The Ice Cave",
+        imgSrc: "/img/gameimg/mustescapetheicecave.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapetheicecave.swf")
+    },
+    {
+        title: "Must Escape The Island",
+        imgSrc: "/img/gameimg/mustescapetheisland.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapetheisland.swf")
+    },
+    {
+        title: "Must Escape The Museum",
+        imgSrc: "/img/gameimg/mustescapethemuseum.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethemuseum.swf")
+    },
+    {
+        title: "Must Escape The Pet Shop",
+        imgSrc: "/img/gameimg/mustescapethepetshop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethepetshop.swf")
+    },
+    {
+        title: "Must Escape The Playground",
+        imgSrc: "/img/gameimg/mustescapetheplayground.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapetheplayground.swf")
+    },
+    {
+        title: "Must Escape The Rooftop",
+        imgSrc: "/img/gameimg/mustescapetherooftop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapetherooftop.swf")
+    },
+    {
+        title: "Must Escape The Sewer",
+        imgSrc: "/img/gameimg/mustescapethesewer.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethesewer.swf")
+    },
+    {
+        title: "Must Escape The Shopping Mall",
+        imgSrc: "/img/gameimg/mustescapetheshoppingmall.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/must-escape-the-shopping-mall/game.html")
+    },
+    {
+        title: "Must Escape The Subway",
+        imgSrc: "/img/gameimg/mustescapethesubway.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethesubway.swf")
+    },
+    {
+        title: "Must Escape The Temple",
+        imgSrc: "/img/gameimg/mustescapethetemple.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethetemple.swf")
+    },
+    {
+        title: "Must Escape The Wizard's Castle",
+        imgSrc: "/img/gameimg/mustescapethewizardscastle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/mustescapethewizardscastle.swf")
+    },
+    {
+        title: "Ninja Balloons",
+        imgSrc: "/img/gameimg/ninjaballoons.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/ninja-balloons/game.html")
+    },
+    {
+        title: "Ninja Frog",
+        imgSrc: "/img/gameimg/ninjafrog.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/ninja-frog/game.html")
+    },
+    {
+        title: "Ninja Painter",
+        imgSrc: "/img/gameimg/ninjapainter.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/ninjapainter.swf")
+    },
+    {
+        title: "Ninja Painter 2",
+        imgSrc: "/img/gameimg/ninjapainter2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/ninjapainter2.swf")
+    },
+    {
+        title: "Number Eaters",
+        imgSrc: "/img/gameimg/numbereaters.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/number-eaters/game.html")
+    },
+    {
+        title: "Number Snake",
+        imgSrc: "/img/gameimg/numbersnake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/number-snake/game.html")
+    },
+    {
+        title: "Oblong",
+        imgSrc: "/img/gameimg/oblong.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/oblong/game.html")
+    },
+    {
+        title: "Omit Orange",
+        imgSrc: "/img/gameimg/omitorange.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/omit-orange/game.html")
+    },
+    {
+        title: "Omit Orange 2",
+        imgSrc: "/img/gameimg/omitorange2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/omit-orange-2/game.html")
+    },
+    {
+        title: "Open Restaurant",
+        imgSrc: "/img/gameimg/openrestaurant.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/open-restaurant/game.html")
+    },
+    {
+        title: "Opposite Day",
+        imgSrc: "/img/gameimg/oppositeday.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/opposite-day/game.html")
+    },
+    {
+        title: "Orange",
+        imgSrc: "/img/gameimg/orange.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/orange/game.html")
+    },
+    {
+        title: "Painter's Guild",
+        imgSrc: "/img/gameimg/paintersguild.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/paintersguild.swf")
+    },
+    {
+        title: "Papa Louie",
+        imgSrc: "/img/gameimg/papalouie.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/papa-louie/game.html")
+    },
+    {
+        title: "Papa Louie 2",
+        imgSrc: "/img/gameimg/papalouie2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/papa-louie-2/game.html")
+    },
+    {
+        title: "Papa Louie 3",
+        imgSrc: "/img/gameimg/papalouie3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/papa-louie-3/game.html")
+    },
+    {
+        title: "Parking Fury",
+        imgSrc: "/img/gameimg/parkingfury.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/parking-fury/game.html")
+    },
+    {
+        title: "Parking Fury 2",
+        imgSrc: "/img/gameimg/parkingfury2.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/parkingfury2.swf")
+    },
+    {
+        title: "Parking Fury 3",
+        imgSrc: "/img/gameimg/parkingfury3.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/parking-fury-3/game.html")
+    },
+    {
+        title: "Parking Lot",
+        imgSrc: "/img/gameimg/parkinglot.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/parkinglot.swf")
+    },
+    {
+        title: "Parking Lot 2",
+        imgSrc: "/img/gameimg/parkinglot2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/parkinglot2.swf")
+    },
+    {
+        title: "Parking Lot 3",
+        imgSrc: "/img/gameimg/parkinglot3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/parkinglot3.swf")
+    },
+    {
+        title: "Parking Virtuoso",
+        imgSrc: "/img/gameimg/parkingvirtuoso.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/parkingvirtuoso.swf")
+    },
+    {
+        title: "Penalty Kicks",
+        imgSrc: "/img/gameimg/penaltykicks.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/penalty-kicks/game.html")
+    },
+    {
+        title: "Penalty Mania",
+        imgSrc: "/img/gameimg/penaltymania.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/penalty-mania/game.html")
+    },
+    {
+        title: "Penguin Pass",
+        imgSrc: "/img/gameimg/penguinpass.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/penguinpass.swf")
+    },
+    {
+        title: "Pentapuzzle",
+        imgSrc: "/img/gameimg/pentapuzzle.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pentapuzzle/game.html")
+    },
+    {
+        title: "Pet Stand",
+        imgSrc: "/img/gameimg/petstand.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pet-stand/game.html")
+    },
+    {
+        title: "Phantomb",
+        imgSrc: "/img/gameimg/phantomb.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/phantomb/game.html")
+    },
+    {
+        title: "Phit",
+        imgSrc: "/img/gameimg/phit.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/phit.swf")
+    },
+    {
+        title: "Piano Tiles",
+        imgSrc: "/img/gameimg/pianotiles.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/piano-tiles/game.html")
+    },
+    {
+        title: "PiMon",
+        imgSrc: "/img/gameimg/pimon.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pimon/game.html")
+    },
+    {
+        title: "Pirate Treasure Quotient Game",
+        imgSrc: "/img/gameimg/piratetreasurequotientgame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pirate-treasure-quotient-game/game.html")
+    },
+    {
+        title: "Pizza Party",
+        imgSrc: "/img/gameimg/pizzaparty.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pizza-party/game.html")
+    },
+    {
+        title: "Planet-F",
+        imgSrc: "/img/gameimg/planetf.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/planetf.swf")
+    },
+    {
+        title: "Pocket Change",
+        imgSrc: "/img/gameimg/pocketchange.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/pocketchange.swf")
+    },
+    {
+        title: "Pocket Drift",
+        imgSrc: "/img/gameimg/pocketdrift.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pocket-drift/game.html")
+    },
+    {
+        title: "Poker Dice Solitaire",
+        imgSrc: "/img/gameimg/pokerdicesolitaire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/poker-dice-solitaire/game.html")
+    },
+    {
+        title: "Pop The Lock",
+        imgSrc: "/img/gameimg/popthelock.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pop-the-lock/game.html")
+    },
+    {
+        title: "Popcorn Master",
+        imgSrc: "/img/gameimg/popcornmaster.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/popcorn-master/game.html")
+    },
+    {
+        title: "Popsicle Clicker",
+        imgSrc: "/img/gameimg/popsicleclicker.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/popsicle-clicker/game.html")
+    },
+    {
+        title: "Prime Factor Tree Game",
+        imgSrc: "/img/gameimg/primefactortreegame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/prime-factor-tree-game/game.html")
+    },
+    {
+        title: "Princess Math",
+        imgSrc: "/img/gameimg/princessmath.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/princess-math/game.html")
+    },
+    {
+        title: "Prose and Motion",
+        imgSrc: "/img/gameimg/proseandmotion.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/proseandmotion.swf")
+    },
+    {
+        title: "Pumpkin Patch Multiplication",
+        imgSrc: "/img/gameimg/pumpkinpatchmultiplication.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pumpkin-patch-multiplication/game.html")
+    },
+    {
+        title: "Pumpkin Remover",
+        imgSrc: "/img/gameimg/pumpkinremover.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/pumpkinremover.swf")
+    },
+    {
+        title: "Pumpkin Remover 2",
+        imgSrc: "/img/gameimg/pumpkinremover2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/pumpkinremover2.swf")
+    },
+    {
+        title: "Pumpkin Remover 3",
+        imgSrc: "/img/gameimg/pumpkinremover3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://flash.hoodamath.com/flash/pumpkinremover3.swf")
+    },
+    {
+        title: "Puppet Hockey",
+        imgSrc: "/img/gameimg/puppethockey.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/puppet-hockey/game.html")
+    },
+    {
+        title: "Pursuit of Hat",
+        imgSrc: "/img/gameimg/pursuitofhat.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/pursuitofhat.swf")
+    },
+    {
+        title: "Pursuit of Hat 2",
+        imgSrc: "/img/gameimg/pursuitofhat2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/pursuitofhat2.swf")
+    },
+    {
+        title: "Pyramid Solitaire",
+        imgSrc: "/img/gameimg/pyramidsolitaire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/pyramid-solitaire/game.html")
+    },
+    {
+        title: "Rabbit Run Adventure",
+        imgSrc: "/img/gameimg/rabbitrunadventure.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/rabbit-run-adventure/game.html")
+    },
+    {
+        title: "Rain Words",
+        imgSrc: "/img/gameimg/rainwords.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/rainwords.swf")
+    },
+    {
+        title: "Real Estate Fun",
+        imgSrc: "/img/gameimg/realestatefun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/realestatefun.swf")
+    },
+    {
+        title: "Rearrange Letters",
+        imgSrc: "/img/gameimg/rearrangeletters.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/rearrange-letters/game.html")
+    },
+    {
+        title: "Record Shop Tycoon",
+        imgSrc: "/img/gameimg/recordshoptycoon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/recordshoptycoon.swf")
+    },
+    {
+        title: "Red Ball 1",
+        imgSrc: "/img/gameimg/redball1.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/red-ball-1/game.html")
+    },
+    {
+        title: "Red Ball 4 Volume 2",
+        imgSrc: "/img/gameimg/redball4volume2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/red-ball-4-volume-2/game.html")
+    },
+    {
+        title: "Red Ball 4 Volume 3",
+        imgSrc: "/img/gameimg/redball4volume3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/redball4volume3.swf")
+    },
+    {
+        title: "Red Remover",
+        imgSrc: "/img/gameimg/redremover.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/redremover.swf")
+    },
+    {
+        title: "Red Remover Player Pack",
+        imgSrc: "/img/gameimg/redremoverplayerpack.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/redremoverplayerpack.swf")
+    },
+    {
+        title: "Resizer",
+        imgSrc: "/img/gameimg/resizer.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/resizer/game.html")
+    },
+    {
+        title: "Resort Empire",
+        imgSrc: "/img/gameimg/resortempire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/resortempire.swf")
+    },
+    {
+        title: "Retro Ping Pong",
+        imgSrc: "/img/gameimg/retropingpong.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/retro-ping-pong/game.html")
+    },
+    {
+        title: "Retro Snake",
+        imgSrc: "/img/gameimg/retrosnake.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/retro-snake/game.html")
+    },
+    {
+        title: "Reverse Parking",
+        imgSrc: "/img/gameimg/reverseparking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/reverseparking.swf")
+    },
+    {
+        title: "Reversi",
+        imgSrc: "/img/gameimg/reversi.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/reversi/game.html")
+    },
+    {
+        title: "Rise Higher",
+        imgSrc: "/img/gameimg/risehigher.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/rise-higher/game.html")
+    },
+    {
+        title: "Road Shops",
+        imgSrc: "/img/gameimg/roadshops.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/roadshops.swf")
+    },
+    {
+        title: "Rollercoaster Creator",
+        imgSrc: "/img/gameimg/rollercoastercreator.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/rollercoaster-creator/game.html")
+    },
+    {
+        title: "Rollercoaster Creator 2",
+        imgSrc: "/img/gameimg/rollercoastercreator2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/rollercoastercreator2.swf")
+    },
+    {
+        title: "Rolling Ball 3D",
+        imgSrc: "/img/gameimg/rollingball3d.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/rolling-ball-3d/game.html")
+    },
+    {
+        title: "Root Collector",
+        imgSrc: "/img/gameimg/rootcollector.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/rootcollector.swf")
+    },
+    {
+        title: "Rotate and Roll",
+        imgSrc: "/img/gameimg/rotateandroll.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/rotate-and-roll/game.html")
+    },
+    {
+        title: "Rotate and Roll Players Pack",
+        imgSrc: "/img/gameimg/rotateandrollplayerspack.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/rotateandrollplayerspack.swf")
+    },
+    {
+        title: "Sand Grid",
+        imgSrc: "/img/gameimg/sandgrid.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sand-grid/game.html")
+    },
+    {
+        title: "Sand Trap",
+        imgSrc: "/img/gameimg/sandtrap.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sand-trap/game.html")
+    },
+    {
+        title: "Santa Run 2",
+        imgSrc: "/img/gameimg/santarun2.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/santa-run-2/game.html")
+    },
+    {
+        title: "Santa Run 3",
+        imgSrc: "/img/gameimg/santarun3.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/santa-run-3/game.html")
+    },
+    {
+        title: "Save My Robotos",
+        imgSrc: "/img/gameimg/savemyrobotos.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/save-my-robotos/game.html")
+    },
+    {
+        title: "Shop Empire 2",
+        imgSrc: "/img/gameimg/shopempire2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/shopempire2.swf")
+    },
+    {
+        title: "Shopping Cart Dash",
+        imgSrc: "/img/gameimg/shoppingcartdash.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/shoppingcartdash.swf")
+    },
+    {
+        title: "Shopping City",
+        imgSrc: "/img/gameimg/shoppingcity.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/shoppingcity.swf")
+    },
+    {
+        title: "Shopping Corner",
+        imgSrc: "/img/gameimg/shoppingcorner.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/shoppingcorner.swf")
+    },
+    {
+        title: "Shopping Mall",
+        imgSrc: "/img/gameimg/shoppingmall.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/shopping-mall/game.html")
+    },
+    {
+        title: "Shopping Street",
+        imgSrc: "/img/gameimg/shoppingstreet.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/shoppingstreet.swf")
+    },
+    {
+        title: "Shortcut Race",
+        imgSrc: "/img/gameimg/shortcutrace.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/shortcut-race/game.html")
+    },
+    {
+        title: "Skate King",
+        imgSrc: "/img/gameimg/skateking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/skate-king/game.html")
+    },
+    {
+        title: "Skater Math",
+        imgSrc: "/img/gameimg/skatermath.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/skater-math/game.html")
+    },
+    {
+        title: "Ski Maniacs",
+        imgSrc: "/img/gameimg/skimaniacs.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/ski-maniacs/game.html")
+    },
+    {
+        title: "Ski Slopes",
+        imgSrc: "/img/gameimg/skislopes.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/ski-slopes/game.html")
+    },
+    {
+        title: "Sky Speedster",
+        imgSrc: "/img/gameimg/skyspeedster.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sky-speedster/game.html")
+    },
+    {
+        title: "Slalom Ski",
+        imgSrc: "/img/gameimg/slalomski.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/slalom-ski/game.html")
+    },
+    {
+        title: "Sling Drift",
+        imgSrc: "/img/gameimg/slingdrift.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sling-drift/game.html")
+    },
+    {
+        title: "Slither Math",
+        imgSrc: "/img/gameimg/slithermath.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/slither-math/game.html")
+    },
+    {
+        title: "Slope Intercept Surround",
+        imgSrc: "/img/gameimg/slopeinterceptsurround.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/slope-intercept-surround/game.html")
+    },
+    {
+        title: "Snake Trap",
+        imgSrc: "/img/gameimg/snaketrap.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snake-trap/game.html")
+    },
+    {
+        title: "Snakes and Ladders",
+        imgSrc: "/img/gameimg/snakesandladders.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snakes-and-ladders/game.html")
+    },
+    {
+        title: "Sneaky Castle Escape",
+        imgSrc: "/img/gameimg/sneakycastleescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/sneakycastleescape.swf")
+    },
+    {
+        title: "Snoring",
+        imgSrc: "/img/gameimg/snoring.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snoring/game.html")
+    },
+    {
+        title: "Snoring Wild West",
+        imgSrc: "/img/gameimg/snoringwildwest.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snoring-wild-west/game.html")
+    },
+    {
+        title: "Snoring Winter Edition",
+        imgSrc: "/img/gameimg/snoringwinteredition.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snoring-winter-edition/game.html")
+    },
+    {
+        title: "Snow Line 2",
+        imgSrc: "/img/gameimg/snowline2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snow-line-2/game.html")
+    },
+    {
+        title: "Snow Storm Escape",
+        imgSrc: "/img/gameimg/snowstormescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snow-storm-escape/game.html")
+    },
+    {
+        title: "Snowball Fort Escape",
+        imgSrc: "/img/gameimg/snowballfortescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/snowball-fort-escape/game.html")
+    },
+    {
+        title: "Soccer Balls 2",
+        imgSrc: "/img/gameimg/soccerballs2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/soccerballs2.swf")
+    },
+    {
+        title: "Soccer Balls 2 Level Pack",
+        imgSrc: "/img/gameimg/soccerballs2levelpack.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/soccerballs2levelpack.swf")
+    },
+    {
+        title: "Soccer Star",
+        imgSrc: "/img/gameimg/soccerstar.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/soccer-star/game.html")
+    },
+    {
+        title: "Soflo Wheelie Life",
+        imgSrc: "/img/gameimg/soflowheelielife.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/soflo-wheelie-life/game.html")
+    },
+    {
+        title: "Space Miner",
+        imgSrc: "/img/gameimg/spaceminer.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/space-miner/game.html")
+    },
+    {
+        title: "Speed Cube",
+        imgSrc: "/img/gameimg/speedcube.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/speed-cube/game.html")
+    },
+    {
+        title: "Spill The Sand",
+        imgSrc: "/img/gameimg/spillthesand.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/spill-the-sand/game.html")
+    },
+    {
+        title: "Spinner's Luck",
+        imgSrc: "/img/gameimg/spinnersluck.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/spinnersluck.swf")
+    },
+    {
+        title: "Split Ball",
+        imgSrc: "/img/gameimg/splitball.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/split-ball/game.html")
+    },
+    {
+        title: "Spooky Night Escape",
+        imgSrc: "/img/gameimg/spookynightescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/spookynightescape.swf")
+    },
+    {
+        title: "Sports Heads Basketball",
+        imgSrc: "/img/gameimg/sportsheadsbasketball.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sports-heads-basketball/game.html")
+    },
+    {
+        title: "Spring Garden Escape",
+        imgSrc: "/img/gameimg/springgardenescape.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/springgardenescape.swf")
+    },
+    {
+        title: "Sprout",
+        imgSrc: "/img/gameimg/sprout.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/sprout.swf")
+    },
+    {
+        title: "Stack Game",
+        imgSrc: "/img/gameimg/stackgame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/stack-game/game.html")
+    },
+    {
+        title: "Stacky Duck",
+        imgSrc: "/img/gameimg/stackyduck.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/stacky-duck/game.html")
+    },
+    {
+        title: "Starlight",
+        imgSrc: "/img/gameimg/starlight.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/starlight.swf")
+    },
+    {
+        title: "Starlight 2",
+        imgSrc: "/img/gameimg/starlight2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/starlight2.swf")
+    },
+    {
+        title: "Stick Ninja",
+        imgSrc: "/img/gameimg/stickninja.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/stick-ninja/game.html")
+    },
+    {
+        title: "Street Basketball",
+        imgSrc: "/img/gameimg/streetbasketball.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/street-basketball/game.html")
+    },
+    {
+        title: "Sudoku",
+        imgSrc: "/img/gameimg/sudoku.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sudoku/game.html")
+    },
+    {
+        title: "Sugar Sugar",
+        imgSrc: "/img/gameimg/sugarsugar.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sugar-sugar/game.html")
+    },
+    {
+        title: "Sugar Sugar 3",
+        imgSrc: "/img/gameimg/sugarsugar3.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/sugarsugar3.swf")
+    },
+    {
+        title: "Suit Up",
+        imgSrc: "/img/gameimg/suitup.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/suit-up/game.html")
+    },
+    {
+        title: "Super Number Defense",
+        imgSrc: "/img/gameimg/supernumberdefense.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/super-number-defense/game.html")
+    },
+    {
+        title: "Super Santa Kicker",
+        imgSrc: "/img/gameimg/supersantakicker.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/super-santa-kicker/game.html")
+    },
+    {
+        title: "Super Stacker",
+        imgSrc: "/img/gameimg/superstacker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/superstacker.swf")
+    },
+    {
+        title: "Super Stacker 2",
+        imgSrc: "/img/gameimg/superstacker2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/super-stacker-2/game.html")
+    },
+    {
+        title: "Sweety Memory",
+        imgSrc: "/img/gameimg/sweetymemory.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/sweety-memory/game.html")
+    },
+    {
+        title: "Swing Monkey",
+        imgSrc: "/img/gameimg/swingmonkey.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/swing-monkey/game.html")
+    },
+    {
+        title: "Swing Robber",
+        imgSrc: "/img/gameimg/swingrobber.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/swing-robber/game.html")
+    },
+    {
+        title: "Tap Supermarket",
+        imgSrc: "/img/gameimg/tapsupermarket.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/tap-supermarket/game.html")
+    },
+    {
+        title: "Tap Tap Tennis",
+        imgSrc: "/img/gameimg/taptaptennis.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/tap-tap-tennis/game.html")
+    },
+    {
+        title: "Target SOE",
+        imgSrc: "/img/gameimg/targetsoe.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/target-soe/game.html")
+    },
+    {
+        title: "Taxi Driver 3D",
+        imgSrc: "/img/gameimg/taxidriver3d.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/taxi-driver-3d/game.html")
+    },
+    {
+        title: "Teleporting Kittens",
+        imgSrc: "/img/gameimg/teleportingkittens.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/teleporting-kittens/game.html")
+    },
+    {
+        title: "Ten Pin Bowling",
+        imgSrc: "/img/gameimg/tenpinbowling.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/tenpinbowling.swf")
+    },
+    {
+        title: "Thanksgiving Turkey",
+        imgSrc: "/img/gameimg/thanksgivingturkey.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/thanksgivingturkey.swf")
+    },
+    {
+        title: "The Constructor",
+        imgSrc: "/img/gameimg/theconstructor.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/theconstructor.swf")
+    },
+    {
+        title: "The Roots of Life",
+        imgSrc: "/img/gameimg/therootsoflife.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/therootsoflife.swf")
+    },
+    {
+        title: "The Travelling Salesman",
+        imgSrc: "/img/gameimg/thetravellingsalesman.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/thetravellingsalesman.swf")
+    },
+    {
+        title: "Tic Tac Toe",
+        imgSrc: "/img/gameimg/tictactoe.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/tic-tac-toe/game.html")
+    },
+    {
+        title: "Time Punch",
+        imgSrc: "/img/gameimg/timepunch.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/time-punch/game.html")
+    },
+    {
+        title: "Timmys Gems",
+        imgSrc: "/img/gameimg/timmysgems.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/timmys-gems/game.html")
+    },
+    {
+        title: "Tinysasters",
+        imgSrc: "/img/gameimg/tinysasters.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/tinysasters.swf")
+    },
+    {
+        title: "Touch Shapes",
+        imgSrc: "/img/gameimg/touchshapes.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/touch-shapes/game.html")
+    },
+    {
+        title: "Touchdown Rush",
+        imgSrc: "/img/gameimg/touchdownrush.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/touchdown-rush/game.html")
+    },
+    {
+        title: "Trade West",
+        imgSrc: "/img/gameimg/tradewest.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/tradewest.swf")
+    },
+    {
+        title: "Train X7",
+        imgSrc: "/img/gameimg/trainx7.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/train-x7/game.html")
+    },
+    {
+        title: "Transformation Golf",
+        imgSrc: "/img/gameimg/transformationgolf.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/transformation-golf/game.html")
+    },
+    {
+        title: "Transformation Golf 2",
+        imgSrc: "/img/gameimg/transformationgolf2.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/transformation-golf-2/game.html")
+    },
+    {
+        title: "Transforming Blockies",
+        imgSrc: "/img/gameimg/transformingblockies.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/transforming-blockies/game.html")
+    },
+    {
+        title: "Tribute to Grow",
+        imgSrc: "/img/gameimg/tributetogrow.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/tributetogrow.swf")
+    },
+    {
+        title: "Trick or Suite",
+        imgSrc: "/img/gameimg/trickorsuite.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/trickorsuite.swf")
+    },
+    {
+        title: "Tripeaks Solitaire",
+        imgSrc: "/img/gameimg/tripeakssolitaire.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/tripeaks-solitaire/game.html")
+    },
+    {
+        title: "Tronix",
+        imgSrc: "/img/gameimg/tronix.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/tronix/game.html")
+    },
+    {
+        title: "Truck Stop Parking",
+        imgSrc: "/img/gameimg/truckstopparking.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/truckstopparking.swf")
+    },
+    {
+        title: "Turkey Fling",
+        imgSrc: "/img/gameimg/turkeyfling.png",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/turkey-fling/game.html")
+    },
+    {
+        title: "Unloop",
+        imgSrc: "/img/gameimg/unloop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/unloop/game.html")
+    },
+    {
+        title: "Unscrew It",
+        imgSrc: "/img/gameimg/unscrewit.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/unscrew-it/game.html")
+    },
+    {
+        title: "Uphill Rush",
+        imgSrc: "/img/gameimg/uphillrush.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/uphill-rush/game.html")
+    },
+    {
+        title: "Vampire Physics",
+        imgSrc: "/img/gameimg/vampirephysics.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/vampirephysics.swf")
+    },
+    {
+        title: "Village Fun",
+        imgSrc: "/img/gameimg/villagefun.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/villagefun.swf")
+    },
+    {
+        title: "Wacky Wordsearch",
+        imgSrc: "/img/gameimg/wackywordsearch.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wackywordsearch.swf")
+    },
+    {
+        title: "Water Rider 3D",
+        imgSrc: "/img/gameimg/waterrider3d.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/water-rider-3d/game.html")
+    },
+    {
+        title: "Watermelon Game",
+        imgSrc: "/img/gameimg/watermelongame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/watermelon-game/game.html")
+    },
+    {
+        title: "What Animal Are You",
+        imgSrc: "/img/gameimg/whatanimalareyou.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/what-animal-are-you/game.html")
+    },
+    {
+        title: "What Do We Do Now",
+        imgSrc: "/img/gameimg/whatdowedonow.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/what-do-we-do-now/game.html")
+    },
+    {
+        title: "Whopper Clicker",
+        imgSrc: "/img/gameimg/whopperclicker.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/whopper-clicker/game.html")
+    },
+    {
+        title: "WindFall Tycoon",
+        imgSrc: "/img/gameimg/windfalltycoon.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/windfalltycoon.swf")
+    },
+    {
+        title: "Wonderputt",
+        imgSrc: "/img/gameimg/wonderputt.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/wonderputt/game.html")
+    },
+    {
+        title: "Word Builder",
+        imgSrc: "/img/gameimg/wordbuilder.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordbuilder.swf")
+    },
+    {
+        title: "Word Finder",
+        imgSrc: "/img/gameimg/wordfinder.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordfinder.swf")
+    },
+    {
+        title: "Word Master",
+        imgSrc: "/img/gameimg/wordmaster.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordmaster.swf")
+    },
+    {
+        title: "Word Matching",
+        imgSrc: "/img/gameimg/wordmatching.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordmatching.swf")
+    },
+    {
+        title: "Word Plex",
+        imgSrc: "/img/gameimg/wordplex.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordplex.swf")
+    },
+    {
+        title: "Word Pop",
+        imgSrc: "/img/gameimg/wordpop.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordpop.swf")
+    },
+    {
+        title: "Word Search 2000",
+        imgSrc: "/img/gameimg/wordsearch2000.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordsearch2000.swf")
+    },
+    {
+        title: "Word Tower",
+        imgSrc: "/img/gameimg/wordtower.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/wordtower.swf")
+    },
+    {
+        title: "World Class Chef Italy",
+        imgSrc: "/img/gameimg/worldclasschefitaly.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/worldclasschefitaly.swf")
+    },
+    {
+        title: "World Class Chef Turkey",
+        imgSrc: "/img/gameimg/worldclasschefturkey.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/worldclasschefturkey.swf")
+    },
+    {
+        title: "World Class Chef USA",
+        imgSrc: "/img/gameimg/worldclasschefusa.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/flash/worldclasschefusa.swf")
+    },
+    {
+        title: "World's Hardest Game",
+        imgSrc: "/img/gameimg/worldshardestgame.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/worlds-hardest-game/game.html")
+    },
+    {
+        title: "Worms",
+        imgSrc: "/img/gameimg/worms.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/worms/game.html")
+    },
+    {
+        title: "Zen Words",
+        imgSrc: "/img/gameimg/zenwords.jpg",
+        link: __uv$config.prefix + __uv$config.encodeUrl("https://www.hoodamath.com/mobile/games/zen-words/game.html")
+    },
+
    ];
 export { gamesData };
